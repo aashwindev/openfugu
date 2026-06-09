@@ -1,0 +1,49 @@
+server:
+  host: "0.0.0.0"
+  port: 8080
+  api_key: null  # set OPENFUGU_API_KEY env or override here
+
+default_model: "openfugu"
+
+router:
+  checkpoint: null  # path to trained router checkpoint
+  backbone: "Qwen/Qwen3-0.6B"
+  temperature: 1.0
+  use_heuristic_fallback: true
+
+conductor:
+  checkpoint: null  # path to trained conductor checkpoint
+  base_model: "Qwen/Qwen2.5-7B-Instruct"
+  max_steps: 5
+  max_recursion_depth: 2
+  use_heuristic_fallback: true
+
+workers:
+  - id: 0
+    name: "gpt-4o-mini"
+    provider: "openai"
+    model: "gpt-4o-mini"
+    capabilities: ["chat", "reasoning", "code"]
+    cost_per_input_token: 0.00000015
+    cost_per_output_token: 0.0000006
+    description: "Fast general-purpose model"
+
+  - id: 1
+    name: "claude-haiku"
+    provider: "anthropic"
+    model: "claude-3-5-haiku-20241022"
+    capabilities: ["chat", "reasoning", "code", "debug"]
+    cost_per_input_token: 0.0000008
+    cost_per_output_token: 0.000004
+    description: "Fast Claude for coding and debugging"
+
+  - id: 2
+    name: "llama-local"
+    provider: "ollama"
+    model: "llama3.2:3b"
+    api_base: "http://localhost:11434"
+    capabilities: ["chat", "factual"]
+    cost_per_input_token: 0.0
+    cost_per_output_token: 0.0
+    description: "Local free model via Ollama"
+    prefer_local: true

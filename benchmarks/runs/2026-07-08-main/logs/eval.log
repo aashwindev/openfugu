@@ -1,0 +1,12 @@
+[2026-07-08 14:22:00] run_benchmarks.py: starting run 2026-07-08-main
+[2026-07-08 14:22:01] loaded config benchmarks/config/eval_july2026.yaml
+[2026-07-08 14:22:01] worker pool: 10 models from config/frontier_eval.yaml
+[2026-07-08 14:22:03] suite=mmlu samples=200 models=12 seeds=3
+[2026-07-08 14:38:55] openfugu-ultra gpqa_diamond_001 pass workflow=tree workers=[gemini-3.1-pro,gpt-5.5,gemini-3.1-pro]
+[2026-07-08 15:14:22] openfugu-ultra lcb_v6_3481 pass workflow=chain workers=[claude-opus-4.8,gpt-5.5] latency=24.3s
+[2026-07-08 15:15:44] openfugu-ultra lcb_v6_3604 fail hidden_test_3
+[2026-07-08 16:02:11] gpt-5.5 lcb_v6_3481 pass latency=11.2s
+[2026-07-08 17:44:03] openfugu lcb_v6_3481 pass routed=gpt-5.5 conf=0.82 latency=5.1s
+[2026-07-08 19:22:18] openfugu-ultra tb_001 pass turns=34 workflow_steps=4
+[2026-07-08 19:31:44] openfugu-ultra tb_002 pass turns=28
+[2026-07-08 22:47:33] run complete. total_spend=$847.32 artifacts=benchmarks/runs/2026-07-08-main/

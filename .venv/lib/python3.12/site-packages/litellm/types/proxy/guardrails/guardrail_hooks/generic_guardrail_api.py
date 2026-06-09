@@ -1,0 +1,136 @@
+from typing import Any, Dict, List, Literal, Optional, Union
+
+from pydantic import BaseModel, ConfigDict, Field
+from typing_extensions import TYPE_CHECKING, TypedDict
+
+from litellm.types.llms.openai import (
+    AllMessageValues,
+    ChatCompletionToolCallChunk,
+)
+from litellm.types.proxy.guardrails.guardrail_hooks.base import GuardrailConfigModel
+from litellm.types.utils import ChatCompletionMessageToolCall
+
+
+class GuardrailToolParam(BaseModel):
+    """A tool forwarded verbatim to the guardrail for inspection.
+
+    Built-in tools (code_interpreter, file_search, ...) have no ``function`` block
+    and stash their config in tool-specific keys, so only ``type`` is required and
+    ``extra="allow"`` preserves the rest instead of stripping it.
+    """
+
+    model_config = ConfigDict(extra="allow")
+    type: str
+
+
+class GenericGuardrailAPIMetadata(TypedDict, total=False):
+    user_api_key_hash: Optional[str]
+    user_api_key_alias: Optional[str]
+    user_api_key_user_id: Optional[str]
+    user_api_key_user_email: Optional[str]
+    user_api_key_team_id: Optional[str]
+    user_api_key_team_alias: Optional[str]
+    user_api_key_end_user_id: Optional[str]
+    user_api_key_org_id: Optional[str]
+
+
+class GenericGuardrailAPIOptionalParams(BaseModel):
+    """Optional parameters for the Generic Guardrail API"""
+
+    additional_provider_specific_params: Optional[Dict[str, Any]] = Field(
+        default=None,
+        description="Additional provider-specific parameters to send with the guardrail request",
+    )
+
+    unreachable_fallback: Optional[Literal["fail_closed", "fail_open"]] = Field(
+        default="fail_closed",
+        description=(
+            "Behavior when the guardrail endpoint is unreachable due to network errors. "
+            "'fail_closed' raises an error (default). 'fail_open' logs a critical error and allows the request to proceed."
+        ),
+    )
+
+    fail_on_error: Optional[bool] = Field(
+        default=True,
+        description=(
+            "Behavior on any guardrail error, not just unreachability. "
+            "True (default) raises and blocks the request on error. "
+            "False logs a critical error and allows the request to proceed, so only a valid "
+            "guardrail response can block or modify it; broader than unreachable_fallback."
+        ),
+    )
+
+
+class GenericGuardrailAPIConfigModel(
+    GuardrailConfigModel[GenericGuardrailAPIOptionalParams],
+):
+    """Configuration parameters for the Generic Guardrail API guardrail"""
+
+    optional_params: Optional[GenericGuardrailAPIOptionalParams] = Field(
+        default_factory=GenericGuardrailAPIOptionalParams,
+        description="Optional parameters for the Generic Guardrail API guardrail",
+    )
+
+    @staticmethod
+    def ui_friendly_name() -> str:
+        return "Generic Guardrail API"
+
+
+class GenericGuardrailAPIRequest(BaseModel):
+    """Request model for the Generic Guardrail API"""
+
+    input_type: Literal["request", "response"]
+    litellm_call_id: Optional[str] = None  # the call id of the individual LLM call
+    litellm_trace_id: Optional[str] = (
+        None  # the trace id of the LLM call - useful if there are multiple LLM calls for the same conversation
+    )
+    structured_messages: Optional[List[AllMessageValues]] = None
+    images: Optional[List[str]] = None
+    tools: Optional[List[GuardrailToolParam]] = None
+    texts: Optional[List[str]] = None
+    request_data: GenericGuardrailAPIMetadata
+    request_headers: Optional[Dict[str, str]] = Field(
+        default=None,
+        description="Sanitized inbound request headers from the original proxy request.",
+    )
+    litellm_version: Optional[str] = Field(
+        default=None,
+        description="LiteLLM library version running this proxy.",
+    )
+    additional_provider_specific_params: Optional[Dict[str, Any]] = None
+    tool_calls: Optional[Union[List[ChatCompletionToolCallChunk], List[ChatCompletionMessageToolCall]]] = None
+    model: Optional[str] = None  # the model being used for the LLM call
+
+
+class GenericGuardrailAPIResponse:
+    """Response model for the Generic Guardrail API"""
+
+    texts: Optional[List[str]]
+    images: Optional[List[str]]
+    tools: Optional[List[GuardrailToolParam]]
+    action: str
+    blocked_reason: Optional[str]
+
+    def __init__(
+        self,
+        action: str,
+        texts: Optional[List[str]] = None,
+        blocked_reason: Optional[str] = None,
+        images: Optional[List[str]] = None,
+        tools: Optional[List[GuardrailToolParam]] = None,
+    ):
+        self.action = action
+        self.blocked_reason = blocked_reason
+        self.texts = texts
+        self.images = images
+        self.tools = tools
+
+    @classmethod
+    def from_dict(cls, data: dict) -> "GenericGuardrailAPIResponse":
+        return cls(
+            action=data.get("action", "NONE"),
+            blocked_reason=data.get("blocked_reason"),
+            texts=data.get("texts"),
+            images=data.get("images"),
+            tools=data.get("tools"),
+        )
