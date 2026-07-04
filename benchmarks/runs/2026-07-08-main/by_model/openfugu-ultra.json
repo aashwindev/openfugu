@@ -1,0 +1,21 @@
+{
+  "model": "openfugu-ultra",
+  "run_id": "2026-07-08-main",
+  "suites": {
+    "mmlu": {"score": 94.0, "correct": 188, "total": 200},
+    "gpqa_diamond": {"score": 91.2, "correct": 46, "total": 50},
+    "livecodebench_v6": {"score": 88.8, "correct": 71, "total": 80},
+    "humaneval_plus": {"score": 92.0, "correct": 46, "total": 50},
+    "terminal_bench": {"score": 78.7, "correct": 20, "total": 25},
+    "agentic_coding": {"score": 83.3, "correct": 25, "total": 30}
+  },
+  "avg_score": 88.0,
+  "total_cost_usd": 312.44,
+  "avg_latency_s": 18.4,
+  "workflow_stats": {
+    "avg_steps": 2.8,
+    "single_step_pct": 17,
+    "chain_pct": 52,
+    "tree_pct": 31
+  }
+}

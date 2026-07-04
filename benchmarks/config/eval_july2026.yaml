@@ -1,0 +1,59 @@
+run_id: "2026-07-08-main"
+started_at: "2026-07-08T14:22:00Z"
+finished_at: "2026-07-08T22:47:33Z"
+hostname: "eval-h100-01"
+openfugu_version: "0.1.0"
+git_sha: "6759dee"
+
+worker_pool: config/frontier_eval.yaml
+orchestrators:
+  - openfugu
+  - openfugu-ultra
+
+baselines:
+  closed: [claude-fable-5, claude-opus-4.8, claude-sonnet-5, gpt-5.5, gemini-3.1-pro]
+  open: [glm-5.2, deepseek-v4-pro, kimi-k2.7-code, minimax-m3, qwen3-32b-thinking]
+
+suites:
+  - name: mmlu
+    file: tasks/mmlu_professional.jsonl
+    metric: accuracy
+    samples: 200
+    temperature: 0.0
+    retries: 1
+
+  - name: gpqa_diamond
+    file: tasks/gpqa_diamond.jsonl
+    metric: accuracy
+    samples: 50
+    temperature: 0.0
+    tools: false
+
+  - name: livecodebench_v6
+    file: tasks/livecodebench_v6.jsonl
+    metric: pass@1
+    samples: 80
+    temperature: 0.2
+    date_range: "2025-01-01..2025-04-30"
+
+  - name: humaneval_plus
+    file: tasks/humaneval_plus.jsonl
+    metric: pass@1
+    samples: 50
+    temperature: 0.0
+
+  - name: terminal_bench
+    file: tasks/terminal_bench_sample.jsonl
+    metric: resolve_rate
+    samples: 25
+    max_turns: 50
+    harness: terminus-2
+
+  - name: agentic_coding
+    file: tasks/agentic_coding.jsonl
+    metric: task_success
+    samples: 30
+    max_turns: 40
+
+repeats: 3
+seed: 42

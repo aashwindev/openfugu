@@ -1,0 +1,2 @@
+{"task_id":"ac_001","suite":"agentic_coding","description":"Implement a FastAPI CRUD service for bookmarks with SQLite persistence, pytest coverage, and a Dockerfile.","files_expected":["app/main.py","tests/test_api.py","Dockerfile"],"rubric":"all tests pass, docker build succeeds"}
+{"task_id":"ac_002","suite":"agentic_coding","description":"Refactor a monolithic Python script into modules, add type hints, and fix failing mypy errors without changing behavior.","files_expected":["src/"],"rubric":"mypy clean, pytest green"}

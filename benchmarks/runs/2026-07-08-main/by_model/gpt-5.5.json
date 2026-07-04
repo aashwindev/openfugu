@@ -1,0 +1,15 @@
+{
+  "model": "gpt-5.5",
+  "run_id": "2026-07-08-main",
+  "suites": {
+    "mmlu": {"score": 93.5, "correct": 187, "total": 200},
+    "gpqa_diamond": {"score": 86.2, "correct": 43, "total": 50},
+    "livecodebench_v6": {"score": 88.9, "correct": 71, "total": 80},
+    "humaneval_plus": {"score": 86.0, "correct": 43, "total": 50},
+    "terminal_bench": {"score": 83.4, "correct": 21, "total": 25},
+    "agentic_coding": {"score": 73.3, "correct": 22, "total": 30}
+  },
+  "avg_score": 85.2,
+  "total_cost_usd": 198.55,
+  "avg_latency_s": 11.8
+}

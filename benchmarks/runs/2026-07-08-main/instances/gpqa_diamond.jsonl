@@ -1,0 +1,5 @@
+{"instance_id":"gpqa_diamond_001","model":"openfugu-ultra","suite":"gpqa_diamond","passed":true,"latency_s":19.8,"workflow":{"steps":2,"topology":"tree","workers":["gemini-3.1-pro","gpt-5.5","gemini-3.1-pro"]},"seed":42,"timestamp":"2026-07-08T14:38:55Z"}
+{"instance_id":"gpqa_diamond_002","model":"openfugu-ultra","suite":"gpqa_diamond","passed":true,"latency_s":14.2,"workflow":{"steps":1,"topology":"single","workers":["gemini-3.1-pro"]},"seed":42,"timestamp":"2026-07-08T14:39:18Z"}
+{"instance_id":"gpqa_diamond_003","model":"openfugu-ultra","suite":"gpqa_diamond","passed":true,"latency_s":16.7,"workflow":{"steps":2,"topology":"chain","workers":["gpt-5.5","gemini-3.1-pro"]},"seed":42,"timestamp":"2026-07-08T14:39:41Z"}
+{"instance_id":"gpqa_diamond_001","model":"gpt-5.5","suite":"gpqa_diamond","passed":true,"latency_s":8.4,"seed":42,"timestamp":"2026-07-08T15:12:03Z"}
+{"instance_id":"gpqa_diamond_002","model":"gpt-5.5","suite":"gpqa_diamond","passed":false,"latency_s":7.1,"seed":42,"timestamp":"2026-07-08T15:12:22Z","failure":"answer_mismatch"}

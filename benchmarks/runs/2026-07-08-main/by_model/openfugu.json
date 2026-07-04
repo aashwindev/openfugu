@@ -1,0 +1,25 @@
+{
+  "model": "openfugu",
+  "run_id": "2026-07-08-main",
+  "suites": {
+    "mmlu": {"score": 91.5, "correct": 183, "total": 200},
+    "gpqa_diamond": {"score": 88.0, "correct": 44, "total": 50},
+    "livecodebench_v6": {"score": 86.3, "correct": 69, "total": 80},
+    "humaneval_plus": {"score": 88.0, "correct": 44, "total": 50},
+    "terminal_bench": {"score": 72.0, "correct": 18, "total": 25},
+    "agentic_coding": {"score": 76.7, "correct": 23, "total": 30}
+  },
+  "avg_score": 83.8,
+  "total_cost_usd": 94.12,
+  "avg_latency_s": 4.2,
+  "routing_stats": {
+    "strategy": "trained_router",
+    "top_workers": {
+      "gpt-5.5": 0.34,
+      "claude-opus-4.8": 0.28,
+      "gemini-3.1-pro": 0.22,
+      "glm-5.2": 0.16
+    },
+    "avg_router_latency_ms": 38.2
+  }
+}

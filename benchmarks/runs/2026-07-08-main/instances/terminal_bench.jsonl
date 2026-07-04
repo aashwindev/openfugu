@@ -1,0 +1,5 @@
+{"instance_id":"tb_001","model":"openfugu-ultra","suite":"terminal_bench","passed":true,"latency_s":412.5,"turns":34,"workflow":{"steps":4,"topology":"chain","workers":["gpt-5.5","claude-opus-4.8","gpt-5.5","claude-opus-4.8"]},"seed":42,"timestamp":"2026-07-08T19:22:18Z"}
+{"instance_id":"tb_002","model":"openfugu-ultra","suite":"terminal_bench","passed":true,"latency_s":287.3,"turns":28,"workflow":{"steps":3,"topology":"chain","workers":["gpt-5.5","claude-opus-4.8","gpt-5.5"]},"seed":42,"timestamp":"2026-07-08T19:31:44Z"}
+{"instance_id":"tb_001","model":"claude-fable-5","suite":"terminal_bench","passed":true,"latency_s":198.4,"turns":22,"seed":42,"timestamp":"2026-07-08T20:05:11Z"}
+{"instance_id":"tb_002","model":"claude-fable-5","suite":"terminal_bench","passed":true,"latency_s":156.2,"turns":19,"seed":42,"timestamp":"2026-07-08T20:12:33Z"}
+{"instance_id":"tb_001","model":"openfugu","suite":"terminal_bench","passed":false,"latency_s":245.1,"turns":50,"routing":{"worker":"gpt-5.5","confidence":0.71,"strategy":"trained_router"},"seed":42,"timestamp":"2026-07-08T21:08:44Z","failure":"max_turns_exceeded"}

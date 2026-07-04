@@ -1,0 +1,3 @@
+{"question": "What is 2+2?", "answer": "4", "domain": "math"}
+{"question": "Write a Python function to compute factorial", "answer": "def factorial(n): return 1 if n <= 1 else n * factorial(n-1)", "domain": "code"}
+{"question": "What is the capital of Japan?", "answer": "Tokyo", "domain": "factual"}

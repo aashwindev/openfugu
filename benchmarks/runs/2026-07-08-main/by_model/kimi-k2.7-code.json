@@ -1,0 +1,15 @@
+{
+  "model": "kimi-k2.7-code",
+  "run_id": "2026-07-08-main",
+  "suites": {
+    "mmlu": {"score": 87.0, "correct": 174, "total": 200},
+    "gpqa_diamond": {"score": 79.6, "correct": 40, "total": 50},
+    "livecodebench_v6": {"score": 87.5, "correct": 70, "total": 80},
+    "humaneval_plus": {"score": 86.0, "correct": 43, "total": 50},
+    "terminal_bench": {"score": 71.3, "correct": 18, "total": 25},
+    "agentic_coding": {"score": 73.3, "correct": 22, "total": 30}
+  },
+  "avg_score": 80.8,
+  "total_cost_usd": 48.33,
+  "avg_latency_s": 8.7
+}

@@ -1,0 +1,104 @@
+# Worker pool for July 2026 frontier benchmark run
+# Used by benchmarks/config/eval_july2026.yaml
+
+router:
+  checkpoint: checkpoints/router/router_cma.pt
+  backbone: "Qwen/Qwen3-0.6B"
+  use_heuristic_fallback: true
+
+conductor:
+  checkpoint: checkpoints/conductor/conductor_final
+  base_model: "Qwen/Qwen2.5-7B-Instruct"
+  max_steps: 5
+  use_heuristic_fallback: true
+
+workers:
+  - id: 0
+    name: "claude-fable-5"
+    provider: "anthropic"
+    model: "claude-fable-5-20260609"
+    capabilities: ["chat", "reasoning", "code", "debug", "agentic"]
+    cost_per_input_token: 0.00001
+    cost_per_output_token: 0.00005
+    description: "Anthropic Fable 5 — frontier agentic"
+
+  - id: 1
+    name: "claude-opus-4.8"
+    provider: "anthropic"
+    model: "claude-opus-4-8-20260514"
+    capabilities: ["chat", "reasoning", "code", "debug"]
+    cost_per_input_token: 0.000005
+    cost_per_output_token: 0.000025
+    description: "Anthropic Opus 4.8"
+
+  - id: 2
+    name: "claude-sonnet-5"
+    provider: "anthropic"
+    model: "claude-sonnet-5-20260601"
+    capabilities: ["chat", "reasoning", "code"]
+    cost_per_input_token: 0.000003
+    cost_per_output_token: 0.000015
+    description: "Anthropic Sonnet 5"
+
+  - id: 3
+    name: "gpt-5.5"
+    provider: "openai"
+    model: "gpt-5.5"
+    capabilities: ["chat", "reasoning", "code", "math"]
+    cost_per_input_token: 0.000005
+    cost_per_output_token: 0.00003
+    description: "OpenAI GPT-5.5"
+
+  - id: 4
+    name: "gemini-3.1-pro"
+    provider: "google"
+    model: "gemini-3.1-pro"
+    capabilities: ["chat", "reasoning", "code", "science"]
+    cost_per_input_token: 0.000002
+    cost_per_output_token: 0.000012
+    description: "Google Gemini 3.1 Pro"
+
+  - id: 5
+    name: "glm-5.2"
+    provider: "openrouter"
+    model: "z-ai/glm-5.2"
+    capabilities: ["chat", "reasoning", "code"]
+    cost_per_input_token: 0.0000014
+    cost_per_output_token: 0.0000044
+    description: "Zhipu GLM 5.2"
+
+  - id: 6
+    name: "deepseek-v4-pro"
+    provider: "openrouter"
+    model: "deepseek/deepseek-v4-pro"
+    capabilities: ["chat", "reasoning", "code", "math"]
+    cost_per_input_token: 0.00000055
+    cost_per_output_token: 0.00000219
+    description: "DeepSeek V4 Pro"
+
+  - id: 7
+    name: "kimi-k2.7-code"
+    provider: "openrouter"
+    model: "moonshotai/kimi-k2.7-code"
+    capabilities: ["chat", "code", "agentic"]
+    cost_per_input_token: 0.00000095
+    cost_per_output_token: 0.000004
+    description: "Moonshot Kimi K2.7 Code"
+
+  - id: 8
+    name: "minimax-m3"
+    provider: "openrouter"
+    model: "minimax/minimax-m3"
+    capabilities: ["chat", "reasoning", "multimodal"]
+    cost_per_input_token: 0.000000098
+    cost_per_output_token: 0.00000121
+    description: "MiniMax M3"
+
+  - id: 9
+    name: "qwen3-32b-thinking"
+    provider: "openrouter"
+    model: "qwen/qwen3-32b-thinking"
+    capabilities: ["chat", "reasoning"]
+    cost_per_input_token: 0.0000004
+    cost_per_output_token: 0.0000012
+    description: "Qwen3 32B Thinking"

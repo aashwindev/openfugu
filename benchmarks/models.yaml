@@ -1,0 +1,111 @@
+# OpenFugu eval pool — July 2026
+# Models used in benchmarks/runs/2026-07-08-main
+
+orchestrators:
+  - id: openfugu
+    name: openfugu
+    type: router
+    checkpoint: checkpoints/router/router_cma.pt
+    description: Fast path — hidden-state router, single worker per turn
+
+  - id: openfugu-ultra
+    name: openfugu-ultra
+    type: conductor
+    checkpoint: checkpoints/conductor/conductor_final
+    description: Ultra path — multi-step workflow planner
+
+closed_frontier:
+  - id: claude-fable-5
+    provider: anthropic
+    model: claude-fable-5-20260609
+    tier: frontier
+    input_per_m: 10.00
+    output_per_m: 50.00
+    context: 1000000
+
+  - id: claude-opus-4.8
+    provider: anthropic
+    model: claude-opus-4-8-20260514
+    tier: frontier
+    input_per_m: 5.00
+    output_per_m: 25.00
+    context: 1000000
+
+  - id: claude-sonnet-5
+    provider: anthropic
+    model: claude-sonnet-5-20260601
+    tier: mid
+    input_per_m: 3.00
+    output_per_m: 15.00
+    context: 200000
+
+  - id: gpt-5.5
+    provider: openai
+    model: gpt-5.5
+    tier: frontier
+    input_per_m: 5.00
+    output_per_m: 30.00
+    context: 400000
+    reasoning_effort: xhigh
+
+  - id: gemini-3.1-pro
+    provider: google
+    model: gemini-3.1-pro
+    tier: frontier
+    input_per_m: 2.00
+    output_per_m: 12.00
+    context: 1000000
+
+  - id: grok-4.3
+    provider: xai
+    model: grok-4.3
+    tier: frontier
+    input_per_m: 1.25
+    output_per_m: 2.50
+    context: 2000000
+
+open_weight:
+  - id: glm-5.2
+    provider: openrouter
+    model: z-ai/glm-5.2
+    tier: open_sota
+    input_per_m: 1.40
+    output_per_m: 4.40
+    context: 1000000
+    license: MIT
+
+  - id: deepseek-v4-pro
+    provider: openrouter
+    model: deepseek/deepseek-v4-pro
+    tier: open_sota
+    input_per_m: 0.55
+    output_per_m: 2.19
+    context: 128000
+    license: MIT
+
+  - id: kimi-k2.7-code
+    provider: openrouter
+    model: moonshotai/kimi-k2.7-code
+    tier: open_coding
+    input_per_m: 0.95
+    output_per_m: 4.00
+    context: 256000
+    license: modified-mit
+
+  - id: minimax-m3
+    provider: openrouter
+    model: minimax/minimax-m3
+    tier: open_multimodal
+    input_per_m: 0.098
+    output_per_m: 1.21
+    context: 1000000
+    license: MIT
+
+  - id: qwen3-32b-thinking
+    provider: openrouter
+    model: qwen/qwen3-32b-thinking
+    tier: open_reasoning
+    input_per_m: 0.40
+    output_per_m: 1.20
+    context: 131072
+    license: apache-2.0

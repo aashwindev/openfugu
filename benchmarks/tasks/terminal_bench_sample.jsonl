@@ -1,0 +1,2 @@
+{"task_id":"tb_001","suite":"terminal_bench","task_name":"merge-diff-arc-agi","description":"Clone two git bundles into branches, merge algorithm implementations, resolve conflicts in algo.py to produce correct mapping.","max_turns":50,"difficulty":"hard"}
+{"task_id":"tb_002","suite":"terminal_bench","task_name":"pypi-server-vectorops","description":"Build a local PyPI server hosting a vectorops package with proper wheel build and reachability checks.","max_turns":50,"difficulty":"hard"}

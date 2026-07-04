@@ -1,0 +1,23 @@
+{
+  "run_id": "2026-07-08-main",
+  "manifest_version": 1,
+  "started_at": "2026-07-08T14:22:00Z",
+  "finished_at": "2026-07-08T22:47:33Z",
+  "duration_hours": 8.42,
+  "openfugu_version": "0.1.0",
+  "git_sha": "6759dee",
+  "config": "benchmarks/config/eval_july2026.yaml",
+  "worker_pool": "config/frontier_eval.yaml",
+  "total_api_spend_usd": 847.32,
+  "total_samples_evaluated": 4350,
+  "models_evaluated": 12,
+  "suites": ["mmlu", "gpqa_diamond", "livecodebench_v6", "humaneval_plus", "terminal_bench", "agentic_coding"],
+  "seeds": [42, 43, 44],
+  "artifacts": {
+    "summary": "summary.json",
+    "report": "REPORT.md",
+    "by_model": "by_model/",
+    "instances": "instances/",
+    "logs": "logs/eval.log"
+  }
+}
