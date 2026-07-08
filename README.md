@@ -2,9 +2,11 @@
 
 **OpenFugu is the open orchestration stack for the closed Fugu API.**
 
+**OpenFugu is the open orchestration stack for the closed Fugu API.**
+
 Fugu routes every prompt through a proprietary router and, on hard tasks, a multi-agent conductor. The API is closed. The weights are closed. The routing decisions are closed. OpenFugu reproduces the full stack: a **0.6B hidden-state router** that dispatches one frontier worker per turn, and a **GRPO-trained conductor** that plans multi-step workflows across GPT-5.5, Claude Fable 5, Opus 4.8, Gemini 3.1 Pro, GLM-5.2, DeepSeek V4, and Kimi K2.7. Single OpenAI-compatible endpoint. Full telemetry on every response.
 
-We trained both paths on real labels, benchmarked twelve models across six suites, and published every instance log. The fast path (`openfugu`) runs at 4.2s average latency. The ultra path (`openfugu-ultra`) tops the composite leaderboard at 88.0%.
+We trained both paths on real labels, benchmarked twelve models across six suites, and published every instance log. The fast path (`openfugu`) runs at 4.2s average latency. The ultra path (`openfugu-ultra`) tops the composite leaderboard at 88.4%.
 
 ## What we did
 
@@ -14,26 +16,26 @@ We trained both paths on real labels, benchmarked twelve models across six suite
 - Collected 6,200 router labels with automatic graders (letter-match for MMLU, exact-match for GPQA, sandbox pass@1 for code).
 - Trained the router: SFT with KL soft targets, then sep-CMA-ES on held-out routing reward.
 - Trained the conductor: GRPO on workflow planning with binary task-success reward.
-- Ran six suites against twelve systems: 4,350 graded samples, three seeds, full JSONL instance logs under `benchmarks/runs/2026-07-08-main/`.
+- Ran six suites against twelve systems: 435 tasks, three seeds, 15,660 instance records under `benchmarks/runs/2026-07-08-main/`.
 
 ## Results
 
-435 samples per model across six suites. Scores averaged over seeds 42, 43, 44. Metrics: accuracy or pass@1 (%).
+435 tasks total across six suites, three seeds (42, 43, 44), 15,660 instance records. Metrics: accuracy or pass@1 (%). Scores in `summary.json` match `by_model/*.json` and aggregate from `instances/*.jsonl`.
 
 | system | MMLU | GPQA-D | LCB v6 | HumanEval+ | Terminal | Agentic | **avg** | latency |
 | ------ | ---- | ------ | ------ | ---------- | -------- | ------- | ------- | ------- |
-| **openfugu-ultra** | **94.0** | **91.2** | **88.8** | **92.0** | **78.7** | **83.3** | **88.0** | 18.4s |
-| claude-fable-5 | 93.2 | 89.4 | 87.1 | 90.0 | **88.0** | 80.0 | 87.9 | 12.1s |
-| gpt-5.5 | 93.5 | 86.2 | 88.9 | 86.0 | 83.4 | 73.3 | 85.2 | 11.8s |
-| claude-opus-4.8 | 91.4 | 87.8 | 84.2 | 88.0 | 82.7 | 76.7 | 85.1 | 10.9s |
-| gemini-3.1-pro | 92.4 | 90.1 | **90.7** | 84.0 | 70.7 | 70.0 | 84.7 | 9.4s |
-| **openfugu** | 91.5 | 88.0 | 86.3 | 88.0 | 72.0 | 76.7 | **83.8** | **4.2s** |
-| claude-sonnet-5 | 90.8 | 85.6 | 85.0 | 86.0 | 79.3 | 74.0 | 82.4 | 6.8s |
-| glm-5.2 | 89.0 | 82.4 | 86.3 | 82.0 | 68.0 | 70.0 | 81.3 | 14.2s |
-| kimi-k2.7-code | 87.0 | 79.6 | 87.5 | 86.0 | 71.3 | 73.3 | 80.8 | 8.7s |
-| deepseek-v4-pro | 88.5 | 84.0 | 88.0 | 80.0 | 65.3 | 66.7 | 78.8 | 7.1s |
-| qwen3-32b-thinking | 85.2 | 78.0 | 82.5 | 76.0 | 64.0 | 65.0 | 76.2 | 22.5s |
-| minimax-m3 | 83.0 | 74.0 | 80.0 | 74.0 | 68.0 | 68.0 | 74.5 | 9.1s |
+| **openfugu-ultra** | **94.0** | **92.0** | 88.8 | **92.0** | 80.0 | **83.3** | **88.4** | 18.4s |
+| claude-fable-5 | 93.0 | 90.0 | 87.5 | 90.0 | **88.0** | 80.0 | 88.1 | 12.1s |
+| gpt-5.5 | 93.5 | 86.0 | 88.8 | 86.0 | 84.0 | 73.3 | 85.3 | 11.8s |
+| claude-opus-4.8 | 91.5 | 88.0 | 83.8 | 88.0 | 84.0 | 76.7 | 85.3 | 10.9s |
+| **openfugu** | 91.5 | 88.0 | 86.2 | 88.0 | 72.0 | 76.7 | **83.7** | **4.2s** |
+| claude-sonnet-5 | 90.5 | 86.0 | 85.0 | 86.0 | 80.0 | 73.3 | 83.5 | 6.8s |
+| gemini-3.1-pro | 92.5 | 90.0 | **91.2** | 84.0 | 72.0 | 70.0 | 83.3 | 9.4s |
+| kimi-k2.7-code | 87.0 | 80.0 | 87.5 | 86.0 | 72.0 | 73.3 | 81.0 | 8.7s |
+| glm-5.2 | 89.0 | 82.0 | 86.2 | 82.0 | 68.0 | 70.0 | 79.5 | 14.2s |
+| deepseek-v4-pro | 88.5 | 84.0 | 87.5 | 80.0 | 64.0 | 66.7 | 78.5 | 7.1s |
+| qwen3-32b-thinking | 85.0 | 78.0 | 82.5 | 76.0 | 64.0 | 64.4 | 75.0 | 22.5s |
+| minimax-m3 | 83.0 | 74.0 | 80.0 | 74.0 | 68.0 | 67.8 | 74.5 | 9.1s |
 
 Full report: [`benchmarks/runs/2026-07-08-main/REPORT.md`](benchmarks/runs/2026-07-08-main/REPORT.md) · [`summary.json`](benchmarks/runs/2026-07-08-main/summary.json) · [`instances/`](benchmarks/runs/2026-07-08-main/instances/)
 
@@ -63,9 +65,9 @@ Client → /v1/chat/completions → openfugu | openfugu-ultra
 
 ## What the numbers say
 
-**openfugu-ultra** tops the composite average (88.0), ahead of Fable 5 (87.9) and GPT-5.5 (85.2). No single frontier model wins every column: Gemini 3.1 Pro leads LiveCodeBench v6 (90.7), Fable 5 leads Terminal-Bench (88.0). The conductor wins the average by composing workers: planner (Opus 4.8) then implementer (GPT-5.5) on hard code, tree topology (Gemini + GPT leaves, Opus aggregate) on GPQA.
+**openfugu-ultra** tops the composite average (88.4), ahead of Fable 5 (88.1) and GPT-5.5 (85.3). No single frontier model wins every column: Gemini 3.1 Pro leads LiveCodeBench v6 (91.2), Fable 5 leads Terminal-Bench (88.0). The conductor wins the average by composing workers: planner (Opus 4.8) then implementer (GPT-5.5) on hard code, tree topology (Gemini + GPT leaves, Opus aggregate) on GPQA.
 
-**openfugu** (fast path) reaches 83.8 at **4.2s** average latency, 4.4× faster than ultra with a 4.2-point composite gap vs GPT-5.5. Router sends 34% of turns to GPT-5.5, 28% to Opus 4.8, 22% to Gemini 3.1 Pro, 16% to GLM-5.2. MMLU at 91.5 is within 2.0 points of ultra; the gap widens on Terminal-Bench (72.0 vs 78.7) where multi-step build/debug loops matter.
+**openfugu** (fast path) reaches 83.7 at **4.2s** average latency, 4.4× faster than ultra with a 1.6-point composite gap vs GPT-5.5. Router sends 34% of turns to GPT-5.5, 28% to Opus 4.8, 22% to Gemini 3.1 Pro, 16% to GLM-5.2. MMLU at 91.5 matches Opus solo; the gap widens on Terminal-Bench (72.0 vs 80.0) where multi-step build/debug loops matter.
 
 LiveCodeBench and Terminal suites spread models by 15+ points. That is where routing and multi-step workflows add value over any fixed single model.
 
@@ -96,7 +98,8 @@ benchmarks/
     ├── summary.json
     ├── REPORT.md
     ├── by_model/
-    ├── instances/
+    ├── instances/                      # 15,660 records, all 6 suites, seeds 42/43/44
+    ├── worker_ledger.json
     └── logs/eval.log
 ```
 
@@ -143,6 +146,8 @@ Runbooks: [`docs/TRAINING.md`](docs/TRAINING.md) · [`docs/ARCHITECTURE.md`](doc
 
 ### Eval ledger (`2026-07-08-main`): **$847.32**
 
+Unique worker API billing. Full breakdown: [`worker_ledger.json`](benchmarks/runs/2026-07-08-main/worker_ledger.json). Per-system eval attribution in `summary.json` sums to the same total ($847.32).
+
 | billed model | input tokens | output tokens | list price (in / out per M) | billed USD |
 | ------------ | ------------ | ------------- | --------------------------- | ---------- |
 | gpt-5.5 | 34,202,000 | 5,340,000 | $5.00 / $30.00 | $331.21 |
@@ -155,19 +160,19 @@ Runbooks: [`docs/TRAINING.md`](docs/TRAINING.md) · [`docs/ARCHITECTURE.md`](doc
 | kimi-k2.7-code | 7,680,000 | 1,600,000 | $0.95 / $4.00 | $13.70 |
 | qwen3-32b-thinking | 6,400,000 | 1,120,000 | $0.40 / $1.20 | $3.90 |
 | minimax-m3 | 8,960,000 | 1,580,000 | $0.098 / $1.21 | $2.79 |
-| OpenAI cached input credit | 1,240,000 @ $0.50/M | | | −$6.20 |
-| Anthropic cache read credit | 890,000 @ $0.50/M | | | −$0.45 |
-| OpenRouter cache discount | blended | | | −$4.92 |
+| credits (cache + OpenRouter) | | | | −$11.58 |
 | **Eval total** | **138,242,000** | **24,776,000** | | **$847.32** |
+
+Verify: `python scripts/verify_benchmark_artifacts.py`
 
 ### Cost vs quality
 
 | system | composite avg | eval spend | $ / composite point |
 | ------ | ------------- | ---------- | ------------------- |
-| openfugu | 83.8 | $94.12 | **$1.12** |
-| deepseek-v4-pro | 78.8 | $31.44 | $0.40 |
-| openfugu-ultra | 88.0 | $312.44 | $3.55 |
-| claude-fable-5 | 87.9 | $289.10 | $3.29 |
+| openfugu | 83.7 | $26.32 | **$0.31** |
+| deepseek-v4-pro | 78.5 | $44.50 | $0.57 |
+| openfugu-ultra | 88.4 | $115.33 | $1.30 |
+| claude-fable-5 | 88.1 | $75.83 | $0.86 |
 
 ## Model pool
 

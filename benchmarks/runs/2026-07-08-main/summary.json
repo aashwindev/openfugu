@@ -2,70 +2,526 @@
   "run_id": "2026-07-08-main",
   "computed_at": "2026-07-08T22:47:33Z",
   "averaged_over_seeds": 3,
-  "leaderboard": [
-    {"rank": 1, "model": "openfugu-ultra", "avg_score": 88.0, "cost_usd": 312.44, "avg_latency_s": 18.4},
-    {"rank": 2, "model": "claude-fable-5", "avg_score": 87.9, "cost_usd": 289.10, "avg_latency_s": 12.1},
-    {"rank": 3, "model": "gpt-5.5", "avg_score": 85.2, "cost_usd": 198.55, "avg_latency_s": 11.8},
-    {"rank": 4, "model": "claude-opus-4.8", "avg_score": 85.1, "cost_usd": 176.20, "avg_latency_s": 10.9},
-    {"rank": 5, "model": "openfugu", "avg_score": 83.8, "cost_usd": 94.12, "avg_latency_s": 4.2},
-    {"rank": 6, "model": "gemini-3.1-pro", "avg_score": 84.7, "cost_usd": 112.88, "avg_latency_s": 9.4},
-    {"rank": 7, "model": "kimi-k2.7-code", "avg_score": 80.8, "cost_usd": 48.33, "avg_latency_s": 8.7},
-    {"rank": 8, "model": "glm-5.2", "avg_score": 81.3, "cost_usd": 62.17, "avg_latency_s": 14.2},
-    {"rank": 9, "model": "deepseek-v4-pro", "avg_score": 78.8, "cost_usd": 31.44, "avg_latency_s": 7.1},
-    {"rank": 10, "model": "claude-sonnet-5", "avg_score": 82.4, "cost_usd": 89.05, "avg_latency_s": 6.8},
-    {"rank": 11, "model": "qwen3-32b-thinking", "avg_score": 76.2, "cost_usd": 22.18, "avg_latency_s": 22.5},
-    {"rank": 12, "model": "minimax-m3", "avg_score": 74.5, "cost_usd": 18.90, "avg_latency_s": 9.1}
+  "seeds": [
+    42,
+    43,
+    44
   ],
-  "by_suite": {
+  "leaderboard": [
+    {
+      "rank": 1,
+      "model": "openfugu-ultra",
+      "avg_score": 88.4,
+      "eval_cost_usd": 115.33,
+      "avg_latency_s": 18.4
+    },
+    {
+      "rank": 2,
+      "model": "claude-fable-5",
+      "avg_score": 88.1,
+      "eval_cost_usd": 75.83,
+      "avg_latency_s": 12.1
+    },
+    {
+      "rank": 3,
+      "model": "gpt-5.5",
+      "avg_score": 85.3,
+      "eval_cost_usd": 73.95,
+      "avg_latency_s": 11.8
+    },
+    {
+      "rank": 4,
+      "model": "claude-opus-4.8",
+      "avg_score": 85.3,
+      "eval_cost_usd": 68.31,
+      "avg_latency_s": 10.9
+    },
+    {
+      "rank": 5,
+      "model": "openfugu",
+      "avg_score": 83.7,
+      "eval_cost_usd": 26.32,
+      "avg_latency_s": 4.2
+    },
+    {
+      "rank": 6,
+      "model": "claude-sonnet-5",
+      "avg_score": 83.5,
+      "eval_cost_usd": 42.62,
+      "avg_latency_s": 6.8
+    },
+    {
+      "rank": 7,
+      "model": "gemini-3.1-pro",
+      "avg_score": 83.3,
+      "eval_cost_usd": 58.91,
+      "avg_latency_s": 9.4
+    },
+    {
+      "rank": 8,
+      "model": "kimi-k2.7-code",
+      "avg_score": 81.0,
+      "eval_cost_usd": 54.52,
+      "avg_latency_s": 8.7
+    },
+    {
+      "rank": 9,
+      "model": "glm-5.2",
+      "avg_score": 79.5,
+      "eval_cost_usd": 88.99,
+      "avg_latency_s": 14.2
+    },
+    {
+      "rank": 10,
+      "model": "deepseek-v4-pro",
+      "avg_score": 78.5,
+      "eval_cost_usd": 44.5,
+      "avg_latency_s": 7.1
+    },
+    {
+      "rank": 11,
+      "model": "qwen3-32b-thinking",
+      "avg_score": 75.0,
+      "eval_cost_usd": 141.01,
+      "avg_latency_s": 22.5
+    },
+    {
+      "rank": 12,
+      "model": "minimax-m3",
+      "avg_score": 74.5,
+      "eval_cost_usd": 57.03,
+      "avg_latency_s": 9.1
+    }
+  ],
+  "by_model": {
     "openfugu-ultra": {
-      "mmlu": {"score": 94.0, "n": 200, "std": 0.8},
-      "gpqa_diamond": {"score": 91.2, "n": 50, "std": 2.1},
-      "livecodebench_v6": {"score": 88.8, "n": 80, "std": 1.4},
-      "humaneval_plus": {"score": 92.0, "n": 50, "std": 1.0},
-      "terminal_bench": {"score": 78.7, "n": 25, "std": 3.2},
-      "agentic_coding": {"score": 83.3, "n": 30, "std": 2.8}
-    },
-    "openfugu": {
-      "mmlu": {"score": 91.5, "n": 200, "std": 1.0},
-      "gpqa_diamond": {"score": 88.0, "n": 50, "std": 2.4},
-      "livecodebench_v6": {"score": 86.3, "n": 80, "std": 1.6},
-      "humaneval_plus": {"score": 88.0, "n": 50, "std": 1.2},
-      "terminal_bench": {"score": 72.0, "n": 25, "std": 4.1},
-      "agentic_coding": {"score": 76.7, "n": 30, "std": 3.0}
-    },
-    "gpt-5.5": {
-      "mmlu": {"score": 93.5, "n": 200, "std": 0.7},
-      "gpqa_diamond": {"score": 86.2, "n": 50, "std": 2.3},
-      "livecodebench_v6": {"score": 88.9, "n": 80, "std": 1.3},
-      "humaneval_plus": {"score": 86.0, "n": 50, "std": 1.4},
-      "terminal_bench": {"score": 83.4, "n": 25, "std": 2.9},
-      "agentic_coding": {"score": 73.3, "n": 30, "std": 3.5}
+      "suites": {
+        "mmlu": {
+          "score": 94.0,
+          "correct": 564,
+          "total": 600
+        },
+        "gpqa_diamond": {
+          "score": 92.0,
+          "correct": 138,
+          "total": 150
+        },
+        "livecodebench_v6": {
+          "score": 88.8,
+          "correct": 213,
+          "total": 240
+        },
+        "humaneval_plus": {
+          "score": 92.0,
+          "correct": 138,
+          "total": 150
+        },
+        "terminal_bench": {
+          "score": 80.0,
+          "correct": 60,
+          "total": 75
+        },
+        "agentic_coding": {
+          "score": 83.3,
+          "correct": 75,
+          "total": 90
+        }
+      }
     },
     "claude-fable-5": {
-      "mmlu": {"score": 93.2, "n": 200, "std": 0.9},
-      "gpqa_diamond": {"score": 89.4, "n": 50, "std": 2.0},
-      "livecodebench_v6": {"score": 87.1, "n": 80, "std": 1.5},
-      "humaneval_plus": {"score": 90.0, "n": 50, "std": 1.1},
-      "terminal_bench": {"score": 88.0, "n": 25, "std": 2.5},
-      "agentic_coding": {"score": 80.0, "n": 30, "std": 3.1}
+      "suites": {
+        "mmlu": {
+          "score": 93.0,
+          "correct": 558,
+          "total": 600
+        },
+        "gpqa_diamond": {
+          "score": 90.0,
+          "correct": 135,
+          "total": 150
+        },
+        "livecodebench_v6": {
+          "score": 87.5,
+          "correct": 210,
+          "total": 240
+        },
+        "humaneval_plus": {
+          "score": 90.0,
+          "correct": 135,
+          "total": 150
+        },
+        "terminal_bench": {
+          "score": 88.0,
+          "correct": 66,
+          "total": 75
+        },
+        "agentic_coding": {
+          "score": 80.0,
+          "correct": 72,
+          "total": 90
+        }
+      }
+    },
+    "gpt-5.5": {
+      "suites": {
+        "mmlu": {
+          "score": 93.5,
+          "correct": 561,
+          "total": 600
+        },
+        "gpqa_diamond": {
+          "score": 86.0,
+          "correct": 129,
+          "total": 150
+        },
+        "livecodebench_v6": {
+          "score": 88.8,
+          "correct": 213,
+          "total": 240
+        },
+        "humaneval_plus": {
+          "score": 86.0,
+          "correct": 129,
+          "total": 150
+        },
+        "terminal_bench": {
+          "score": 84.0,
+          "correct": 63,
+          "total": 75
+        },
+        "agentic_coding": {
+          "score": 73.3,
+          "correct": 66,
+          "total": 90
+        }
+      }
+    },
+    "claude-opus-4.8": {
+      "suites": {
+        "mmlu": {
+          "score": 91.5,
+          "correct": 549,
+          "total": 600
+        },
+        "gpqa_diamond": {
+          "score": 88.0,
+          "correct": 132,
+          "total": 150
+        },
+        "livecodebench_v6": {
+          "score": 83.8,
+          "correct": 201,
+          "total": 240
+        },
+        "humaneval_plus": {
+          "score": 88.0,
+          "correct": 132,
+          "total": 150
+        },
+        "terminal_bench": {
+          "score": 84.0,
+          "correct": 63,
+          "total": 75
+        },
+        "agentic_coding": {
+          "score": 76.7,
+          "correct": 69,
+          "total": 90
+        }
+      }
+    },
+    "gemini-3.1-pro": {
+      "suites": {
+        "mmlu": {
+          "score": 92.5,
+          "correct": 555,
+          "total": 600
+        },
+        "gpqa_diamond": {
+          "score": 90.0,
+          "correct": 135,
+          "total": 150
+        },
+        "livecodebench_v6": {
+          "score": 91.2,
+          "correct": 219,
+          "total": 240
+        },
+        "humaneval_plus": {
+          "score": 84.0,
+          "correct": 126,
+          "total": 150
+        },
+        "terminal_bench": {
+          "score": 72.0,
+          "correct": 54,
+          "total": 75
+        },
+        "agentic_coding": {
+          "score": 70.0,
+          "correct": 63,
+          "total": 90
+        }
+      }
+    },
+    "openfugu": {
+      "suites": {
+        "mmlu": {
+          "score": 91.5,
+          "correct": 549,
+          "total": 600
+        },
+        "gpqa_diamond": {
+          "score": 88.0,
+          "correct": 132,
+          "total": 150
+        },
+        "livecodebench_v6": {
+          "score": 86.2,
+          "correct": 207,
+          "total": 240
+        },
+        "humaneval_plus": {
+          "score": 88.0,
+          "correct": 132,
+          "total": 150
+        },
+        "terminal_bench": {
+          "score": 72.0,
+          "correct": 54,
+          "total": 75
+        },
+        "agentic_coding": {
+          "score": 76.7,
+          "correct": 69,
+          "total": 90
+        }
+      }
+    },
+    "claude-sonnet-5": {
+      "suites": {
+        "mmlu": {
+          "score": 90.5,
+          "correct": 543,
+          "total": 600
+        },
+        "gpqa_diamond": {
+          "score": 86.0,
+          "correct": 129,
+          "total": 150
+        },
+        "livecodebench_v6": {
+          "score": 85.0,
+          "correct": 204,
+          "total": 240
+        },
+        "humaneval_plus": {
+          "score": 86.0,
+          "correct": 129,
+          "total": 150
+        },
+        "terminal_bench": {
+          "score": 80.0,
+          "correct": 60,
+          "total": 75
+        },
+        "agentic_coding": {
+          "score": 73.3,
+          "correct": 66,
+          "total": 90
+        }
+      }
     },
     "glm-5.2": {
-      "mmlu": {"score": 89.0, "n": 200, "std": 1.2},
-      "gpqa_diamond": {"score": 82.4, "n": 50, "std": 2.8},
-      "livecodebench_v6": {"score": 86.3, "n": 80, "std": 1.7},
-      "humaneval_plus": {"score": 82.0, "n": 50, "std": 1.6},
-      "terminal_bench": {"score": 68.0, "n": 25, "std": 4.5},
-      "agentic_coding": {"score": 70.0, "n": 30, "std": 3.8}
+      "suites": {
+        "mmlu": {
+          "score": 89.0,
+          "correct": 534,
+          "total": 600
+        },
+        "gpqa_diamond": {
+          "score": 82.0,
+          "correct": 123,
+          "total": 150
+        },
+        "livecodebench_v6": {
+          "score": 86.2,
+          "correct": 207,
+          "total": 240
+        },
+        "humaneval_plus": {
+          "score": 82.0,
+          "correct": 123,
+          "total": 150
+        },
+        "terminal_bench": {
+          "score": 68.0,
+          "correct": 51,
+          "total": 75
+        },
+        "agentic_coding": {
+          "score": 70.0,
+          "correct": 63,
+          "total": 90
+        }
+      }
+    },
+    "kimi-k2.7-code": {
+      "suites": {
+        "mmlu": {
+          "score": 87.0,
+          "correct": 522,
+          "total": 600
+        },
+        "gpqa_diamond": {
+          "score": 80.0,
+          "correct": 120,
+          "total": 150
+        },
+        "livecodebench_v6": {
+          "score": 87.5,
+          "correct": 210,
+          "total": 240
+        },
+        "humaneval_plus": {
+          "score": 86.0,
+          "correct": 129,
+          "total": 150
+        },
+        "terminal_bench": {
+          "score": 72.0,
+          "correct": 54,
+          "total": 75
+        },
+        "agentic_coding": {
+          "score": 73.3,
+          "correct": 66,
+          "total": 90
+        }
+      }
+    },
+    "deepseek-v4-pro": {
+      "suites": {
+        "mmlu": {
+          "score": 88.5,
+          "correct": 531,
+          "total": 600
+        },
+        "gpqa_diamond": {
+          "score": 84.0,
+          "correct": 126,
+          "total": 150
+        },
+        "livecodebench_v6": {
+          "score": 87.5,
+          "correct": 210,
+          "total": 240
+        },
+        "humaneval_plus": {
+          "score": 80.0,
+          "correct": 120,
+          "total": 150
+        },
+        "terminal_bench": {
+          "score": 64.0,
+          "correct": 48,
+          "total": 75
+        },
+        "agentic_coding": {
+          "score": 66.7,
+          "correct": 60,
+          "total": 90
+        }
+      }
+    },
+    "qwen3-32b-thinking": {
+      "suites": {
+        "mmlu": {
+          "score": 85.0,
+          "correct": 510,
+          "total": 600
+        },
+        "gpqa_diamond": {
+          "score": 78.0,
+          "correct": 117,
+          "total": 150
+        },
+        "livecodebench_v6": {
+          "score": 82.5,
+          "correct": 198,
+          "total": 240
+        },
+        "humaneval_plus": {
+          "score": 76.0,
+          "correct": 114,
+          "total": 150
+        },
+        "terminal_bench": {
+          "score": 64.0,
+          "correct": 48,
+          "total": 75
+        },
+        "agentic_coding": {
+          "score": 64.4,
+          "correct": 58,
+          "total": 90
+        }
+      }
+    },
+    "minimax-m3": {
+      "suites": {
+        "mmlu": {
+          "score": 83.0,
+          "correct": 498,
+          "total": 600
+        },
+        "gpqa_diamond": {
+          "score": 74.0,
+          "correct": 111,
+          "total": 150
+        },
+        "livecodebench_v6": {
+          "score": 80.0,
+          "correct": 192,
+          "total": 240
+        },
+        "humaneval_plus": {
+          "score": 74.0,
+          "correct": 111,
+          "total": 150
+        },
+        "terminal_bench": {
+          "score": 68.0,
+          "correct": 51,
+          "total": 75
+        },
+        "agentic_coding": {
+          "score": 67.8,
+          "correct": 61,
+          "total": 90
+        }
+      }
     }
   },
+  "worker_billing_usd": 847.32,
+  "note": "eval_cost_usd is per-system attribution; worker_billing_usd is unique API total",
   "openfugu_routing_stats": {
     "openfugu": {
-      "top_workers": {"gpt-5.5": 0.34, "claude-opus-4.8": 0.28, "gemini-3.1-pro": 0.22, "glm-5.2": 0.16},
+      "top_workers": {
+        "gpt-5.5": 0.34,
+        "claude-opus-4.8": 0.28,
+        "gemini-3.1-pro": 0.22,
+        "glm-5.2": 0.16
+      },
       "avg_router_latency_ms": 38.2
     },
     "openfugu-ultra": {
       "avg_workflow_steps": 2.8,
-      "topologies": {"chain": 0.52, "tree": 0.31, "single": 0.17},
+      "topologies": {
+        "chain": 0.52,
+        "tree": 0.31,
+        "single": 0.17
+      },
       "avg_workers_per_task": 2.4
     }
   }

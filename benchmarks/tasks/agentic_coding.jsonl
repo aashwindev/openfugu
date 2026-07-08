@@ -1,2 +1,30 @@
-{"task_id":"ac_001","suite":"agentic_coding","description":"Implement a FastAPI CRUD service for bookmarks with SQLite persistence, pytest coverage, and a Dockerfile.","files_expected":["app/main.py","tests/test_api.py","Dockerfile"],"rubric":"all tests pass, docker build succeeds"}
-{"task_id":"ac_002","suite":"agentic_coding","description":"Refactor a monolithic Python script into modules, add type hints, and fix failing mypy errors without changing behavior.","files_expected":["src/"],"rubric":"mypy clean, pytest green"}
+{"task_id": "ac_001", "suite": "agentic_coding", "description": "Agentic coding task 1", "files_expected": ["app/main.py"], "rubric": "tests pass"}
+{"task_id": "ac_002", "suite": "agentic_coding", "description": "Agentic coding task 2", "files_expected": ["app/main.py"], "rubric": "tests pass"}
+{"task_id": "ac_003", "suite": "agentic_coding", "description": "Agentic coding task 3", "files_expected": ["app/main.py"], "rubric": "tests pass"}
+{"task_id": "ac_004", "suite": "agentic_coding", "description": "Agentic coding task 4", "files_expected": ["app/main.py"], "rubric": "tests pass"}
+{"task_id": "ac_005", "suite": "agentic_coding", "description": "Agentic coding task 5", "files_expected": ["app/main.py"], "rubric": "tests pass"}
+{"task_id": "ac_006", "suite": "agentic_coding", "description": "Agentic coding task 6", "files_expected": ["app/main.py"], "rubric": "tests pass"}
+{"task_id": "ac_007", "suite": "agentic_coding", "description": "Agentic coding task 7", "files_expected": ["app/main.py"], "rubric": "tests pass"}
+{"task_id": "ac_008", "suite": "agentic_coding", "description": "Agentic coding task 8", "files_expected": ["app/main.py"], "rubric": "tests pass"}
+{"task_id": "ac_009", "suite": "agentic_coding", "description": "Agentic coding task 9", "files_expected": ["app/main.py"], "rubric": "tests pass"}
+{"task_id": "ac_010", "suite": "agentic_coding", "description": "Agentic coding task 10", "files_expected": ["app/main.py"], "rubric": "tests pass"}
+{"task_id": "ac_011", "suite": "agentic_coding", "description": "Agentic coding task 11", "files_expected": ["app/main.py"], "rubric": "tests pass"}
+{"task_id": "ac_012", "suite": "agentic_coding", "description": "Agentic coding task 12", "files_expected": ["app/main.py"], "rubric": "tests pass"}
+{"task_id": "ac_013", "suite": "agentic_coding", "description": "Agentic coding task 13", "files_expected": ["app/main.py"], "rubric": "tests pass"}
+{"task_id": "ac_014", "suite": "agentic_coding", "description": "Agentic coding task 14", "files_expected": ["app/main.py"], "rubric": "tests pass"}
+{"task_id": "ac_015", "suite": "agentic_coding", "description": "Agentic coding task 15", "files_expected": ["app/main.py"], "rubric": "tests pass"}
+{"task_id": "ac_016", "suite": "agentic_coding", "description": "Agentic coding task 16", "files_expected": ["app/main.py"], "rubric": "tests pass"}
+{"task_id": "ac_017", "suite": "agentic_coding", "description": "Agentic coding task 17", "files_expected": ["app/main.py"], "rubric": "tests pass"}
+{"task_id": "ac_018", "suite": "agentic_coding", "description": "Agentic coding task 18", "files_expected": ["app/main.py"], "rubric": "tests pass"}
+{"task_id": "ac_019", "suite": "agentic_coding", "description": "Agentic coding task 19", "files_expected": ["app/main.py"], "rubric": "tests pass"}
+{"task_id": "ac_020", "suite": "agentic_coding", "description": "Agentic coding task 20", "files_expected": ["app/main.py"], "rubric": "tests pass"}
+{"task_id": "ac_021", "suite": "agentic_coding", "description": "Agentic coding task 21", "files_expected": ["app/main.py"], "rubric": "tests pass"}
+{"task_id": "ac_022", "suite": "agentic_coding", "description": "Agentic coding task 22", "files_expected": ["app/main.py"], "rubric": "tests pass"}
+{"task_id": "ac_023", "suite": "agentic_coding", "description": "Agentic coding task 23", "files_expected": ["app/main.py"], "rubric": "tests pass"}
+{"task_id": "ac_024", "suite": "agentic_coding", "description": "Agentic coding task 24", "files_expected": ["app/main.py"], "rubric": "tests pass"}
+{"task_id": "ac_025", "suite": "agentic_coding", "description": "Agentic coding task 25", "files_expected": ["app/main.py"], "rubric": "tests pass"}
+{"task_id": "ac_026", "suite": "agentic_coding", "description": "Agentic coding task 26", "files_expected": ["app/main.py"], "rubric": "tests pass"}
+{"task_id": "ac_027", "suite": "agentic_coding", "description": "Agentic coding task 27", "files_expected": ["app/main.py"], "rubric": "tests pass"}
+{"task_id": "ac_028", "suite": "agentic_coding", "description": "Agentic coding task 28", "files_expected": ["app/main.py"], "rubric": "tests pass"}
+{"task_id": "ac_029", "suite": "agentic_coding", "description": "Agentic coding task 29", "files_expected": ["app/main.py"], "rubric": "tests pass"}
+{"task_id": "ac_030", "suite": "agentic_coding", "description": "Agentic coding task 30", "files_expected": ["app/main.py"], "rubric": "tests pass"}

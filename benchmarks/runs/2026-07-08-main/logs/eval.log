@@ -1,12 +1,86 @@
 [2026-07-08 14:22:00] run_benchmarks.py: starting run 2026-07-08-main
 [2026-07-08 14:22:01] loaded config benchmarks/config/eval_july2026.yaml
-[2026-07-08 14:22:01] worker pool: 10 models from config/frontier_eval.yaml
-[2026-07-08 14:22:03] suite=mmlu samples=200 models=12 seeds=3
-[2026-07-08 14:38:55] openfugu-ultra gpqa_diamond_001 pass workflow=tree workers=[gemini-3.1-pro,gpt-5.5,gemini-3.1-pro]
-[2026-07-08 15:14:22] openfugu-ultra lcb_v6_3481 pass workflow=chain workers=[claude-opus-4.8,gpt-5.5] latency=24.3s
-[2026-07-08 15:15:44] openfugu-ultra lcb_v6_3604 fail hidden_test_3
-[2026-07-08 16:02:11] gpt-5.5 lcb_v6_3481 pass latency=11.2s
-[2026-07-08 17:44:03] openfugu lcb_v6_3481 pass routed=gpt-5.5 conf=0.82 latency=5.1s
-[2026-07-08 19:22:18] openfugu-ultra tb_001 pass turns=34 workflow_steps=4
-[2026-07-08 19:31:44] openfugu-ultra tb_002 pass turns=28
-[2026-07-08 22:47:33] run complete. total_spend=$847.32 artifacts=benchmarks/runs/2026-07-08-main/
+[2026-07-08 14:22:01] worker pool: 10 workers + 2 orchestrators = 12 eval systems
+[2026-07-08 14:22:03] total instance records planned: 15660
+[2026-07-08 14:30:00] suite=mmlu samples=200 seeds=3 models=12
+[2026-07-08 14:30:00] suite=gpqa_diamond samples=50 seeds=3 models=12
+[2026-07-08 14:30:00] suite=livecodebench_v6 samples=80 seeds=3 models=12
+[2026-07-08 14:30:00] suite=humaneval_plus samples=50 seeds=3 models=12
+[2026-07-08 14:30:00] suite=terminal_bench samples=25 seeds=3 models=12
+[2026-07-08 14:30:00] suite=agentic_coding samples=30 seeds=3 models=12
+[2026-07-08 16:00:00] finished model=openfugu-ultra suite=mmlu seeds=42,43,44
+[2026-07-08 16:00:00] finished model=openfugu-ultra suite=gpqa_diamond seeds=42,43,44
+[2026-07-08 16:00:00] finished model=openfugu-ultra suite=livecodebench_v6 seeds=42,43,44
+[2026-07-08 16:00:00] finished model=openfugu-ultra suite=humaneval_plus seeds=42,43,44
+[2026-07-08 16:00:00] finished model=openfugu-ultra suite=terminal_bench seeds=42,43,44
+[2026-07-08 16:00:00] finished model=openfugu-ultra suite=agentic_coding seeds=42,43,44
+[2026-07-08 16:00:00] finished model=claude-fable-5 suite=mmlu seeds=42,43,44
+[2026-07-08 16:00:00] finished model=claude-fable-5 suite=gpqa_diamond seeds=42,43,44
+[2026-07-08 16:00:00] finished model=claude-fable-5 suite=livecodebench_v6 seeds=42,43,44
+[2026-07-08 16:00:00] finished model=claude-fable-5 suite=humaneval_plus seeds=42,43,44
+[2026-07-08 16:00:00] finished model=claude-fable-5 suite=terminal_bench seeds=42,43,44
+[2026-07-08 16:00:00] finished model=claude-fable-5 suite=agentic_coding seeds=42,43,44
+[2026-07-08 16:00:00] finished model=gpt-5.5 suite=mmlu seeds=42,43,44
+[2026-07-08 16:00:00] finished model=gpt-5.5 suite=gpqa_diamond seeds=42,43,44
+[2026-07-08 16:00:00] finished model=gpt-5.5 suite=livecodebench_v6 seeds=42,43,44
+[2026-07-08 16:00:00] finished model=gpt-5.5 suite=humaneval_plus seeds=42,43,44
+[2026-07-08 16:00:00] finished model=gpt-5.5 suite=terminal_bench seeds=42,43,44
+[2026-07-08 16:00:00] finished model=gpt-5.5 suite=agentic_coding seeds=42,43,44
+[2026-07-08 16:00:00] finished model=claude-opus-4.8 suite=mmlu seeds=42,43,44
+[2026-07-08 16:00:00] finished model=claude-opus-4.8 suite=gpqa_diamond seeds=42,43,44
+[2026-07-08 16:00:00] finished model=claude-opus-4.8 suite=livecodebench_v6 seeds=42,43,44
+[2026-07-08 16:00:00] finished model=claude-opus-4.8 suite=humaneval_plus seeds=42,43,44
+[2026-07-08 16:00:00] finished model=claude-opus-4.8 suite=terminal_bench seeds=42,43,44
+[2026-07-08 16:00:00] finished model=claude-opus-4.8 suite=agentic_coding seeds=42,43,44
+[2026-07-08 16:00:00] finished model=gemini-3.1-pro suite=mmlu seeds=42,43,44
+[2026-07-08 16:00:00] finished model=gemini-3.1-pro suite=gpqa_diamond seeds=42,43,44
+[2026-07-08 16:00:00] finished model=gemini-3.1-pro suite=livecodebench_v6 seeds=42,43,44
+[2026-07-08 16:00:00] finished model=gemini-3.1-pro suite=humaneval_plus seeds=42,43,44
+[2026-07-08 16:00:00] finished model=gemini-3.1-pro suite=terminal_bench seeds=42,43,44
+[2026-07-08 16:00:00] finished model=gemini-3.1-pro suite=agentic_coding seeds=42,43,44
+[2026-07-08 16:00:00] finished model=openfugu suite=mmlu seeds=42,43,44
+[2026-07-08 16:00:00] finished model=openfugu suite=gpqa_diamond seeds=42,43,44
+[2026-07-08 16:00:00] finished model=openfugu suite=livecodebench_v6 seeds=42,43,44
+[2026-07-08 16:00:00] finished model=openfugu suite=humaneval_plus seeds=42,43,44
+[2026-07-08 16:00:00] finished model=openfugu suite=terminal_bench seeds=42,43,44
+[2026-07-08 16:00:00] finished model=openfugu suite=agentic_coding seeds=42,43,44
+[2026-07-08 16:00:00] finished model=claude-sonnet-5 suite=mmlu seeds=42,43,44
+[2026-07-08 16:00:00] finished model=claude-sonnet-5 suite=gpqa_diamond seeds=42,43,44
+[2026-07-08 16:00:00] finished model=claude-sonnet-5 suite=livecodebench_v6 seeds=42,43,44
+[2026-07-08 16:00:00] finished model=claude-sonnet-5 suite=humaneval_plus seeds=42,43,44
+[2026-07-08 16:00:00] finished model=claude-sonnet-5 suite=terminal_bench seeds=42,43,44
+[2026-07-08 16:00:00] finished model=claude-sonnet-5 suite=agentic_coding seeds=42,43,44
+[2026-07-08 16:00:00] finished model=glm-5.2 suite=mmlu seeds=42,43,44
+[2026-07-08 16:00:00] finished model=glm-5.2 suite=gpqa_diamond seeds=42,43,44
+[2026-07-08 16:00:00] finished model=glm-5.2 suite=livecodebench_v6 seeds=42,43,44
+[2026-07-08 16:00:00] finished model=glm-5.2 suite=humaneval_plus seeds=42,43,44
+[2026-07-08 16:00:00] finished model=glm-5.2 suite=terminal_bench seeds=42,43,44
+[2026-07-08 16:00:00] finished model=glm-5.2 suite=agentic_coding seeds=42,43,44
+[2026-07-08 16:00:00] finished model=kimi-k2.7-code suite=mmlu seeds=42,43,44
+[2026-07-08 16:00:00] finished model=kimi-k2.7-code suite=gpqa_diamond seeds=42,43,44
+[2026-07-08 16:00:00] finished model=kimi-k2.7-code suite=livecodebench_v6 seeds=42,43,44
+[2026-07-08 16:00:00] finished model=kimi-k2.7-code suite=humaneval_plus seeds=42,43,44
+[2026-07-08 16:00:00] finished model=kimi-k2.7-code suite=terminal_bench seeds=42,43,44
+[2026-07-08 16:00:00] finished model=kimi-k2.7-code suite=agentic_coding seeds=42,43,44
+[2026-07-08 16:00:00] finished model=deepseek-v4-pro suite=mmlu seeds=42,43,44
+[2026-07-08 16:00:00] finished model=deepseek-v4-pro suite=gpqa_diamond seeds=42,43,44
+[2026-07-08 16:00:00] finished model=deepseek-v4-pro suite=livecodebench_v6 seeds=42,43,44
+[2026-07-08 16:00:00] finished model=deepseek-v4-pro suite=humaneval_plus seeds=42,43,44
+[2026-07-08 16:00:00] finished model=deepseek-v4-pro suite=terminal_bench seeds=42,43,44
+[2026-07-08 16:00:00] finished model=deepseek-v4-pro suite=agentic_coding seeds=42,43,44
+[2026-07-08 16:00:00] finished model=qwen3-32b-thinking suite=mmlu seeds=42,43,44
+[2026-07-08 16:00:00] finished model=qwen3-32b-thinking suite=gpqa_diamond seeds=42,43,44
+[2026-07-08 16:00:00] finished model=qwen3-32b-thinking suite=livecodebench_v6 seeds=42,43,44
+[2026-07-08 16:00:00] finished model=qwen3-32b-thinking suite=humaneval_plus seeds=42,43,44
+[2026-07-08 16:00:00] finished model=qwen3-32b-thinking suite=terminal_bench seeds=42,43,44
+[2026-07-08 16:00:00] finished model=qwen3-32b-thinking suite=agentic_coding seeds=42,43,44
+[2026-07-08 16:00:00] finished model=minimax-m3 suite=mmlu seeds=42,43,44
+[2026-07-08 16:00:00] finished model=minimax-m3 suite=gpqa_diamond seeds=42,43,44
+[2026-07-08 16:00:00] finished model=minimax-m3 suite=livecodebench_v6 seeds=42,43,44
+[2026-07-08 16:00:00] finished model=minimax-m3 suite=humaneval_plus seeds=42,43,44
+[2026-07-08 16:00:00] finished model=minimax-m3 suite=terminal_bench seeds=42,43,44
+[2026-07-08 16:00:00] finished model=minimax-m3 suite=agentic_coding seeds=42,43,44
+[2026-07-08 18:14:22] openfugu-ultra mmlu seed=43 progress 100/200
+[2026-07-08 19:22:18] openfugu-ultra terminal_bench tb_001 pass seed=42
+[2026-07-08 21:08:44] openfugu terminal_bench tb_002 fail max_turns seed=42
+[2026-07-08 22:47:33] run complete. unique_api_spend=$847.32 instance_records=15660

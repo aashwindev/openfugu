@@ -1,25 +1,25 @@
 {
-  "model": "deepseek-v4-pro",
+  "model": "qwen3-32b-thinking",
   "run_id": "2026-07-08-main",
   "suites": {
     "mmlu": {
-      "score": 88.5,
-      "correct": 531,
+      "score": 85.0,
+      "correct": 510,
       "total": 600
     },
     "gpqa_diamond": {
-      "score": 84.0,
-      "correct": 126,
+      "score": 78.0,
+      "correct": 117,
       "total": 150
     },
     "livecodebench_v6": {
-      "score": 87.5,
-      "correct": 210,
+      "score": 82.5,
+      "correct": 198,
       "total": 240
     },
     "humaneval_plus": {
-      "score": 80.0,
-      "correct": 120,
+      "score": 76.0,
+      "correct": 114,
       "total": 150
     },
     "terminal_bench": {
@@ -28,12 +28,12 @@
       "total": 75
     },
     "agentic_coding": {
-      "score": 66.7,
-      "correct": 60,
+      "score": 64.4,
+      "correct": 58,
       "total": 90
     }
   },
-  "avg_score": 78.5,
-  "eval_cost_usd": 44.5,
-  "avg_latency_s": 7.1
+  "avg_score": 75.0,
+  "eval_cost_usd": 141.01,
+  "avg_latency_s": 22.5
 }

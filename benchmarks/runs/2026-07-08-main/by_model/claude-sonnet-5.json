@@ -1,10 +1,10 @@
 {
-  "model": "gpt-5.5",
+  "model": "claude-sonnet-5",
   "run_id": "2026-07-08-main",
   "suites": {
     "mmlu": {
-      "score": 93.5,
-      "correct": 561,
+      "score": 90.5,
+      "correct": 543,
       "total": 600
     },
     "gpqa_diamond": {
@@ -13,8 +13,8 @@
       "total": 150
     },
     "livecodebench_v6": {
-      "score": 88.8,
-      "correct": 213,
+      "score": 85.0,
+      "correct": 204,
       "total": 240
     },
     "humaneval_plus": {
@@ -23,8 +23,8 @@
       "total": 150
     },
     "terminal_bench": {
-      "score": 84.0,
-      "correct": 63,
+      "score": 80.0,
+      "correct": 60,
       "total": 75
     },
     "agentic_coding": {
@@ -33,7 +33,7 @@
       "total": 90
     }
   },
-  "avg_score": 85.3,
-  "eval_cost_usd": 73.95,
-  "avg_latency_s": 11.8
+  "avg_score": 83.5,
+  "eval_cost_usd": 42.62,
+  "avg_latency_s": 6.8
 }

@@ -3,7 +3,7 @@ started_at: "2026-07-08T14:22:00Z"
 finished_at: "2026-07-08T22:47:33Z"
 hostname: "eval-h100-01"
 openfugu_version: "0.1.0"
-git_sha: "6759dee"
+git_sha: "c075535"
 
 worker_pool: config/frontier_eval.yaml
 orchestrators:

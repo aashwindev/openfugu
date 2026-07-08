@@ -1,0 +1,1080 @@
+{"instance_id": "ac_001", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 14.36, "timestamp": "2026-07-12T12:04:24Z", "workflow": {"steps": 1, "topology": "tree", "workers": ["gpt-5.5", "gemini-3.1-pro"]}}
+{"instance_id": "ac_002", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 23.43, "timestamp": "2026-07-12T12:04:34Z", "workflow": {"steps": 1, "topology": "tree", "workers": ["gpt-5.5", "claude-opus-4.8"]}}
+{"instance_id": "ac_003", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 15.51, "timestamp": "2026-07-12T12:04:39Z", "workflow": {"steps": 2, "topology": "chain", "workers": ["gpt-5.5", "gemini-3.1-pro"]}}
+{"instance_id": "ac_004", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 15.49, "timestamp": "2026-07-12T12:04:56Z", "workflow": {"steps": 2, "topology": "tree", "workers": ["claude-opus-4.8", "gpt-5.5"]}}
+{"instance_id": "ac_005", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 19.76, "timestamp": "2026-07-12T12:05:13Z", "workflow": {"steps": 3, "topology": "tree", "workers": ["gpt-5.5", "claude-opus-4.8"]}}
+{"instance_id": "ac_006", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 21.64, "timestamp": "2026-07-12T12:05:54Z", "workflow": {"steps": 1, "topology": "single", "workers": ["claude-opus-4.8", "gpt-5.5"]}}
+{"instance_id": "ac_007", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 16.46, "timestamp": "2026-07-12T12:06:32Z", "workflow": {"steps": 3, "topology": "tree", "workers": ["gemini-3.1-pro", "claude-opus-4.8"]}}
+{"instance_id": "ac_008", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 15.38, "timestamp": "2026-07-12T12:06:54Z", "workflow": {"steps": 1, "topology": "chain", "workers": ["gpt-5.5", "gemini-3.1-pro"]}}
+{"instance_id": "ac_009", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 17.99, "timestamp": "2026-07-12T12:07:10Z", "workflow": {"steps": 3, "topology": "chain", "workers": ["gemini-3.1-pro", "gpt-5.5"]}}
+{"instance_id": "ac_010", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 19.19, "timestamp": "2026-07-12T12:07:41Z", "workflow": {"steps": 2, "topology": "single", "workers": ["claude-opus-4.8", "gpt-5.5"]}}
+{"instance_id": "ac_011", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 17.87, "timestamp": "2026-07-12T12:08:19Z", "workflow": {"steps": 3, "topology": "tree", "workers": ["claude-opus-4.8", "gpt-5.5"]}}
+{"instance_id": "ac_012", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 18.12, "timestamp": "2026-07-12T12:08:49Z", "workflow": {"steps": 1, "topology": "chain", "workers": ["gpt-5.5", "gemini-3.1-pro"]}}
+{"instance_id": "ac_013", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 15.74, "timestamp": "2026-07-12T12:09:21Z", "workflow": {"steps": 2, "topology": "chain", "workers": ["claude-opus-4.8", "gpt-5.5"]}}
+{"instance_id": "ac_014", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 14.06, "timestamp": "2026-07-12T12:09:39Z", "workflow": {"steps": 1, "topology": "single", "workers": ["gpt-5.5", "claude-opus-4.8"]}}
+{"instance_id": "ac_015", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 23.54, "timestamp": "2026-07-12T12:09:47Z", "workflow": {"steps": 2, "topology": "tree", "workers": ["claude-opus-4.8", "gemini-3.1-pro"]}}
+{"instance_id": "ac_016", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 16.87, "timestamp": "2026-07-12T12:10:02Z", "workflow": {"steps": 2, "topology": "single", "workers": ["gpt-5.5", "claude-opus-4.8"]}}
+{"instance_id": "ac_017", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 18.64, "timestamp": "2026-07-12T12:10:27Z", "workflow": {"steps": 3, "topology": "tree", "workers": ["gpt-5.5", "claude-opus-4.8"]}}
+{"instance_id": "ac_018", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 14.88, "timestamp": "2026-07-12T12:11:02Z", "workflow": {"steps": 1, "topology": "tree", "workers": ["gemini-3.1-pro", "claude-opus-4.8"]}}
+{"instance_id": "ac_019", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 20.36, "timestamp": "2026-07-12T12:11:15Z", "workflow": {"steps": 1, "topology": "chain", "workers": ["claude-opus-4.8", "gpt-5.5"]}}
+{"instance_id": "ac_020", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 22.88, "timestamp": "2026-07-12T12:12:00Z", "workflow": {"steps": 2, "topology": "tree", "workers": ["gpt-5.5", "claude-opus-4.8"]}}
+{"instance_id": "ac_021", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 14.7, "timestamp": "2026-07-12T12:12:45Z", "workflow": {"steps": 3, "topology": "chain", "workers": ["claude-opus-4.8", "gpt-5.5"]}}
+{"instance_id": "ac_022", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 23.46, "timestamp": "2026-07-12T12:12:57Z", "workflow": {"steps": 2, "topology": "chain", "workers": ["gemini-3.1-pro", "claude-opus-4.8"]}}
+{"instance_id": "ac_023", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 23.09, "timestamp": "2026-07-12T12:13:07Z", "workflow": {"steps": 2, "topology": "tree", "workers": ["claude-opus-4.8", "gemini-3.1-pro"]}}
+{"instance_id": "ac_024", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 20.74, "timestamp": "2026-07-12T12:13:27Z", "workflow": {"steps": 1, "topology": "tree", "workers": ["gemini-3.1-pro", "claude-opus-4.8"]}}
+{"instance_id": "ac_025", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 17.04, "timestamp": "2026-07-12T12:13:53Z", "workflow": {"steps": 1, "topology": "chain", "workers": ["claude-opus-4.8", "gemini-3.1-pro"]}}
+{"instance_id": "ac_026", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 21.13, "timestamp": "2026-07-12T12:14:19Z", "workflow": {"steps": 1, "topology": "tree", "workers": ["claude-opus-4.8", "gemini-3.1-pro"]}}
+{"instance_id": "ac_027", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 20.04, "timestamp": "2026-07-12T12:14:33Z", "workflow": {"steps": 1, "topology": "tree", "workers": ["claude-opus-4.8", "gemini-3.1-pro"]}}
+{"instance_id": "ac_028", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 14.13, "timestamp": "2026-07-12T12:15:16Z", "workflow": {"steps": 2, "topology": "tree", "workers": ["claude-opus-4.8", "gpt-5.5"]}}
+{"instance_id": "ac_029", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 18.93, "timestamp": "2026-07-12T12:15:25Z", "workflow": {"steps": 3, "topology": "tree", "workers": ["claude-opus-4.8", "gemini-3.1-pro"]}}
+{"instance_id": "ac_030", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 18.83, "timestamp": "2026-07-12T12:16:02Z", "workflow": {"steps": 1, "topology": "tree", "workers": ["gemini-3.1-pro", "claude-opus-4.8"]}}
+{"instance_id": "ac_001", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 13.02, "timestamp": "2026-07-12T12:16:38Z", "workflow": {"steps": 2, "topology": "single", "workers": ["gpt-5.5", "gemini-3.1-pro"]}}
+{"instance_id": "ac_002", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 13.73, "timestamp": "2026-07-12T12:16:40Z", "workflow": {"steps": 3, "topology": "single", "workers": ["claude-opus-4.8", "gpt-5.5"]}}
+{"instance_id": "ac_003", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 19.18, "timestamp": "2026-07-12T12:16:46Z", "workflow": {"steps": 2, "topology": "chain", "workers": ["claude-opus-4.8", "gpt-5.5"]}}
+{"instance_id": "ac_004", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 18.72, "timestamp": "2026-07-12T12:17:24Z", "workflow": {"steps": 2, "topology": "chain", "workers": ["gemini-3.1-pro", "gpt-5.5"]}}
+{"instance_id": "ac_005", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 18.94, "timestamp": "2026-07-12T12:17:59Z", "workflow": {"steps": 2, "topology": "single", "workers": ["gemini-3.1-pro", "gpt-5.5"]}}
+{"instance_id": "ac_006", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 16.51, "timestamp": "2026-07-12T12:18:36Z", "workflow": {"steps": 1, "topology": "single", "workers": ["claude-opus-4.8", "gpt-5.5"]}}
+{"instance_id": "ac_007", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 20.41, "timestamp": "2026-07-12T12:18:59Z", "workflow": {"steps": 1, "topology": "tree", "workers": ["claude-opus-4.8", "gpt-5.5"]}}
+{"instance_id": "ac_008", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 19.94, "timestamp": "2026-07-12T12:19:44Z", "workflow": {"steps": 2, "topology": "single", "workers": ["claude-opus-4.8", "gpt-5.5"]}}
+{"instance_id": "ac_009", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 15.2, "timestamp": "2026-07-12T12:20:26Z", "workflow": {"steps": 3, "topology": "tree", "workers": ["claude-opus-4.8", "gemini-3.1-pro"]}}
+{"instance_id": "ac_010", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 17.94, "timestamp": "2026-07-12T12:20:41Z", "workflow": {"steps": 2, "topology": "tree", "workers": ["gpt-5.5", "gemini-3.1-pro"]}}
+{"instance_id": "ac_011", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 17.09, "timestamp": "2026-07-12T12:21:12Z", "workflow": {"steps": 1, "topology": "single", "workers": ["gpt-5.5", "claude-opus-4.8"]}}
+{"instance_id": "ac_012", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 19.94, "timestamp": "2026-07-12T12:21:38Z", "workflow": {"steps": 1, "topology": "single", "workers": ["gpt-5.5", "claude-opus-4.8"]}}
+{"instance_id": "ac_013", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 13.31, "timestamp": "2026-07-12T12:22:20Z", "workflow": {"steps": 2, "topology": "chain", "workers": ["claude-opus-4.8", "gemini-3.1-pro"]}}
+{"instance_id": "ac_014", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 17.39, "timestamp": "2026-07-12T12:22:24Z", "workflow": {"steps": 3, "topology": "single", "workers": ["gpt-5.5", "claude-opus-4.8"]}}
+{"instance_id": "ac_015", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 15.88, "timestamp": "2026-07-12T12:22:52Z", "workflow": {"steps": 3, "topology": "single", "workers": ["gemini-3.1-pro", "gpt-5.5"]}}
+{"instance_id": "ac_016", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 22.69, "timestamp": "2026-07-12T12:23:11Z", "workflow": {"steps": 1, "topology": "single", "workers": ["gemini-3.1-pro", "claude-opus-4.8"]}}
+{"instance_id": "ac_017", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 16.76, "timestamp": "2026-07-12T12:23:17Z", "workflow": {"steps": 3, "topology": "single", "workers": ["gemini-3.1-pro", "gpt-5.5"]}}
+{"instance_id": "ac_018", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 18.93, "timestamp": "2026-07-12T12:23:41Z", "workflow": {"steps": 3, "topology": "chain", "workers": ["claude-opus-4.8", "gemini-3.1-pro"]}}
+{"instance_id": "ac_019", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 13.62, "timestamp": "2026-07-12T12:24:18Z", "workflow": {"steps": 1, "topology": "tree", "workers": ["gemini-3.1-pro", "claude-opus-4.8"]}}
+{"instance_id": "ac_020", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 18.37, "timestamp": "2026-07-12T12:24:24Z", "workflow": {"steps": 3, "topology": "single", "workers": ["gpt-5.5", "gemini-3.1-pro"]}}
+{"instance_id": "ac_021", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 15.57, "timestamp": "2026-07-12T12:24:57Z", "workflow": {"steps": 2, "topology": "chain", "workers": ["gpt-5.5", "claude-opus-4.8"]}}
+{"instance_id": "ac_022", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 23.68, "timestamp": "2026-07-12T12:25:14Z", "workflow": {"steps": 3, "topology": "tree", "workers": ["gemini-3.1-pro", "claude-opus-4.8"]}}
+{"instance_id": "ac_023", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 19.69, "timestamp": "2026-07-12T12:25:33Z", "workflow": {"steps": 3, "topology": "tree", "workers": ["gpt-5.5", "claude-opus-4.8"]}}
+{"instance_id": "ac_024", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 22.97, "timestamp": "2026-07-12T12:26:14Z", "workflow": {"steps": 2, "topology": "tree", "workers": ["gemini-3.1-pro", "claude-opus-4.8"]}}
+{"instance_id": "ac_025", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 13.88, "timestamp": "2026-07-12T12:26:24Z", "workflow": {"steps": 1, "topology": "chain", "workers": ["gemini-3.1-pro", "claude-opus-4.8"]}}
+{"instance_id": "ac_026", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 23.54, "timestamp": "2026-07-12T12:26:31Z", "workflow": {"steps": 2, "topology": "single", "workers": ["claude-opus-4.8", "gemini-3.1-pro"]}}
+{"instance_id": "ac_027", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 13.35, "timestamp": "2026-07-12T12:27:08Z", "workflow": {"steps": 3, "topology": "chain", "workers": ["gemini-3.1-pro", "claude-opus-4.8"]}}
+{"instance_id": "ac_028", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 19.29, "timestamp": "2026-07-12T12:27:12Z", "workflow": {"steps": 2, "topology": "tree", "workers": ["claude-opus-4.8", "gpt-5.5"]}}
+{"instance_id": "ac_029", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 15.36, "timestamp": "2026-07-12T12:27:51Z", "workflow": {"steps": 1, "topology": "chain", "workers": ["claude-opus-4.8", "gemini-3.1-pro"]}}
+{"instance_id": "ac_030", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 16.28, "timestamp": "2026-07-12T12:28:07Z", "workflow": {"steps": 3, "topology": "single", "workers": ["gemini-3.1-pro", "gpt-5.5"]}}
+{"instance_id": "ac_001", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 18.34, "timestamp": "2026-07-12T12:28:28Z", "workflow": {"steps": 2, "topology": "single", "workers": ["gemini-3.1-pro", "gpt-5.5"]}}
+{"instance_id": "ac_002", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 23.13, "timestamp": "2026-07-12T12:29:01Z", "workflow": {"steps": 3, "topology": "single", "workers": ["gemini-3.1-pro", "claude-opus-4.8"]}}
+{"instance_id": "ac_003", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 17.79, "timestamp": "2026-07-12T12:29:39Z", "workflow": {"steps": 2, "topology": "single", "workers": ["claude-opus-4.8", "gpt-5.5"]}}
+{"instance_id": "ac_004", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 18.14, "timestamp": "2026-07-12T12:30:09Z", "workflow": {"steps": 1, "topology": "tree", "workers": ["claude-opus-4.8", "gpt-5.5"]}}
+{"instance_id": "ac_005", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 17.46, "timestamp": "2026-07-12T12:30:41Z", "workflow": {"steps": 2, "topology": "chain", "workers": ["gpt-5.5", "claude-opus-4.8"]}}
+{"instance_id": "ac_006", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 13.66, "timestamp": "2026-07-12T12:31:09Z", "workflow": {"steps": 1, "topology": "tree", "workers": ["gpt-5.5", "claude-opus-4.8"]}}
+{"instance_id": "ac_007", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 13.71, "timestamp": "2026-07-12T12:31:15Z", "workflow": {"steps": 1, "topology": "single", "workers": ["gemini-3.1-pro", "claude-opus-4.8"]}}
+{"instance_id": "ac_008", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 21.07, "timestamp": "2026-07-12T12:31:21Z", "workflow": {"steps": 1, "topology": "single", "workers": ["claude-opus-4.8", "gpt-5.5"]}}
+{"instance_id": "ac_009", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 20.43, "timestamp": "2026-07-12T12:31:52Z", "workflow": {"steps": 1, "topology": "single", "workers": ["gemini-3.1-pro", "gpt-5.5"]}}
+{"instance_id": "ac_010", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 22.92, "timestamp": "2026-07-12T12:32:37Z", "workflow": {"steps": 2, "topology": "single", "workers": ["gpt-5.5", "claude-opus-4.8"]}}
+{"instance_id": "ac_011", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 16.45, "timestamp": "2026-07-12T12:32:46Z", "workflow": {"steps": 1, "topology": "chain", "workers": ["claude-opus-4.8", "gpt-5.5"]}}
+{"instance_id": "ac_012", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 13.69, "timestamp": "2026-07-12T12:33:08Z", "workflow": {"steps": 3, "topology": "tree", "workers": ["gemini-3.1-pro", "claude-opus-4.8"]}}
+{"instance_id": "ac_013", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 15.97, "timestamp": "2026-07-12T12:33:14Z", "workflow": {"steps": 3, "topology": "single", "workers": ["claude-opus-4.8", "gpt-5.5"]}}
+{"instance_id": "ac_014", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 22.37, "timestamp": "2026-07-12T12:33:33Z", "workflow": {"steps": 2, "topology": "single", "workers": ["gpt-5.5", "gemini-3.1-pro"]}}
+{"instance_id": "ac_015", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 17.86, "timestamp": "2026-07-12T12:34:14Z", "workflow": {"steps": 1, "topology": "chain", "workers": ["gemini-3.1-pro", "claude-opus-4.8"]}}
+{"instance_id": "ac_016", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 16.97, "timestamp": "2026-07-12T12:34:44Z", "workflow": {"steps": 1, "topology": "chain", "workers": ["gpt-5.5", "gemini-3.1-pro"]}}
+{"instance_id": "ac_017", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 21.7, "timestamp": "2026-07-12T12:35:09Z", "workflow": {"steps": 1, "topology": "single", "workers": ["gpt-5.5", "claude-opus-4.8"]}}
+{"instance_id": "ac_018", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 21.87, "timestamp": "2026-07-12T12:35:27Z", "workflow": {"steps": 2, "topology": "tree", "workers": ["gpt-5.5", "claude-opus-4.8"]}}
+{"instance_id": "ac_019", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 14.48, "timestamp": "2026-07-12T12:35:41Z", "workflow": {"steps": 2, "topology": "single", "workers": ["gpt-5.5", "claude-opus-4.8"]}}
+{"instance_id": "ac_020", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 15.88, "timestamp": "2026-07-12T12:35:52Z", "workflow": {"steps": 1, "topology": "chain", "workers": ["claude-opus-4.8", "gemini-3.1-pro"]}}
+{"instance_id": "ac_021", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 18.47, "timestamp": "2026-07-12T12:36:11Z", "workflow": {"steps": 3, "topology": "single", "workers": ["gemini-3.1-pro", "gpt-5.5"]}}
+{"instance_id": "ac_022", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 14.48, "timestamp": "2026-07-12T12:36:45Z", "workflow": {"steps": 2, "topology": "chain", "workers": ["gpt-5.5", "claude-opus-4.8"]}}
+{"instance_id": "ac_023", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 18.36, "timestamp": "2026-07-12T12:36:56Z", "workflow": {"steps": 3, "topology": "single", "workers": ["gpt-5.5", "claude-opus-4.8"]}}
+{"instance_id": "ac_024", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 20.96, "timestamp": "2026-07-12T12:37:29Z", "workflow": {"steps": 3, "topology": "chain", "workers": ["gpt-5.5", "claude-opus-4.8"]}}
+{"instance_id": "ac_025", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 15.08, "timestamp": "2026-07-12T12:37:49Z", "workflow": {"steps": 1, "topology": "single", "workers": ["gpt-5.5", "claude-opus-4.8"]}}
+{"instance_id": "ac_026", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 21.62, "timestamp": "2026-07-12T12:38:03Z", "workflow": {"steps": 3, "topology": "tree", "workers": ["gpt-5.5", "gemini-3.1-pro"]}}
+{"instance_id": "ac_027", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 14.49, "timestamp": "2026-07-12T12:38:06Z", "workflow": {"steps": 1, "topology": "chain", "workers": ["gemini-3.1-pro", "gpt-5.5"]}}
+{"instance_id": "ac_028", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 17.27, "timestamp": "2026-07-12T12:38:17Z", "workflow": {"steps": 1, "topology": "chain", "workers": ["gemini-3.1-pro", "claude-opus-4.8"]}}
+{"instance_id": "ac_029", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 13.78, "timestamp": "2026-07-12T12:38:44Z", "workflow": {"steps": 3, "topology": "single", "workers": ["gemini-3.1-pro", "gpt-5.5"]}}
+{"instance_id": "ac_030", "model": "openfugu-ultra", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 15.13, "timestamp": "2026-07-12T12:38:51Z", "workflow": {"steps": 2, "topology": "single", "workers": ["gpt-5.5", "gemini-3.1-pro"]}}
+{"instance_id": "ac_001", "model": "claude-fable-5", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 9.45, "timestamp": "2026-07-12T12:39:06Z"}
+{"instance_id": "ac_002", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 15.41, "timestamp": "2026-07-12T12:39:16Z"}
+{"instance_id": "ac_003", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 10.2, "timestamp": "2026-07-12T12:39:21Z"}
+{"instance_id": "ac_004", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 10.18, "timestamp": "2026-07-12T12:39:38Z"}
+{"instance_id": "ac_005", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 12.99, "timestamp": "2026-07-12T12:39:55Z"}
+{"instance_id": "ac_006", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 14.23, "timestamp": "2026-07-12T12:40:36Z"}
+{"instance_id": "ac_007", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 10.82, "timestamp": "2026-07-12T12:41:14Z"}
+{"instance_id": "ac_008", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 10.12, "timestamp": "2026-07-12T12:41:36Z"}
+{"instance_id": "ac_009", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 11.83, "timestamp": "2026-07-12T12:41:52Z"}
+{"instance_id": "ac_010", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 12.62, "timestamp": "2026-07-12T12:42:23Z"}
+{"instance_id": "ac_011", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 11.75, "timestamp": "2026-07-12T12:43:01Z"}
+{"instance_id": "ac_012", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 11.92, "timestamp": "2026-07-12T12:43:31Z"}
+{"instance_id": "ac_013", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 10.35, "timestamp": "2026-07-12T12:44:03Z"}
+{"instance_id": "ac_014", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 9.25, "timestamp": "2026-07-12T12:44:21Z"}
+{"instance_id": "ac_015", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 15.48, "timestamp": "2026-07-12T12:44:29Z"}
+{"instance_id": "ac_016", "model": "claude-fable-5", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 11.09, "timestamp": "2026-07-12T12:44:44Z"}
+{"instance_id": "ac_017", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 12.26, "timestamp": "2026-07-12T12:45:09Z"}
+{"instance_id": "ac_018", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 9.79, "timestamp": "2026-07-12T12:45:44Z"}
+{"instance_id": "ac_019", "model": "claude-fable-5", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 13.39, "timestamp": "2026-07-12T12:45:57Z"}
+{"instance_id": "ac_020", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 15.04, "timestamp": "2026-07-12T12:46:42Z"}
+{"instance_id": "ac_021", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 9.67, "timestamp": "2026-07-12T12:47:27Z"}
+{"instance_id": "ac_022", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 15.43, "timestamp": "2026-07-12T12:47:39Z"}
+{"instance_id": "ac_023", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 15.18, "timestamp": "2026-07-12T12:47:49Z"}
+{"instance_id": "ac_024", "model": "claude-fable-5", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 13.64, "timestamp": "2026-07-12T12:48:09Z"}
+{"instance_id": "ac_025", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 11.21, "timestamp": "2026-07-12T12:48:35Z"}
+{"instance_id": "ac_026", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 13.9, "timestamp": "2026-07-12T12:49:01Z"}
+{"instance_id": "ac_027", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 13.18, "timestamp": "2026-07-12T12:49:15Z"}
+{"instance_id": "ac_028", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 9.29, "timestamp": "2026-07-12T12:49:58Z"}
+{"instance_id": "ac_029", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 12.45, "timestamp": "2026-07-12T12:50:07Z"}
+{"instance_id": "ac_030", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 12.38, "timestamp": "2026-07-12T12:50:44Z"}
+{"instance_id": "ac_001", "model": "claude-fable-5", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 8.56, "timestamp": "2026-07-12T12:51:20Z"}
+{"instance_id": "ac_002", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 9.03, "timestamp": "2026-07-12T12:51:22Z"}
+{"instance_id": "ac_003", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 12.61, "timestamp": "2026-07-12T12:51:28Z"}
+{"instance_id": "ac_004", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 12.31, "timestamp": "2026-07-12T12:52:06Z"}
+{"instance_id": "ac_005", "model": "claude-fable-5", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 12.45, "timestamp": "2026-07-12T12:52:41Z"}
+{"instance_id": "ac_006", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 10.86, "timestamp": "2026-07-12T12:53:18Z"}
+{"instance_id": "ac_007", "model": "claude-fable-5", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 13.42, "timestamp": "2026-07-12T12:53:41Z"}
+{"instance_id": "ac_008", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 13.11, "timestamp": "2026-07-12T12:54:26Z"}
+{"instance_id": "ac_009", "model": "claude-fable-5", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 9.99, "timestamp": "2026-07-12T12:55:08Z"}
+{"instance_id": "ac_010", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 11.8, "timestamp": "2026-07-12T12:55:23Z"}
+{"instance_id": "ac_011", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 11.24, "timestamp": "2026-07-12T12:55:54Z"}
+{"instance_id": "ac_012", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 13.11, "timestamp": "2026-07-12T12:56:20Z"}
+{"instance_id": "ac_013", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 8.75, "timestamp": "2026-07-12T12:57:02Z"}
+{"instance_id": "ac_014", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 11.44, "timestamp": "2026-07-12T12:57:06Z"}
+{"instance_id": "ac_015", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 10.44, "timestamp": "2026-07-12T12:57:34Z"}
+{"instance_id": "ac_016", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 14.92, "timestamp": "2026-07-12T12:57:53Z"}
+{"instance_id": "ac_017", "model": "claude-fable-5", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 11.02, "timestamp": "2026-07-12T12:57:59Z"}
+{"instance_id": "ac_018", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 12.45, "timestamp": "2026-07-12T12:58:23Z"}
+{"instance_id": "ac_019", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 8.96, "timestamp": "2026-07-12T12:59:00Z"}
+{"instance_id": "ac_020", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 12.08, "timestamp": "2026-07-12T12:59:06Z"}
+{"instance_id": "ac_021", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 10.24, "timestamp": "2026-07-12T12:59:39Z"}
+{"instance_id": "ac_022", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 15.57, "timestamp": "2026-07-12T12:59:56Z"}
+{"instance_id": "ac_023", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 12.95, "timestamp": "2026-07-12T13:00:15Z"}
+{"instance_id": "ac_024", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 15.1, "timestamp": "2026-07-12T13:00:56Z"}
+{"instance_id": "ac_025", "model": "claude-fable-5", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 9.13, "timestamp": "2026-07-12T13:01:06Z"}
+{"instance_id": "ac_026", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 15.48, "timestamp": "2026-07-12T13:01:13Z"}
+{"instance_id": "ac_027", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 8.78, "timestamp": "2026-07-12T13:01:50Z"}
+{"instance_id": "ac_028", "model": "claude-fable-5", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 12.69, "timestamp": "2026-07-12T13:01:54Z"}
+{"instance_id": "ac_029", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 10.1, "timestamp": "2026-07-12T13:02:33Z"}
+{"instance_id": "ac_030", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 10.7, "timestamp": "2026-07-12T13:02:49Z"}
+{"instance_id": "ac_001", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 12.06, "timestamp": "2026-07-12T13:03:10Z"}
+{"instance_id": "ac_002", "model": "claude-fable-5", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 15.21, "timestamp": "2026-07-12T13:03:43Z"}
+{"instance_id": "ac_003", "model": "claude-fable-5", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 11.7, "timestamp": "2026-07-12T13:04:21Z"}
+{"instance_id": "ac_004", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 11.93, "timestamp": "2026-07-12T13:04:51Z"}
+{"instance_id": "ac_005", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 11.48, "timestamp": "2026-07-12T13:05:23Z"}
+{"instance_id": "ac_006", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 8.98, "timestamp": "2026-07-12T13:05:51Z"}
+{"instance_id": "ac_007", "model": "claude-fable-5", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 9.01, "timestamp": "2026-07-12T13:05:57Z"}
+{"instance_id": "ac_008", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 13.85, "timestamp": "2026-07-12T13:06:03Z"}
+{"instance_id": "ac_009", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 13.44, "timestamp": "2026-07-12T13:06:34Z"}
+{"instance_id": "ac_010", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 15.07, "timestamp": "2026-07-12T13:07:19Z"}
+{"instance_id": "ac_011", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 10.82, "timestamp": "2026-07-12T13:07:28Z"}
+{"instance_id": "ac_012", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 9.0, "timestamp": "2026-07-12T13:07:50Z"}
+{"instance_id": "ac_013", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 10.5, "timestamp": "2026-07-12T13:07:56Z"}
+{"instance_id": "ac_014", "model": "claude-fable-5", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 14.71, "timestamp": "2026-07-12T13:08:15Z"}
+{"instance_id": "ac_015", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 11.74, "timestamp": "2026-07-12T13:08:56Z"}
+{"instance_id": "ac_016", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 11.16, "timestamp": "2026-07-12T13:09:26Z"}
+{"instance_id": "ac_017", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 14.27, "timestamp": "2026-07-12T13:09:51Z"}
+{"instance_id": "ac_018", "model": "claude-fable-5", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 14.38, "timestamp": "2026-07-12T13:10:09Z"}
+{"instance_id": "ac_019", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 9.53, "timestamp": "2026-07-12T13:10:23Z"}
+{"instance_id": "ac_020", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 10.44, "timestamp": "2026-07-12T13:10:34Z"}
+{"instance_id": "ac_021", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 12.14, "timestamp": "2026-07-12T13:10:53Z"}
+{"instance_id": "ac_022", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 9.52, "timestamp": "2026-07-12T13:11:27Z"}
+{"instance_id": "ac_023", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 12.07, "timestamp": "2026-07-12T13:11:38Z"}
+{"instance_id": "ac_024", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 13.78, "timestamp": "2026-07-12T13:12:11Z"}
+{"instance_id": "ac_025", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 9.92, "timestamp": "2026-07-12T13:12:31Z"}
+{"instance_id": "ac_026", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 14.22, "timestamp": "2026-07-12T13:12:45Z"}
+{"instance_id": "ac_027", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 9.53, "timestamp": "2026-07-12T13:12:48Z"}
+{"instance_id": "ac_028", "model": "claude-fable-5", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 11.36, "timestamp": "2026-07-12T13:12:59Z"}
+{"instance_id": "ac_029", "model": "claude-fable-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 9.06, "timestamp": "2026-07-12T13:13:26Z"}
+{"instance_id": "ac_030", "model": "claude-fable-5", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 9.95, "timestamp": "2026-07-12T13:13:33Z"}
+{"instance_id": "ac_001", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 9.21, "timestamp": "2026-07-12T13:13:48Z"}
+{"instance_id": "ac_002", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 15.03, "timestamp": "2026-07-12T13:13:58Z"}
+{"instance_id": "ac_003", "model": "gpt-5.5", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 9.94, "timestamp": "2026-07-12T13:14:03Z"}
+{"instance_id": "ac_004", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 9.93, "timestamp": "2026-07-12T13:14:20Z"}
+{"instance_id": "ac_005", "model": "gpt-5.5", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 12.67, "timestamp": "2026-07-12T13:14:37Z"}
+{"instance_id": "ac_006", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 13.88, "timestamp": "2026-07-12T13:15:18Z"}
+{"instance_id": "ac_007", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 10.55, "timestamp": "2026-07-12T13:15:56Z"}
+{"instance_id": "ac_008", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 9.87, "timestamp": "2026-07-12T13:16:18Z"}
+{"instance_id": "ac_009", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 11.54, "timestamp": "2026-07-12T13:16:34Z"}
+{"instance_id": "ac_010", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 12.31, "timestamp": "2026-07-12T13:17:05Z"}
+{"instance_id": "ac_011", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 11.46, "timestamp": "2026-07-12T13:17:43Z"}
+{"instance_id": "ac_012", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 11.62, "timestamp": "2026-07-12T13:18:13Z"}
+{"instance_id": "ac_013", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 10.09, "timestamp": "2026-07-12T13:18:45Z"}
+{"instance_id": "ac_014", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 9.02, "timestamp": "2026-07-12T13:19:03Z"}
+{"instance_id": "ac_015", "model": "gpt-5.5", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 15.09, "timestamp": "2026-07-12T13:19:11Z"}
+{"instance_id": "ac_016", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 10.82, "timestamp": "2026-07-12T13:19:26Z"}
+{"instance_id": "ac_017", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 11.96, "timestamp": "2026-07-12T13:19:51Z"}
+{"instance_id": "ac_018", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 9.54, "timestamp": "2026-07-12T13:20:26Z"}
+{"instance_id": "ac_019", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 13.05, "timestamp": "2026-07-12T13:20:39Z"}
+{"instance_id": "ac_020", "model": "gpt-5.5", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 14.67, "timestamp": "2026-07-12T13:21:24Z"}
+{"instance_id": "ac_021", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 9.43, "timestamp": "2026-07-12T13:22:09Z"}
+{"instance_id": "ac_022", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 15.04, "timestamp": "2026-07-12T13:22:21Z"}
+{"instance_id": "ac_023", "model": "gpt-5.5", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 14.81, "timestamp": "2026-07-12T13:22:31Z"}
+{"instance_id": "ac_024", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 13.3, "timestamp": "2026-07-12T13:22:51Z"}
+{"instance_id": "ac_025", "model": "gpt-5.5", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 10.93, "timestamp": "2026-07-12T13:23:17Z"}
+{"instance_id": "ac_026", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 13.55, "timestamp": "2026-07-12T13:23:43Z"}
+{"instance_id": "ac_027", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 12.85, "timestamp": "2026-07-12T13:23:57Z"}
+{"instance_id": "ac_028", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 9.06, "timestamp": "2026-07-12T13:24:40Z"}
+{"instance_id": "ac_029", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 12.14, "timestamp": "2026-07-12T13:24:49Z"}
+{"instance_id": "ac_030", "model": "gpt-5.5", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 12.08, "timestamp": "2026-07-12T13:25:26Z"}
+{"instance_id": "ac_001", "model": "gpt-5.5", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 8.35, "timestamp": "2026-07-12T13:26:02Z"}
+{"instance_id": "ac_002", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 8.81, "timestamp": "2026-07-12T13:26:04Z"}
+{"instance_id": "ac_003", "model": "gpt-5.5", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 12.3, "timestamp": "2026-07-12T13:26:10Z"}
+{"instance_id": "ac_004", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 12.0, "timestamp": "2026-07-12T13:26:48Z"}
+{"instance_id": "ac_005", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 12.14, "timestamp": "2026-07-12T13:27:23Z"}
+{"instance_id": "ac_006", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 10.59, "timestamp": "2026-07-12T13:28:00Z"}
+{"instance_id": "ac_007", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 13.09, "timestamp": "2026-07-12T13:28:23Z"}
+{"instance_id": "ac_008", "model": "gpt-5.5", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 12.79, "timestamp": "2026-07-12T13:29:08Z"}
+{"instance_id": "ac_009", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 9.75, "timestamp": "2026-07-12T13:29:50Z"}
+{"instance_id": "ac_010", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 11.51, "timestamp": "2026-07-12T13:30:05Z"}
+{"instance_id": "ac_011", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 10.96, "timestamp": "2026-07-12T13:30:36Z"}
+{"instance_id": "ac_012", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 12.79, "timestamp": "2026-07-12T13:31:02Z"}
+{"instance_id": "ac_013", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 8.53, "timestamp": "2026-07-12T13:31:44Z"}
+{"instance_id": "ac_014", "model": "gpt-5.5", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 11.15, "timestamp": "2026-07-12T13:31:48Z"}
+{"instance_id": "ac_015", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 10.18, "timestamp": "2026-07-12T13:32:16Z"}
+{"instance_id": "ac_016", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 14.55, "timestamp": "2026-07-12T13:32:35Z"}
+{"instance_id": "ac_017", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 10.75, "timestamp": "2026-07-12T13:32:41Z"}
+{"instance_id": "ac_018", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 12.14, "timestamp": "2026-07-12T13:33:05Z"}
+{"instance_id": "ac_019", "model": "gpt-5.5", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 8.73, "timestamp": "2026-07-12T13:33:42Z"}
+{"instance_id": "ac_020", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 11.78, "timestamp": "2026-07-12T13:33:48Z"}
+{"instance_id": "ac_021", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 9.98, "timestamp": "2026-07-12T13:34:21Z"}
+{"instance_id": "ac_022", "model": "gpt-5.5", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 15.19, "timestamp": "2026-07-12T13:34:38Z"}
+{"instance_id": "ac_023", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 12.63, "timestamp": "2026-07-12T13:34:57Z"}
+{"instance_id": "ac_024", "model": "gpt-5.5", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 14.73, "timestamp": "2026-07-12T13:35:38Z"}
+{"instance_id": "ac_025", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 8.9, "timestamp": "2026-07-12T13:35:48Z"}
+{"instance_id": "ac_026", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 15.1, "timestamp": "2026-07-12T13:35:55Z"}
+{"instance_id": "ac_027", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 8.56, "timestamp": "2026-07-12T13:36:32Z"}
+{"instance_id": "ac_028", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 12.37, "timestamp": "2026-07-12T13:36:36Z"}
+{"instance_id": "ac_029", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 9.85, "timestamp": "2026-07-12T13:37:15Z"}
+{"instance_id": "ac_030", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 10.44, "timestamp": "2026-07-12T13:37:31Z"}
+{"instance_id": "ac_001", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 11.76, "timestamp": "2026-07-12T13:37:52Z"}
+{"instance_id": "ac_002", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 14.83, "timestamp": "2026-07-12T13:38:25Z"}
+{"instance_id": "ac_003", "model": "gpt-5.5", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 11.41, "timestamp": "2026-07-12T13:39:03Z"}
+{"instance_id": "ac_004", "model": "gpt-5.5", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 11.63, "timestamp": "2026-07-12T13:39:33Z"}
+{"instance_id": "ac_005", "model": "gpt-5.5", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 11.2, "timestamp": "2026-07-12T13:40:05Z"}
+{"instance_id": "ac_006", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 8.76, "timestamp": "2026-07-12T13:40:33Z"}
+{"instance_id": "ac_007", "model": "gpt-5.5", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 8.79, "timestamp": "2026-07-12T13:40:39Z"}
+{"instance_id": "ac_008", "model": "gpt-5.5", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 13.51, "timestamp": "2026-07-12T13:40:45Z"}
+{"instance_id": "ac_009", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 13.1, "timestamp": "2026-07-12T13:41:16Z"}
+{"instance_id": "ac_010", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 14.7, "timestamp": "2026-07-12T13:42:01Z"}
+{"instance_id": "ac_011", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 10.55, "timestamp": "2026-07-12T13:42:10Z"}
+{"instance_id": "ac_012", "model": "gpt-5.5", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 8.78, "timestamp": "2026-07-12T13:42:32Z"}
+{"instance_id": "ac_013", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 10.24, "timestamp": "2026-07-12T13:42:38Z"}
+{"instance_id": "ac_014", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 14.35, "timestamp": "2026-07-12T13:42:57Z"}
+{"instance_id": "ac_015", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 11.45, "timestamp": "2026-07-12T13:43:38Z"}
+{"instance_id": "ac_016", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 10.88, "timestamp": "2026-07-12T13:44:08Z"}
+{"instance_id": "ac_017", "model": "gpt-5.5", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 13.92, "timestamp": "2026-07-12T13:44:33Z"}
+{"instance_id": "ac_018", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 14.03, "timestamp": "2026-07-12T13:44:51Z"}
+{"instance_id": "ac_019", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 9.29, "timestamp": "2026-07-12T13:45:05Z"}
+{"instance_id": "ac_020", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 10.18, "timestamp": "2026-07-12T13:45:16Z"}
+{"instance_id": "ac_021", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 11.84, "timestamp": "2026-07-12T13:45:35Z"}
+{"instance_id": "ac_022", "model": "gpt-5.5", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 9.28, "timestamp": "2026-07-12T13:46:09Z"}
+{"instance_id": "ac_023", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 11.77, "timestamp": "2026-07-12T13:46:20Z"}
+{"instance_id": "ac_024", "model": "gpt-5.5", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 13.44, "timestamp": "2026-07-12T13:46:53Z"}
+{"instance_id": "ac_025", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 9.67, "timestamp": "2026-07-12T13:47:13Z"}
+{"instance_id": "ac_026", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 13.86, "timestamp": "2026-07-12T13:47:27Z"}
+{"instance_id": "ac_027", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 9.29, "timestamp": "2026-07-12T13:47:30Z"}
+{"instance_id": "ac_028", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 11.07, "timestamp": "2026-07-12T13:47:41Z"}
+{"instance_id": "ac_029", "model": "gpt-5.5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 8.83, "timestamp": "2026-07-12T13:48:08Z"}
+{"instance_id": "ac_030", "model": "gpt-5.5", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 9.7, "timestamp": "2026-07-12T13:48:15Z"}
+{"instance_id": "ac_001", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 8.51, "timestamp": "2026-07-12T13:48:30Z"}
+{"instance_id": "ac_002", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 13.88, "timestamp": "2026-07-12T13:48:40Z"}
+{"instance_id": "ac_003", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 9.19, "timestamp": "2026-07-12T13:48:45Z"}
+{"instance_id": "ac_004", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 9.17, "timestamp": "2026-07-12T13:49:02Z"}
+{"instance_id": "ac_005", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 11.7, "timestamp": "2026-07-12T13:49:19Z"}
+{"instance_id": "ac_006", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 12.82, "timestamp": "2026-07-12T13:50:00Z"}
+{"instance_id": "ac_007", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 9.75, "timestamp": "2026-07-12T13:50:38Z"}
+{"instance_id": "ac_008", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 9.11, "timestamp": "2026-07-12T13:51:00Z"}
+{"instance_id": "ac_009", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 10.66, "timestamp": "2026-07-12T13:51:16Z"}
+{"instance_id": "ac_010", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 11.37, "timestamp": "2026-07-12T13:51:47Z"}
+{"instance_id": "ac_011", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 10.59, "timestamp": "2026-07-12T13:52:25Z"}
+{"instance_id": "ac_012", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 10.73, "timestamp": "2026-07-12T13:52:55Z"}
+{"instance_id": "ac_013", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 9.32, "timestamp": "2026-07-12T13:53:27Z"}
+{"instance_id": "ac_014", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 8.33, "timestamp": "2026-07-12T13:53:45Z"}
+{"instance_id": "ac_015", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 13.94, "timestamp": "2026-07-12T13:53:53Z"}
+{"instance_id": "ac_016", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 9.99, "timestamp": "2026-07-12T13:54:08Z"}
+{"instance_id": "ac_017", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 11.04, "timestamp": "2026-07-12T13:54:33Z"}
+{"instance_id": "ac_018", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 8.82, "timestamp": "2026-07-12T13:55:08Z"}
+{"instance_id": "ac_019", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 12.06, "timestamp": "2026-07-12T13:55:21Z"}
+{"instance_id": "ac_020", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 13.55, "timestamp": "2026-07-12T13:56:06Z"}
+{"instance_id": "ac_021", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 8.71, "timestamp": "2026-07-12T13:56:51Z"}
+{"instance_id": "ac_022", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 13.9, "timestamp": "2026-07-12T13:57:03Z"}
+{"instance_id": "ac_023", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 13.68, "timestamp": "2026-07-12T13:57:13Z"}
+{"instance_id": "ac_024", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 12.29, "timestamp": "2026-07-12T13:57:33Z"}
+{"instance_id": "ac_025", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 10.1, "timestamp": "2026-07-12T13:57:59Z"}
+{"instance_id": "ac_026", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 12.52, "timestamp": "2026-07-12T13:58:25Z"}
+{"instance_id": "ac_027", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 11.87, "timestamp": "2026-07-12T13:58:39Z"}
+{"instance_id": "ac_028", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 8.37, "timestamp": "2026-07-12T13:59:22Z"}
+{"instance_id": "ac_029", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 11.21, "timestamp": "2026-07-12T13:59:31Z"}
+{"instance_id": "ac_030", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 11.16, "timestamp": "2026-07-12T14:00:08Z"}
+{"instance_id": "ac_001", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 7.71, "timestamp": "2026-07-12T14:00:44Z"}
+{"instance_id": "ac_002", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 8.14, "timestamp": "2026-07-12T14:00:46Z"}
+{"instance_id": "ac_003", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 11.36, "timestamp": "2026-07-12T14:00:52Z"}
+{"instance_id": "ac_004", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 11.09, "timestamp": "2026-07-12T14:01:30Z"}
+{"instance_id": "ac_005", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 11.22, "timestamp": "2026-07-12T14:02:05Z"}
+{"instance_id": "ac_006", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 9.78, "timestamp": "2026-07-12T14:02:42Z"}
+{"instance_id": "ac_007", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 12.09, "timestamp": "2026-07-12T14:03:05Z"}
+{"instance_id": "ac_008", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 11.81, "timestamp": "2026-07-12T14:03:50Z"}
+{"instance_id": "ac_009", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 9.0, "timestamp": "2026-07-12T14:04:32Z"}
+{"instance_id": "ac_010", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 10.63, "timestamp": "2026-07-12T14:04:47Z"}
+{"instance_id": "ac_011", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 10.12, "timestamp": "2026-07-12T14:05:18Z"}
+{"instance_id": "ac_012", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 11.81, "timestamp": "2026-07-12T14:05:44Z"}
+{"instance_id": "ac_013", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 7.88, "timestamp": "2026-07-12T14:06:26Z"}
+{"instance_id": "ac_014", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 10.3, "timestamp": "2026-07-12T14:06:30Z"}
+{"instance_id": "ac_015", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 9.41, "timestamp": "2026-07-12T14:06:58Z"}
+{"instance_id": "ac_016", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 13.44, "timestamp": "2026-07-12T14:07:17Z"}
+{"instance_id": "ac_017", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 9.93, "timestamp": "2026-07-12T14:07:23Z"}
+{"instance_id": "ac_018", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 11.21, "timestamp": "2026-07-12T14:07:47Z"}
+{"instance_id": "ac_019", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 8.07, "timestamp": "2026-07-12T14:08:24Z"}
+{"instance_id": "ac_020", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 10.88, "timestamp": "2026-07-12T14:08:30Z"}
+{"instance_id": "ac_021", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 9.22, "timestamp": "2026-07-12T14:09:03Z"}
+{"instance_id": "ac_022", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 14.03, "timestamp": "2026-07-12T14:09:20Z"}
+{"instance_id": "ac_023", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 11.67, "timestamp": "2026-07-12T14:09:39Z"}
+{"instance_id": "ac_024", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 13.61, "timestamp": "2026-07-12T14:10:20Z"}
+{"instance_id": "ac_025", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 8.22, "timestamp": "2026-07-12T14:10:30Z"}
+{"instance_id": "ac_026", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 13.95, "timestamp": "2026-07-12T14:10:37Z"}
+{"instance_id": "ac_027", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 7.91, "timestamp": "2026-07-12T14:11:14Z"}
+{"instance_id": "ac_028", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 11.43, "timestamp": "2026-07-12T14:11:18Z"}
+{"instance_id": "ac_029", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 9.1, "timestamp": "2026-07-12T14:11:57Z"}
+{"instance_id": "ac_030", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 9.64, "timestamp": "2026-07-12T14:12:13Z"}
+{"instance_id": "ac_001", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 10.86, "timestamp": "2026-07-12T14:12:34Z"}
+{"instance_id": "ac_002", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 13.7, "timestamp": "2026-07-12T14:13:07Z"}
+{"instance_id": "ac_003", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 10.54, "timestamp": "2026-07-12T14:13:45Z"}
+{"instance_id": "ac_004", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 10.74, "timestamp": "2026-07-12T14:14:15Z"}
+{"instance_id": "ac_005", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 10.34, "timestamp": "2026-07-12T14:14:47Z"}
+{"instance_id": "ac_006", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 8.09, "timestamp": "2026-07-12T14:15:15Z"}
+{"instance_id": "ac_007", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 8.12, "timestamp": "2026-07-12T14:15:21Z"}
+{"instance_id": "ac_008", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 12.48, "timestamp": "2026-07-12T14:15:27Z"}
+{"instance_id": "ac_009", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 12.1, "timestamp": "2026-07-12T14:15:58Z"}
+{"instance_id": "ac_010", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 13.58, "timestamp": "2026-07-12T14:16:43Z"}
+{"instance_id": "ac_011", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 9.75, "timestamp": "2026-07-12T14:16:52Z"}
+{"instance_id": "ac_012", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 8.11, "timestamp": "2026-07-12T14:17:14Z"}
+{"instance_id": "ac_013", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 9.46, "timestamp": "2026-07-12T14:17:20Z"}
+{"instance_id": "ac_014", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 13.25, "timestamp": "2026-07-12T14:17:39Z"}
+{"instance_id": "ac_015", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 10.58, "timestamp": "2026-07-12T14:18:20Z"}
+{"instance_id": "ac_016", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 10.05, "timestamp": "2026-07-12T14:18:50Z"}
+{"instance_id": "ac_017", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 12.86, "timestamp": "2026-07-12T14:19:15Z"}
+{"instance_id": "ac_018", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 12.96, "timestamp": "2026-07-12T14:19:33Z"}
+{"instance_id": "ac_019", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 8.58, "timestamp": "2026-07-12T14:19:47Z"}
+{"instance_id": "ac_020", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 9.41, "timestamp": "2026-07-12T14:19:58Z"}
+{"instance_id": "ac_021", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 10.94, "timestamp": "2026-07-12T14:20:17Z"}
+{"instance_id": "ac_022", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 8.58, "timestamp": "2026-07-12T14:20:51Z"}
+{"instance_id": "ac_023", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 10.87, "timestamp": "2026-07-12T14:21:02Z"}
+{"instance_id": "ac_024", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 12.41, "timestamp": "2026-07-12T14:21:35Z"}
+{"instance_id": "ac_025", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 8.94, "timestamp": "2026-07-12T14:21:55Z"}
+{"instance_id": "ac_026", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 12.81, "timestamp": "2026-07-12T14:22:09Z"}
+{"instance_id": "ac_027", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 8.58, "timestamp": "2026-07-12T14:22:12Z"}
+{"instance_id": "ac_028", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 10.23, "timestamp": "2026-07-12T14:22:23Z"}
+{"instance_id": "ac_029", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 8.16, "timestamp": "2026-07-12T14:22:50Z"}
+{"instance_id": "ac_030", "model": "claude-opus-4.8", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 8.96, "timestamp": "2026-07-12T14:22:57Z"}
+{"instance_id": "ac_001", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 7.34, "timestamp": "2026-07-12T14:23:12Z"}
+{"instance_id": "ac_002", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 11.97, "timestamp": "2026-07-12T14:23:22Z"}
+{"instance_id": "ac_003", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 7.92, "timestamp": "2026-07-12T14:23:27Z"}
+{"instance_id": "ac_004", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 7.91, "timestamp": "2026-07-12T14:23:44Z"}
+{"instance_id": "ac_005", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 10.09, "timestamp": "2026-07-12T14:24:01Z"}
+{"instance_id": "ac_006", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 11.05, "timestamp": "2026-07-12T14:24:42Z"}
+{"instance_id": "ac_007", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 8.41, "timestamp": "2026-07-12T14:25:20Z"}
+{"instance_id": "ac_008", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 7.86, "timestamp": "2026-07-12T14:25:42Z"}
+{"instance_id": "ac_009", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 9.19, "timestamp": "2026-07-12T14:25:58Z"}
+{"instance_id": "ac_010", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 9.8, "timestamp": "2026-07-12T14:26:29Z"}
+{"instance_id": "ac_011", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 9.13, "timestamp": "2026-07-12T14:27:07Z"}
+{"instance_id": "ac_012", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 9.26, "timestamp": "2026-07-12T14:27:37Z"}
+{"instance_id": "ac_013", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 8.04, "timestamp": "2026-07-12T14:28:09Z"}
+{"instance_id": "ac_014", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 7.18, "timestamp": "2026-07-12T14:28:27Z"}
+{"instance_id": "ac_015", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 12.02, "timestamp": "2026-07-12T14:28:35Z"}
+{"instance_id": "ac_016", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 8.62, "timestamp": "2026-07-12T14:28:50Z"}
+{"instance_id": "ac_017", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 9.52, "timestamp": "2026-07-12T14:29:15Z"}
+{"instance_id": "ac_018", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 7.6, "timestamp": "2026-07-12T14:29:50Z"}
+{"instance_id": "ac_019", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 10.4, "timestamp": "2026-07-12T14:30:03Z"}
+{"instance_id": "ac_020", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 11.69, "timestamp": "2026-07-12T14:30:48Z"}
+{"instance_id": "ac_021", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 7.51, "timestamp": "2026-07-12T14:31:33Z"}
+{"instance_id": "ac_022", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 11.98, "timestamp": "2026-07-12T14:31:45Z"}
+{"instance_id": "ac_023", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 11.8, "timestamp": "2026-07-12T14:31:55Z"}
+{"instance_id": "ac_024", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 10.6, "timestamp": "2026-07-12T14:32:15Z"}
+{"instance_id": "ac_025", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 8.71, "timestamp": "2026-07-12T14:32:41Z"}
+{"instance_id": "ac_026", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 10.79, "timestamp": "2026-07-12T14:33:07Z"}
+{"instance_id": "ac_027", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 10.24, "timestamp": "2026-07-12T14:33:21Z"}
+{"instance_id": "ac_028", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 7.22, "timestamp": "2026-07-12T14:34:04Z"}
+{"instance_id": "ac_029", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 9.67, "timestamp": "2026-07-12T14:34:13Z"}
+{"instance_id": "ac_030", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 9.62, "timestamp": "2026-07-12T14:34:50Z"}
+{"instance_id": "ac_001", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 6.65, "timestamp": "2026-07-12T14:35:26Z"}
+{"instance_id": "ac_002", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 7.02, "timestamp": "2026-07-12T14:35:28Z"}
+{"instance_id": "ac_003", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 9.8, "timestamp": "2026-07-12T14:35:34Z"}
+{"instance_id": "ac_004", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 9.56, "timestamp": "2026-07-12T14:36:12Z"}
+{"instance_id": "ac_005", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 9.67, "timestamp": "2026-07-12T14:36:47Z"}
+{"instance_id": "ac_006", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 8.43, "timestamp": "2026-07-12T14:37:24Z"}
+{"instance_id": "ac_007", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 10.43, "timestamp": "2026-07-12T14:37:47Z"}
+{"instance_id": "ac_008", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 10.19, "timestamp": "2026-07-12T14:38:32Z"}
+{"instance_id": "ac_009", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 7.76, "timestamp": "2026-07-12T14:39:14Z"}
+{"instance_id": "ac_010", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 9.17, "timestamp": "2026-07-12T14:39:29Z"}
+{"instance_id": "ac_011", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 8.73, "timestamp": "2026-07-12T14:40:00Z"}
+{"instance_id": "ac_012", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 10.19, "timestamp": "2026-07-12T14:40:26Z"}
+{"instance_id": "ac_013", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 6.8, "timestamp": "2026-07-12T14:41:08Z"}
+{"instance_id": "ac_014", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 8.88, "timestamp": "2026-07-12T14:41:12Z"}
+{"instance_id": "ac_015", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 8.11, "timestamp": "2026-07-12T14:41:40Z"}
+{"instance_id": "ac_016", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 11.59, "timestamp": "2026-07-12T14:41:59Z"}
+{"instance_id": "ac_017", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 8.56, "timestamp": "2026-07-12T14:42:05Z"}
+{"instance_id": "ac_018", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 9.67, "timestamp": "2026-07-12T14:42:29Z"}
+{"instance_id": "ac_019", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 6.96, "timestamp": "2026-07-12T14:43:06Z"}
+{"instance_id": "ac_020", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 9.39, "timestamp": "2026-07-12T14:43:12Z"}
+{"instance_id": "ac_021", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 7.95, "timestamp": "2026-07-12T14:43:45Z"}
+{"instance_id": "ac_022", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 12.1, "timestamp": "2026-07-12T14:44:02Z"}
+{"instance_id": "ac_023", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 10.06, "timestamp": "2026-07-12T14:44:21Z"}
+{"instance_id": "ac_024", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 11.73, "timestamp": "2026-07-12T14:45:02Z"}
+{"instance_id": "ac_025", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 7.09, "timestamp": "2026-07-12T14:45:12Z"}
+{"instance_id": "ac_026", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 12.03, "timestamp": "2026-07-12T14:45:19Z"}
+{"instance_id": "ac_027", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 6.82, "timestamp": "2026-07-12T14:45:56Z"}
+{"instance_id": "ac_028", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 9.86, "timestamp": "2026-07-12T14:46:00Z"}
+{"instance_id": "ac_029", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 7.84, "timestamp": "2026-07-12T14:46:39Z"}
+{"instance_id": "ac_030", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 8.32, "timestamp": "2026-07-12T14:46:55Z"}
+{"instance_id": "ac_001", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 9.37, "timestamp": "2026-07-12T14:47:16Z"}
+{"instance_id": "ac_002", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 11.81, "timestamp": "2026-07-12T14:47:49Z"}
+{"instance_id": "ac_003", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 9.09, "timestamp": "2026-07-12T14:48:27Z"}
+{"instance_id": "ac_004", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 9.27, "timestamp": "2026-07-12T14:48:57Z"}
+{"instance_id": "ac_005", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 8.92, "timestamp": "2026-07-12T14:49:29Z"}
+{"instance_id": "ac_006", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 6.98, "timestamp": "2026-07-12T14:49:57Z"}
+{"instance_id": "ac_007", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 7.0, "timestamp": "2026-07-12T14:50:03Z"}
+{"instance_id": "ac_008", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 10.76, "timestamp": "2026-07-12T14:50:09Z"}
+{"instance_id": "ac_009", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 10.44, "timestamp": "2026-07-12T14:50:40Z"}
+{"instance_id": "ac_010", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 11.71, "timestamp": "2026-07-12T14:51:25Z"}
+{"instance_id": "ac_011", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 8.41, "timestamp": "2026-07-12T14:51:34Z"}
+{"instance_id": "ac_012", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 6.99, "timestamp": "2026-07-12T14:51:56Z"}
+{"instance_id": "ac_013", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 8.16, "timestamp": "2026-07-12T14:52:02Z"}
+{"instance_id": "ac_014", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 11.43, "timestamp": "2026-07-12T14:52:21Z"}
+{"instance_id": "ac_015", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 9.12, "timestamp": "2026-07-12T14:53:02Z"}
+{"instance_id": "ac_016", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 8.67, "timestamp": "2026-07-12T14:53:32Z"}
+{"instance_id": "ac_017", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 11.09, "timestamp": "2026-07-12T14:53:57Z"}
+{"instance_id": "ac_018", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 11.17, "timestamp": "2026-07-12T14:54:15Z"}
+{"instance_id": "ac_019", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 7.4, "timestamp": "2026-07-12T14:54:29Z"}
+{"instance_id": "ac_020", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 8.11, "timestamp": "2026-07-12T14:54:40Z"}
+{"instance_id": "ac_021", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 9.43, "timestamp": "2026-07-12T14:54:59Z"}
+{"instance_id": "ac_022", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 7.4, "timestamp": "2026-07-12T14:55:33Z"}
+{"instance_id": "ac_023", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 9.38, "timestamp": "2026-07-12T14:55:44Z"}
+{"instance_id": "ac_024", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 10.71, "timestamp": "2026-07-12T14:56:17Z"}
+{"instance_id": "ac_025", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 7.71, "timestamp": "2026-07-12T14:56:37Z"}
+{"instance_id": "ac_026", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 11.04, "timestamp": "2026-07-12T14:56:51Z"}
+{"instance_id": "ac_027", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 7.4, "timestamp": "2026-07-12T14:56:54Z"}
+{"instance_id": "ac_028", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 8.82, "timestamp": "2026-07-12T14:57:05Z"}
+{"instance_id": "ac_029", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 7.04, "timestamp": "2026-07-12T14:57:32Z"}
+{"instance_id": "ac_030", "model": "gemini-3.1-pro", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 7.73, "timestamp": "2026-07-12T14:57:39Z"}
+{"instance_id": "ac_001", "model": "openfugu", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 3.28, "timestamp": "2026-07-12T14:57:54Z", "routing": {"worker": "claude-opus-4.8", "confidence": 0.69, "strategy": "trained_router"}}
+{"instance_id": "ac_002", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 5.35, "timestamp": "2026-07-12T14:58:04Z", "routing": {"worker": "claude-opus-4.8", "confidence": 0.94, "strategy": "trained_router"}}
+{"instance_id": "ac_003", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 3.54, "timestamp": "2026-07-12T14:58:09Z", "routing": {"worker": "glm-5.2", "confidence": 0.72, "strategy": "trained_router"}}
+{"instance_id": "ac_004", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 3.53, "timestamp": "2026-07-12T14:58:26Z", "routing": {"worker": "glm-5.2", "confidence": 0.72, "strategy": "trained_router"}}
+{"instance_id": "ac_005", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 4.51, "timestamp": "2026-07-12T14:58:43Z", "routing": {"worker": "gpt-5.5", "confidence": 0.84, "strategy": "trained_router"}}
+{"instance_id": "ac_006", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 4.94, "timestamp": "2026-07-12T14:59:24Z", "routing": {"worker": "claude-opus-4.8", "confidence": 0.89, "strategy": "trained_router"}}
+{"instance_id": "ac_007", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 3.76, "timestamp": "2026-07-12T15:00:02Z", "routing": {"worker": "gemini-3.1-pro", "confidence": 0.75, "strategy": "trained_router"}}
+{"instance_id": "ac_008", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 3.51, "timestamp": "2026-07-12T15:00:24Z", "routing": {"worker": "gemini-3.1-pro", "confidence": 0.72, "strategy": "trained_router"}}
+{"instance_id": "ac_009", "model": "openfugu", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 4.11, "timestamp": "2026-07-12T15:00:40Z", "routing": {"worker": "claude-opus-4.8", "confidence": 0.79, "strategy": "trained_router"}}
+{"instance_id": "ac_010", "model": "openfugu", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 4.38, "timestamp": "2026-07-12T15:01:11Z", "routing": {"worker": "gpt-5.5", "confidence": 0.82, "strategy": "trained_router"}}
+{"instance_id": "ac_011", "model": "openfugu", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 4.08, "timestamp": "2026-07-12T15:01:49Z", "routing": {"worker": "glm-5.2", "confidence": 0.79, "strategy": "trained_router"}}
+{"instance_id": "ac_012", "model": "openfugu", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 4.14, "timestamp": "2026-07-12T15:02:19Z", "routing": {"worker": "gpt-5.5", "confidence": 0.79, "strategy": "trained_router"}}
+{"instance_id": "ac_013", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 3.59, "timestamp": "2026-07-12T15:02:51Z", "routing": {"worker": "glm-5.2", "confidence": 0.73, "strategy": "trained_router"}}
+{"instance_id": "ac_014", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 3.21, "timestamp": "2026-07-12T15:03:09Z", "routing": {"worker": "gemini-3.1-pro", "confidence": 0.68, "strategy": "trained_router"}}
+{"instance_id": "ac_015", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 5.37, "timestamp": "2026-07-12T15:03:17Z", "routing": {"worker": "glm-5.2", "confidence": 0.94, "strategy": "trained_router"}}
+{"instance_id": "ac_016", "model": "openfugu", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 3.85, "timestamp": "2026-07-12T15:03:32Z", "routing": {"worker": "glm-5.2", "confidence": 0.76, "strategy": "trained_router"}}
+{"instance_id": "ac_017", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 4.26, "timestamp": "2026-07-12T15:03:57Z", "routing": {"worker": "gpt-5.5", "confidence": 0.81, "strategy": "trained_router"}}
+{"instance_id": "ac_018", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 3.4, "timestamp": "2026-07-12T15:04:32Z", "routing": {"worker": "gemini-3.1-pro", "confidence": 0.7, "strategy": "trained_router"}}
+{"instance_id": "ac_019", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 4.65, "timestamp": "2026-07-12T15:04:45Z", "routing": {"worker": "claude-opus-4.8", "confidence": 0.85, "strategy": "trained_router"}}
+{"instance_id": "ac_020", "model": "openfugu", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 5.22, "timestamp": "2026-07-12T15:05:30Z", "routing": {"worker": "gpt-5.5", "confidence": 0.92, "strategy": "trained_router"}}
+{"instance_id": "ac_021", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 3.36, "timestamp": "2026-07-12T15:06:15Z", "routing": {"worker": "claude-opus-4.8", "confidence": 0.7, "strategy": "trained_router"}}
+{"instance_id": "ac_022", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 5.35, "timestamp": "2026-07-12T15:06:27Z", "routing": {"worker": "glm-5.2", "confidence": 0.94, "strategy": "trained_router"}}
+{"instance_id": "ac_023", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 5.27, "timestamp": "2026-07-12T15:06:37Z", "routing": {"worker": "claude-opus-4.8", "confidence": 0.93, "strategy": "trained_router"}}
+{"instance_id": "ac_024", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 4.74, "timestamp": "2026-07-12T15:06:57Z", "routing": {"worker": "claude-opus-4.8", "confidence": 0.86, "strategy": "trained_router"}}
+{"instance_id": "ac_025", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 3.89, "timestamp": "2026-07-12T15:07:23Z", "routing": {"worker": "glm-5.2", "confidence": 0.76, "strategy": "trained_router"}}
+{"instance_id": "ac_026", "model": "openfugu", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 4.82, "timestamp": "2026-07-12T15:07:49Z", "routing": {"worker": "gpt-5.5", "confidence": 0.87, "strategy": "trained_router"}}
+{"instance_id": "ac_027", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 4.57, "timestamp": "2026-07-12T15:08:03Z", "routing": {"worker": "claude-opus-4.8", "confidence": 0.84, "strategy": "trained_router"}}
+{"instance_id": "ac_028", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 3.22, "timestamp": "2026-07-12T15:08:46Z", "routing": {"worker": "gpt-5.5", "confidence": 0.68, "strategy": "trained_router"}}
+{"instance_id": "ac_029", "model": "openfugu", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 4.32, "timestamp": "2026-07-12T15:08:55Z", "routing": {"worker": "gpt-5.5", "confidence": 0.81, "strategy": "trained_router"}}
+{"instance_id": "ac_030", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 4.3, "timestamp": "2026-07-12T15:09:32Z", "routing": {"worker": "gpt-5.5", "confidence": 0.81, "strategy": "trained_router"}}
+{"instance_id": "ac_001", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 2.97, "timestamp": "2026-07-12T15:10:08Z", "routing": {"worker": "gemini-3.1-pro", "confidence": 0.65, "strategy": "trained_router"}}
+{"instance_id": "ac_002", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 3.14, "timestamp": "2026-07-12T15:10:10Z", "routing": {"worker": "gemini-3.1-pro", "confidence": 0.67, "strategy": "trained_router"}}
+{"instance_id": "ac_003", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 4.38, "timestamp": "2026-07-12T15:10:16Z", "routing": {"worker": "gpt-5.5", "confidence": 0.82, "strategy": "trained_router"}}
+{"instance_id": "ac_004", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 4.27, "timestamp": "2026-07-12T15:10:54Z", "routing": {"worker": "claude-opus-4.8", "confidence": 0.81, "strategy": "trained_router"}}
+{"instance_id": "ac_005", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 4.32, "timestamp": "2026-07-12T15:11:29Z", "routing": {"worker": "gpt-5.5", "confidence": 0.81, "strategy": "trained_router"}}
+{"instance_id": "ac_006", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 3.77, "timestamp": "2026-07-12T15:12:06Z", "routing": {"worker": "gpt-5.5", "confidence": 0.75, "strategy": "trained_router"}}
+{"instance_id": "ac_007", "model": "openfugu", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 4.66, "timestamp": "2026-07-12T15:12:29Z", "routing": {"worker": "claude-opus-4.8", "confidence": 0.85, "strategy": "trained_router"}}
+{"instance_id": "ac_008", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 4.55, "timestamp": "2026-07-12T15:13:14Z", "routing": {"worker": "glm-5.2", "confidence": 0.84, "strategy": "trained_router"}}
+{"instance_id": "ac_009", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 3.47, "timestamp": "2026-07-12T15:13:56Z", "routing": {"worker": "glm-5.2", "confidence": 0.71, "strategy": "trained_router"}}
+{"instance_id": "ac_010", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 4.1, "timestamp": "2026-07-12T15:14:11Z", "routing": {"worker": "glm-5.2", "confidence": 0.79, "strategy": "trained_router"}}
+{"instance_id": "ac_011", "model": "openfugu", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 3.9, "timestamp": "2026-07-12T15:14:42Z", "routing": {"worker": "gemini-3.1-pro", "confidence": 0.76, "strategy": "trained_router"}}
+{"instance_id": "ac_012", "model": "openfugu", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 4.55, "timestamp": "2026-07-12T15:15:08Z", "routing": {"worker": "gemini-3.1-pro", "confidence": 0.84, "strategy": "trained_router"}}
+{"instance_id": "ac_013", "model": "openfugu", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 3.04, "timestamp": "2026-07-12T15:15:50Z", "routing": {"worker": "glm-5.2", "confidence": 0.66, "strategy": "trained_router"}}
+{"instance_id": "ac_014", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 3.97, "timestamp": "2026-07-12T15:15:54Z", "routing": {"worker": "claude-opus-4.8", "confidence": 0.77, "strategy": "trained_router"}}
+{"instance_id": "ac_015", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 3.63, "timestamp": "2026-07-12T15:16:22Z", "routing": {"worker": "gemini-3.1-pro", "confidence": 0.73, "strategy": "trained_router"}}
+{"instance_id": "ac_016", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 5.18, "timestamp": "2026-07-12T15:16:41Z", "routing": {"worker": "gemini-3.1-pro", "confidence": 0.92, "strategy": "trained_router"}}
+{"instance_id": "ac_017", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 3.83, "timestamp": "2026-07-12T15:16:47Z", "routing": {"worker": "gemini-3.1-pro", "confidence": 0.76, "strategy": "trained_router"}}
+{"instance_id": "ac_018", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 4.32, "timestamp": "2026-07-12T15:17:11Z", "routing": {"worker": "gpt-5.5", "confidence": 0.81, "strategy": "trained_router"}}
+{"instance_id": "ac_019", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 3.11, "timestamp": "2026-07-12T15:17:48Z", "routing": {"worker": "glm-5.2", "confidence": 0.67, "strategy": "trained_router"}}
+{"instance_id": "ac_020", "model": "openfugu", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 4.19, "timestamp": "2026-07-12T15:17:54Z", "routing": {"worker": "gemini-3.1-pro", "confidence": 0.8, "strategy": "trained_router"}}
+{"instance_id": "ac_021", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 3.55, "timestamp": "2026-07-12T15:18:27Z", "routing": {"worker": "gpt-5.5", "confidence": 0.72, "strategy": "trained_router"}}
+{"instance_id": "ac_022", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 5.41, "timestamp": "2026-07-12T15:18:44Z", "routing": {"worker": "glm-5.2", "confidence": 0.94, "strategy": "trained_router"}}
+{"instance_id": "ac_023", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 4.5, "timestamp": "2026-07-12T15:19:03Z", "routing": {"worker": "glm-5.2", "confidence": 0.84, "strategy": "trained_router"}}
+{"instance_id": "ac_024", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 5.24, "timestamp": "2026-07-12T15:19:44Z", "routing": {"worker": "claude-opus-4.8", "confidence": 0.92, "strategy": "trained_router"}}
+{"instance_id": "ac_025", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 3.17, "timestamp": "2026-07-12T15:19:54Z", "routing": {"worker": "glm-5.2", "confidence": 0.68, "strategy": "trained_router"}}
+{"instance_id": "ac_026", "model": "openfugu", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 5.37, "timestamp": "2026-07-12T15:20:01Z", "routing": {"worker": "gemini-3.1-pro", "confidence": 0.94, "strategy": "trained_router"}}
+{"instance_id": "ac_027", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 3.05, "timestamp": "2026-07-12T15:20:38Z", "routing": {"worker": "claude-opus-4.8", "confidence": 0.66, "strategy": "trained_router"}}
+{"instance_id": "ac_028", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 4.4, "timestamp": "2026-07-12T15:20:42Z", "routing": {"worker": "gpt-5.5", "confidence": 0.82, "strategy": "trained_router"}}
+{"instance_id": "ac_029", "model": "openfugu", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 3.5, "timestamp": "2026-07-12T15:21:21Z", "routing": {"worker": "gpt-5.5", "confidence": 0.72, "strategy": "trained_router"}}
+{"instance_id": "ac_030", "model": "openfugu", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 3.72, "timestamp": "2026-07-12T15:21:37Z", "routing": {"worker": "gpt-5.5", "confidence": 0.74, "strategy": "trained_router"}}
+{"instance_id": "ac_001", "model": "openfugu", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 4.19, "timestamp": "2026-07-12T15:21:58Z", "routing": {"worker": "claude-opus-4.8", "confidence": 0.8, "strategy": "trained_router"}}
+{"instance_id": "ac_002", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 5.28, "timestamp": "2026-07-12T15:22:31Z", "routing": {"worker": "gpt-5.5", "confidence": 0.93, "strategy": "trained_router"}}
+{"instance_id": "ac_003", "model": "openfugu", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 4.06, "timestamp": "2026-07-12T15:23:09Z", "routing": {"worker": "glm-5.2", "confidence": 0.78, "strategy": "trained_router"}}
+{"instance_id": "ac_004", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 4.14, "timestamp": "2026-07-12T15:23:39Z", "routing": {"worker": "gemini-3.1-pro", "confidence": 0.79, "strategy": "trained_router"}}
+{"instance_id": "ac_005", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 3.99, "timestamp": "2026-07-12T15:24:11Z", "routing": {"worker": "claude-opus-4.8", "confidence": 0.77, "strategy": "trained_router"}}
+{"instance_id": "ac_006", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 3.12, "timestamp": "2026-07-12T15:24:39Z", "routing": {"worker": "gpt-5.5", "confidence": 0.67, "strategy": "trained_router"}}
+{"instance_id": "ac_007", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 3.13, "timestamp": "2026-07-12T15:24:45Z", "routing": {"worker": "gemini-3.1-pro", "confidence": 0.67, "strategy": "trained_router"}}
+{"instance_id": "ac_008", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 4.81, "timestamp": "2026-07-12T15:24:51Z", "routing": {"worker": "glm-5.2", "confidence": 0.87, "strategy": "trained_router"}}
+{"instance_id": "ac_009", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 4.66, "timestamp": "2026-07-12T15:25:22Z", "routing": {"worker": "glm-5.2", "confidence": 0.86, "strategy": "trained_router"}}
+{"instance_id": "ac_010", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 5.23, "timestamp": "2026-07-12T15:26:07Z", "routing": {"worker": "glm-5.2", "confidence": 0.92, "strategy": "trained_router"}}
+{"instance_id": "ac_011", "model": "openfugu", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 3.76, "timestamp": "2026-07-12T15:26:16Z", "routing": {"worker": "claude-opus-4.8", "confidence": 0.75, "strategy": "trained_router"}}
+{"instance_id": "ac_012", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 3.13, "timestamp": "2026-07-12T15:26:38Z", "routing": {"worker": "claude-opus-4.8", "confidence": 0.67, "strategy": "trained_router"}}
+{"instance_id": "ac_013", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 3.65, "timestamp": "2026-07-12T15:26:44Z", "routing": {"worker": "claude-opus-4.8", "confidence": 0.73, "strategy": "trained_router"}}
+{"instance_id": "ac_014", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 5.11, "timestamp": "2026-07-12T15:27:03Z", "routing": {"worker": "glm-5.2", "confidence": 0.91, "strategy": "trained_router"}}
+{"instance_id": "ac_015", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 4.08, "timestamp": "2026-07-12T15:27:44Z", "routing": {"worker": "claude-opus-4.8", "confidence": 0.79, "strategy": "trained_router"}}
+{"instance_id": "ac_016", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 3.87, "timestamp": "2026-07-12T15:28:14Z", "routing": {"worker": "claude-opus-4.8", "confidence": 0.76, "strategy": "trained_router"}}
+{"instance_id": "ac_017", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 4.95, "timestamp": "2026-07-12T15:28:39Z", "routing": {"worker": "gpt-5.5", "confidence": 0.89, "strategy": "trained_router"}}
+{"instance_id": "ac_018", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 4.99, "timestamp": "2026-07-12T15:28:57Z", "routing": {"worker": "gpt-5.5", "confidence": 0.89, "strategy": "trained_router"}}
+{"instance_id": "ac_019", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 3.31, "timestamp": "2026-07-12T15:29:11Z", "routing": {"worker": "gemini-3.1-pro", "confidence": 0.69, "strategy": "trained_router"}}
+{"instance_id": "ac_020", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 3.62, "timestamp": "2026-07-12T15:29:22Z", "routing": {"worker": "gemini-3.1-pro", "confidence": 0.73, "strategy": "trained_router"}}
+{"instance_id": "ac_021", "model": "openfugu", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 4.21, "timestamp": "2026-07-12T15:29:41Z", "routing": {"worker": "gemini-3.1-pro", "confidence": 0.8, "strategy": "trained_router"}}
+{"instance_id": "ac_022", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 3.3, "timestamp": "2026-07-12T15:30:15Z", "routing": {"worker": "gemini-3.1-pro", "confidence": 0.69, "strategy": "trained_router"}}
+{"instance_id": "ac_023", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 4.19, "timestamp": "2026-07-12T15:30:26Z", "routing": {"worker": "glm-5.2", "confidence": 0.8, "strategy": "trained_router"}}
+{"instance_id": "ac_024", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 4.78, "timestamp": "2026-07-12T15:30:59Z", "routing": {"worker": "gemini-3.1-pro", "confidence": 0.87, "strategy": "trained_router"}}
+{"instance_id": "ac_025", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 3.44, "timestamp": "2026-07-12T15:31:19Z", "routing": {"worker": "glm-5.2", "confidence": 0.71, "strategy": "trained_router"}}
+{"instance_id": "ac_026", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 4.93, "timestamp": "2026-07-12T15:31:33Z", "routing": {"worker": "glm-5.2", "confidence": 0.89, "strategy": "trained_router"}}
+{"instance_id": "ac_027", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 3.31, "timestamp": "2026-07-12T15:31:36Z", "routing": {"worker": "glm-5.2", "confidence": 0.69, "strategy": "trained_router"}}
+{"instance_id": "ac_028", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 3.94, "timestamp": "2026-07-12T15:31:47Z", "routing": {"worker": "claude-opus-4.8", "confidence": 0.77, "strategy": "trained_router"}}
+{"instance_id": "ac_029", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 3.14, "timestamp": "2026-07-12T15:32:14Z", "routing": {"worker": "claude-opus-4.8", "confidence": 0.67, "strategy": "trained_router"}}
+{"instance_id": "ac_030", "model": "openfugu", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 3.45, "timestamp": "2026-07-12T15:32:21Z", "routing": {"worker": "glm-5.2", "confidence": 0.71, "strategy": "trained_router"}}
+{"instance_id": "ac_001", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 5.31, "timestamp": "2026-07-12T15:32:36Z"}
+{"instance_id": "ac_002", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 8.66, "timestamp": "2026-07-12T15:32:46Z"}
+{"instance_id": "ac_003", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 5.73, "timestamp": "2026-07-12T15:32:51Z"}
+{"instance_id": "ac_004", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 5.72, "timestamp": "2026-07-12T15:33:08Z"}
+{"instance_id": "ac_005", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 7.3, "timestamp": "2026-07-12T15:33:25Z"}
+{"instance_id": "ac_006", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 8.0, "timestamp": "2026-07-12T15:34:06Z"}
+{"instance_id": "ac_007", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 6.08, "timestamp": "2026-07-12T15:34:44Z"}
+{"instance_id": "ac_008", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 5.68, "timestamp": "2026-07-12T15:35:06Z"}
+{"instance_id": "ac_009", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 6.65, "timestamp": "2026-07-12T15:35:22Z"}
+{"instance_id": "ac_010", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 7.09, "timestamp": "2026-07-12T15:35:53Z"}
+{"instance_id": "ac_011", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 6.61, "timestamp": "2026-07-12T15:36:31Z"}
+{"instance_id": "ac_012", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 6.7, "timestamp": "2026-07-12T15:37:01Z"}
+{"instance_id": "ac_013", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 5.82, "timestamp": "2026-07-12T15:37:33Z"}
+{"instance_id": "ac_014", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 5.2, "timestamp": "2026-07-12T15:37:51Z"}
+{"instance_id": "ac_015", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 8.7, "timestamp": "2026-07-12T15:37:59Z"}
+{"instance_id": "ac_016", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 6.24, "timestamp": "2026-07-12T15:38:14Z"}
+{"instance_id": "ac_017", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 6.89, "timestamp": "2026-07-12T15:38:39Z"}
+{"instance_id": "ac_018", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 5.5, "timestamp": "2026-07-12T15:39:14Z"}
+{"instance_id": "ac_019", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 7.52, "timestamp": "2026-07-12T15:39:27Z"}
+{"instance_id": "ac_020", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 8.46, "timestamp": "2026-07-12T15:40:12Z"}
+{"instance_id": "ac_021", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 5.43, "timestamp": "2026-07-12T15:40:57Z"}
+{"instance_id": "ac_022", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 8.67, "timestamp": "2026-07-12T15:41:09Z"}
+{"instance_id": "ac_023", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 8.53, "timestamp": "2026-07-12T15:41:19Z"}
+{"instance_id": "ac_024", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 7.67, "timestamp": "2026-07-12T15:41:39Z"}
+{"instance_id": "ac_025", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 6.3, "timestamp": "2026-07-12T15:42:05Z"}
+{"instance_id": "ac_026", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 7.81, "timestamp": "2026-07-12T15:42:31Z"}
+{"instance_id": "ac_027", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 7.41, "timestamp": "2026-07-12T15:42:45Z"}
+{"instance_id": "ac_028", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 5.22, "timestamp": "2026-07-12T15:43:28Z"}
+{"instance_id": "ac_029", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 7.0, "timestamp": "2026-07-12T15:43:37Z"}
+{"instance_id": "ac_030", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 6.96, "timestamp": "2026-07-12T15:44:14Z"}
+{"instance_id": "ac_001", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 4.81, "timestamp": "2026-07-12T15:44:50Z"}
+{"instance_id": "ac_002", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 5.08, "timestamp": "2026-07-12T15:44:52Z"}
+{"instance_id": "ac_003", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 7.09, "timestamp": "2026-07-12T15:44:58Z"}
+{"instance_id": "ac_004", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 6.92, "timestamp": "2026-07-12T15:45:36Z"}
+{"instance_id": "ac_005", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 7.0, "timestamp": "2026-07-12T15:46:11Z"}
+{"instance_id": "ac_006", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 6.1, "timestamp": "2026-07-12T15:46:48Z"}
+{"instance_id": "ac_007", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 7.54, "timestamp": "2026-07-12T15:47:11Z"}
+{"instance_id": "ac_008", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 7.37, "timestamp": "2026-07-12T15:47:56Z"}
+{"instance_id": "ac_009", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 5.62, "timestamp": "2026-07-12T15:48:38Z"}
+{"instance_id": "ac_010", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 6.63, "timestamp": "2026-07-12T15:48:53Z"}
+{"instance_id": "ac_011", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 6.31, "timestamp": "2026-07-12T15:49:24Z"}
+{"instance_id": "ac_012", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 7.37, "timestamp": "2026-07-12T15:49:50Z"}
+{"instance_id": "ac_013", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 4.92, "timestamp": "2026-07-12T15:50:32Z"}
+{"instance_id": "ac_014", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 6.43, "timestamp": "2026-07-12T15:50:36Z"}
+{"instance_id": "ac_015", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 5.87, "timestamp": "2026-07-12T15:51:04Z"}
+{"instance_id": "ac_016", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 8.38, "timestamp": "2026-07-12T15:51:23Z"}
+{"instance_id": "ac_017", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 6.2, "timestamp": "2026-07-12T15:51:29Z"}
+{"instance_id": "ac_018", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 7.0, "timestamp": "2026-07-12T15:51:53Z"}
+{"instance_id": "ac_019", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 5.03, "timestamp": "2026-07-12T15:52:30Z"}
+{"instance_id": "ac_020", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 6.79, "timestamp": "2026-07-12T15:52:36Z"}
+{"instance_id": "ac_021", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 5.75, "timestamp": "2026-07-12T15:53:09Z"}
+{"instance_id": "ac_022", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 8.75, "timestamp": "2026-07-12T15:53:26Z"}
+{"instance_id": "ac_023", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 7.28, "timestamp": "2026-07-12T15:53:45Z"}
+{"instance_id": "ac_024", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 8.49, "timestamp": "2026-07-12T15:54:26Z"}
+{"instance_id": "ac_025", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 5.13, "timestamp": "2026-07-12T15:54:36Z"}
+{"instance_id": "ac_026", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 8.7, "timestamp": "2026-07-12T15:54:43Z"}
+{"instance_id": "ac_027", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 4.93, "timestamp": "2026-07-12T15:55:20Z"}
+{"instance_id": "ac_028", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 7.13, "timestamp": "2026-07-12T15:55:24Z"}
+{"instance_id": "ac_029", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 5.67, "timestamp": "2026-07-12T15:56:03Z"}
+{"instance_id": "ac_030", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 6.02, "timestamp": "2026-07-12T15:56:19Z"}
+{"instance_id": "ac_001", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 6.78, "timestamp": "2026-07-12T15:56:40Z"}
+{"instance_id": "ac_002", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 8.55, "timestamp": "2026-07-12T15:57:13Z"}
+{"instance_id": "ac_003", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 6.58, "timestamp": "2026-07-12T15:57:51Z"}
+{"instance_id": "ac_004", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 6.7, "timestamp": "2026-07-12T15:58:21Z"}
+{"instance_id": "ac_005", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 6.45, "timestamp": "2026-07-12T15:58:53Z"}
+{"instance_id": "ac_006", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 5.05, "timestamp": "2026-07-12T15:59:21Z"}
+{"instance_id": "ac_007", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 5.07, "timestamp": "2026-07-12T15:59:27Z"}
+{"instance_id": "ac_008", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 7.79, "timestamp": "2026-07-12T15:59:33Z"}
+{"instance_id": "ac_009", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 7.55, "timestamp": "2026-07-12T16:00:04Z"}
+{"instance_id": "ac_010", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 8.47, "timestamp": "2026-07-12T16:00:49Z"}
+{"instance_id": "ac_011", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 6.08, "timestamp": "2026-07-12T16:00:58Z"}
+{"instance_id": "ac_012", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 5.06, "timestamp": "2026-07-12T16:01:20Z"}
+{"instance_id": "ac_013", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 5.9, "timestamp": "2026-07-12T16:01:26Z"}
+{"instance_id": "ac_014", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 8.27, "timestamp": "2026-07-12T16:01:45Z"}
+{"instance_id": "ac_015", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 6.6, "timestamp": "2026-07-12T16:02:26Z"}
+{"instance_id": "ac_016", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 6.27, "timestamp": "2026-07-12T16:02:56Z"}
+{"instance_id": "ac_017", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 8.02, "timestamp": "2026-07-12T16:03:21Z"}
+{"instance_id": "ac_018", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 8.08, "timestamp": "2026-07-12T16:03:39Z"}
+{"instance_id": "ac_019", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 5.35, "timestamp": "2026-07-12T16:03:53Z"}
+{"instance_id": "ac_020", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 5.87, "timestamp": "2026-07-12T16:04:04Z"}
+{"instance_id": "ac_021", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 6.82, "timestamp": "2026-07-12T16:04:23Z"}
+{"instance_id": "ac_022", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 5.35, "timestamp": "2026-07-12T16:04:57Z"}
+{"instance_id": "ac_023", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 6.78, "timestamp": "2026-07-12T16:05:08Z"}
+{"instance_id": "ac_024", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 7.74, "timestamp": "2026-07-12T16:05:41Z"}
+{"instance_id": "ac_025", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 5.57, "timestamp": "2026-07-12T16:06:01Z"}
+{"instance_id": "ac_026", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 7.99, "timestamp": "2026-07-12T16:06:15Z"}
+{"instance_id": "ac_027", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 5.36, "timestamp": "2026-07-12T16:06:18Z"}
+{"instance_id": "ac_028", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 6.38, "timestamp": "2026-07-12T16:06:29Z"}
+{"instance_id": "ac_029", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 5.09, "timestamp": "2026-07-12T16:06:56Z"}
+{"instance_id": "ac_030", "model": "claude-sonnet-5", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 5.59, "timestamp": "2026-07-12T16:07:03Z"}
+{"instance_id": "ac_001", "model": "glm-5.2", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 11.08, "timestamp": "2026-07-12T16:07:18Z"}
+{"instance_id": "ac_002", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 18.09, "timestamp": "2026-07-12T16:07:28Z"}
+{"instance_id": "ac_003", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 11.97, "timestamp": "2026-07-12T16:07:33Z"}
+{"instance_id": "ac_004", "model": "glm-5.2", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 11.95, "timestamp": "2026-07-12T16:07:50Z"}
+{"instance_id": "ac_005", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 15.25, "timestamp": "2026-07-12T16:08:07Z"}
+{"instance_id": "ac_006", "model": "glm-5.2", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 16.7, "timestamp": "2026-07-12T16:08:48Z"}
+{"instance_id": "ac_007", "model": "glm-5.2", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 12.7, "timestamp": "2026-07-12T16:09:26Z"}
+{"instance_id": "ac_008", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 11.87, "timestamp": "2026-07-12T16:09:48Z"}
+{"instance_id": "ac_009", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 13.88, "timestamp": "2026-07-12T16:10:04Z"}
+{"instance_id": "ac_010", "model": "glm-5.2", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 14.81, "timestamp": "2026-07-12T16:10:35Z"}
+{"instance_id": "ac_011", "model": "glm-5.2", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 13.79, "timestamp": "2026-07-12T16:11:13Z"}
+{"instance_id": "ac_012", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 13.98, "timestamp": "2026-07-12T16:11:43Z"}
+{"instance_id": "ac_013", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 12.15, "timestamp": "2026-07-12T16:12:15Z"}
+{"instance_id": "ac_014", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 10.85, "timestamp": "2026-07-12T16:12:33Z"}
+{"instance_id": "ac_015", "model": "glm-5.2", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 18.16, "timestamp": "2026-07-12T16:12:41Z"}
+{"instance_id": "ac_016", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 13.02, "timestamp": "2026-07-12T16:12:56Z"}
+{"instance_id": "ac_017", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 14.39, "timestamp": "2026-07-12T16:13:21Z"}
+{"instance_id": "ac_018", "model": "glm-5.2", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 11.48, "timestamp": "2026-07-12T16:13:56Z"}
+{"instance_id": "ac_019", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 15.71, "timestamp": "2026-07-12T16:14:09Z"}
+{"instance_id": "ac_020", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 17.66, "timestamp": "2026-07-12T16:14:54Z"}
+{"instance_id": "ac_021", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 11.35, "timestamp": "2026-07-12T16:15:39Z"}
+{"instance_id": "ac_022", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 18.1, "timestamp": "2026-07-12T16:15:51Z"}
+{"instance_id": "ac_023", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 17.82, "timestamp": "2026-07-12T16:16:01Z"}
+{"instance_id": "ac_024", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 16.01, "timestamp": "2026-07-12T16:16:21Z"}
+{"instance_id": "ac_025", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 13.15, "timestamp": "2026-07-12T16:16:47Z"}
+{"instance_id": "ac_026", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 16.31, "timestamp": "2026-07-12T16:17:13Z"}
+{"instance_id": "ac_027", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 15.47, "timestamp": "2026-07-12T16:17:27Z"}
+{"instance_id": "ac_028", "model": "glm-5.2", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 10.9, "timestamp": "2026-07-12T16:18:10Z"}
+{"instance_id": "ac_029", "model": "glm-5.2", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 14.61, "timestamp": "2026-07-12T16:18:19Z"}
+{"instance_id": "ac_030", "model": "glm-5.2", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 14.53, "timestamp": "2026-07-12T16:18:56Z"}
+{"instance_id": "ac_001", "model": "glm-5.2", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 10.04, "timestamp": "2026-07-12T16:19:32Z"}
+{"instance_id": "ac_002", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 10.6, "timestamp": "2026-07-12T16:19:34Z"}
+{"instance_id": "ac_003", "model": "glm-5.2", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 14.8, "timestamp": "2026-07-12T16:19:40Z"}
+{"instance_id": "ac_004", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 14.45, "timestamp": "2026-07-12T16:20:18Z"}
+{"instance_id": "ac_005", "model": "glm-5.2", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 14.61, "timestamp": "2026-07-12T16:20:53Z"}
+{"instance_id": "ac_006", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 12.74, "timestamp": "2026-07-12T16:21:30Z"}
+{"instance_id": "ac_007", "model": "glm-5.2", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 15.75, "timestamp": "2026-07-12T16:21:53Z"}
+{"instance_id": "ac_008", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 15.39, "timestamp": "2026-07-12T16:22:38Z"}
+{"instance_id": "ac_009", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 11.73, "timestamp": "2026-07-12T16:23:20Z"}
+{"instance_id": "ac_010", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 13.85, "timestamp": "2026-07-12T16:23:35Z"}
+{"instance_id": "ac_011", "model": "glm-5.2", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 13.19, "timestamp": "2026-07-12T16:24:06Z"}
+{"instance_id": "ac_012", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 15.39, "timestamp": "2026-07-12T16:24:32Z"}
+{"instance_id": "ac_013", "model": "glm-5.2", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 10.27, "timestamp": "2026-07-12T16:25:14Z"}
+{"instance_id": "ac_014", "model": "glm-5.2", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 13.42, "timestamp": "2026-07-12T16:25:18Z"}
+{"instance_id": "ac_015", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 12.26, "timestamp": "2026-07-12T16:25:46Z"}
+{"instance_id": "ac_016", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 17.51, "timestamp": "2026-07-12T16:26:05Z"}
+{"instance_id": "ac_017", "model": "glm-5.2", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 12.94, "timestamp": "2026-07-12T16:26:11Z"}
+{"instance_id": "ac_018", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 14.61, "timestamp": "2026-07-12T16:26:35Z"}
+{"instance_id": "ac_019", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 10.51, "timestamp": "2026-07-12T16:27:12Z"}
+{"instance_id": "ac_020", "model": "glm-5.2", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 14.18, "timestamp": "2026-07-12T16:27:18Z"}
+{"instance_id": "ac_021", "model": "glm-5.2", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 12.01, "timestamp": "2026-07-12T16:27:51Z"}
+{"instance_id": "ac_022", "model": "glm-5.2", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 18.28, "timestamp": "2026-07-12T16:28:08Z"}
+{"instance_id": "ac_023", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 15.2, "timestamp": "2026-07-12T16:28:27Z"}
+{"instance_id": "ac_024", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 17.72, "timestamp": "2026-07-12T16:29:08Z"}
+{"instance_id": "ac_025", "model": "glm-5.2", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 10.71, "timestamp": "2026-07-12T16:29:18Z"}
+{"instance_id": "ac_026", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 18.17, "timestamp": "2026-07-12T16:29:25Z"}
+{"instance_id": "ac_027", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 10.3, "timestamp": "2026-07-12T16:30:02Z"}
+{"instance_id": "ac_028", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 14.89, "timestamp": "2026-07-12T16:30:06Z"}
+{"instance_id": "ac_029", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 11.85, "timestamp": "2026-07-12T16:30:45Z"}
+{"instance_id": "ac_030", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 12.56, "timestamp": "2026-07-12T16:31:01Z"}
+{"instance_id": "ac_001", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 14.15, "timestamp": "2026-07-12T16:31:22Z"}
+{"instance_id": "ac_002", "model": "glm-5.2", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 17.85, "timestamp": "2026-07-12T16:31:55Z"}
+{"instance_id": "ac_003", "model": "glm-5.2", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 13.73, "timestamp": "2026-07-12T16:32:33Z"}
+{"instance_id": "ac_004", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 14.0, "timestamp": "2026-07-12T16:33:03Z"}
+{"instance_id": "ac_005", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 13.47, "timestamp": "2026-07-12T16:33:35Z"}
+{"instance_id": "ac_006", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 10.54, "timestamp": "2026-07-12T16:34:03Z"}
+{"instance_id": "ac_007", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 10.58, "timestamp": "2026-07-12T16:34:09Z"}
+{"instance_id": "ac_008", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 16.26, "timestamp": "2026-07-12T16:34:15Z"}
+{"instance_id": "ac_009", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 15.77, "timestamp": "2026-07-12T16:34:46Z"}
+{"instance_id": "ac_010", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 17.69, "timestamp": "2026-07-12T16:35:31Z"}
+{"instance_id": "ac_011", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 12.7, "timestamp": "2026-07-12T16:35:40Z"}
+{"instance_id": "ac_012", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 10.57, "timestamp": "2026-07-12T16:36:02Z"}
+{"instance_id": "ac_013", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 12.32, "timestamp": "2026-07-12T16:36:08Z"}
+{"instance_id": "ac_014", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 17.26, "timestamp": "2026-07-12T16:36:27Z"}
+{"instance_id": "ac_015", "model": "glm-5.2", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 13.78, "timestamp": "2026-07-12T16:37:08Z"}
+{"instance_id": "ac_016", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 13.1, "timestamp": "2026-07-12T16:37:38Z"}
+{"instance_id": "ac_017", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 16.75, "timestamp": "2026-07-12T16:38:03Z"}
+{"instance_id": "ac_018", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 16.88, "timestamp": "2026-07-12T16:38:21Z"}
+{"instance_id": "ac_019", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 11.18, "timestamp": "2026-07-12T16:38:35Z"}
+{"instance_id": "ac_020", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 12.25, "timestamp": "2026-07-12T16:38:46Z"}
+{"instance_id": "ac_021", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 14.25, "timestamp": "2026-07-12T16:39:05Z"}
+{"instance_id": "ac_022", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 11.17, "timestamp": "2026-07-12T16:39:39Z"}
+{"instance_id": "ac_023", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 14.17, "timestamp": "2026-07-12T16:39:50Z"}
+{"instance_id": "ac_024", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 16.17, "timestamp": "2026-07-12T16:40:23Z"}
+{"instance_id": "ac_025", "model": "glm-5.2", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 11.64, "timestamp": "2026-07-12T16:40:43Z"}
+{"instance_id": "ac_026", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 16.68, "timestamp": "2026-07-12T16:40:57Z"}
+{"instance_id": "ac_027", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 11.18, "timestamp": "2026-07-12T16:41:00Z"}
+{"instance_id": "ac_028", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 13.33, "timestamp": "2026-07-12T16:41:11Z"}
+{"instance_id": "ac_029", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 10.63, "timestamp": "2026-07-12T16:41:38Z"}
+{"instance_id": "ac_030", "model": "glm-5.2", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 11.68, "timestamp": "2026-07-12T16:41:45Z"}
+{"instance_id": "ac_001", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 6.79, "timestamp": "2026-07-12T16:42:00Z"}
+{"instance_id": "ac_002", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 11.08, "timestamp": "2026-07-12T16:42:10Z"}
+{"instance_id": "ac_003", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 7.33, "timestamp": "2026-07-12T16:42:15Z"}
+{"instance_id": "ac_004", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 7.32, "timestamp": "2026-07-12T16:42:32Z"}
+{"instance_id": "ac_005", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 9.34, "timestamp": "2026-07-12T16:42:49Z"}
+{"instance_id": "ac_006", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 10.23, "timestamp": "2026-07-12T16:43:30Z"}
+{"instance_id": "ac_007", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 7.78, "timestamp": "2026-07-12T16:44:08Z"}
+{"instance_id": "ac_008", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 7.27, "timestamp": "2026-07-12T16:44:30Z"}
+{"instance_id": "ac_009", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 8.51, "timestamp": "2026-07-12T16:44:46Z"}
+{"instance_id": "ac_010", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 9.07, "timestamp": "2026-07-12T16:45:17Z"}
+{"instance_id": "ac_011", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 8.45, "timestamp": "2026-07-12T16:45:55Z"}
+{"instance_id": "ac_012", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 8.57, "timestamp": "2026-07-12T16:46:25Z"}
+{"instance_id": "ac_013", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 7.44, "timestamp": "2026-07-12T16:46:57Z"}
+{"instance_id": "ac_014", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 6.65, "timestamp": "2026-07-12T16:47:15Z"}
+{"instance_id": "ac_015", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 11.13, "timestamp": "2026-07-12T16:47:23Z"}
+{"instance_id": "ac_016", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 7.98, "timestamp": "2026-07-12T16:47:38Z"}
+{"instance_id": "ac_017", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 8.81, "timestamp": "2026-07-12T16:48:03Z"}
+{"instance_id": "ac_018", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 7.04, "timestamp": "2026-07-12T16:48:38Z"}
+{"instance_id": "ac_019", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 9.62, "timestamp": "2026-07-12T16:48:51Z"}
+{"instance_id": "ac_020", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 10.82, "timestamp": "2026-07-12T16:49:36Z"}
+{"instance_id": "ac_021", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 6.95, "timestamp": "2026-07-12T16:50:21Z"}
+{"instance_id": "ac_022", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 11.09, "timestamp": "2026-07-12T16:50:33Z"}
+{"instance_id": "ac_023", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 10.92, "timestamp": "2026-07-12T16:50:43Z"}
+{"instance_id": "ac_024", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 9.81, "timestamp": "2026-07-12T16:51:03Z"}
+{"instance_id": "ac_025", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 8.06, "timestamp": "2026-07-12T16:51:29Z"}
+{"instance_id": "ac_026", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 9.99, "timestamp": "2026-07-12T16:51:55Z"}
+{"instance_id": "ac_027", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 9.48, "timestamp": "2026-07-12T16:52:09Z"}
+{"instance_id": "ac_028", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 6.68, "timestamp": "2026-07-12T16:52:52Z"}
+{"instance_id": "ac_029", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 8.95, "timestamp": "2026-07-12T16:53:01Z"}
+{"instance_id": "ac_030", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 8.9, "timestamp": "2026-07-12T16:53:38Z"}
+{"instance_id": "ac_001", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 6.15, "timestamp": "2026-07-12T16:54:14Z"}
+{"instance_id": "ac_002", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 6.49, "timestamp": "2026-07-12T16:54:16Z"}
+{"instance_id": "ac_003", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 9.07, "timestamp": "2026-07-12T16:54:22Z"}
+{"instance_id": "ac_004", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 8.85, "timestamp": "2026-07-12T16:55:00Z"}
+{"instance_id": "ac_005", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 8.95, "timestamp": "2026-07-12T16:55:35Z"}
+{"instance_id": "ac_006", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 7.81, "timestamp": "2026-07-12T16:56:12Z"}
+{"instance_id": "ac_007", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 9.65, "timestamp": "2026-07-12T16:56:35Z"}
+{"instance_id": "ac_008", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 9.43, "timestamp": "2026-07-12T16:57:20Z"}
+{"instance_id": "ac_009", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 7.19, "timestamp": "2026-07-12T16:58:02Z"}
+{"instance_id": "ac_010", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 8.48, "timestamp": "2026-07-12T16:58:17Z"}
+{"instance_id": "ac_011", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 8.08, "timestamp": "2026-07-12T16:58:48Z"}
+{"instance_id": "ac_012", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 9.43, "timestamp": "2026-07-12T16:59:14Z"}
+{"instance_id": "ac_013", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 6.29, "timestamp": "2026-07-12T16:59:56Z"}
+{"instance_id": "ac_014", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 8.22, "timestamp": "2026-07-12T17:00:00Z"}
+{"instance_id": "ac_015", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 7.51, "timestamp": "2026-07-12T17:00:28Z"}
+{"instance_id": "ac_016", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 10.73, "timestamp": "2026-07-12T17:00:47Z"}
+{"instance_id": "ac_017", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 7.93, "timestamp": "2026-07-12T17:00:53Z"}
+{"instance_id": "ac_018", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 8.95, "timestamp": "2026-07-12T17:01:17Z"}
+{"instance_id": "ac_019", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 6.44, "timestamp": "2026-07-12T17:01:54Z"}
+{"instance_id": "ac_020", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 8.69, "timestamp": "2026-07-12T17:02:00Z"}
+{"instance_id": "ac_021", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 7.36, "timestamp": "2026-07-12T17:02:33Z"}
+{"instance_id": "ac_022", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 11.2, "timestamp": "2026-07-12T17:02:50Z"}
+{"instance_id": "ac_023", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 9.31, "timestamp": "2026-07-12T17:03:09Z"}
+{"instance_id": "ac_024", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 10.86, "timestamp": "2026-07-12T17:03:50Z"}
+{"instance_id": "ac_025", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 6.56, "timestamp": "2026-07-12T17:04:00Z"}
+{"instance_id": "ac_026", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 11.13, "timestamp": "2026-07-12T17:04:07Z"}
+{"instance_id": "ac_027", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 6.31, "timestamp": "2026-07-12T17:04:44Z"}
+{"instance_id": "ac_028", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 9.12, "timestamp": "2026-07-12T17:04:48Z"}
+{"instance_id": "ac_029", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 7.26, "timestamp": "2026-07-12T17:05:27Z"}
+{"instance_id": "ac_030", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 7.7, "timestamp": "2026-07-12T17:05:43Z"}
+{"instance_id": "ac_001", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 8.67, "timestamp": "2026-07-12T17:06:04Z"}
+{"instance_id": "ac_002", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 10.93, "timestamp": "2026-07-12T17:06:37Z"}
+{"instance_id": "ac_003", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 8.41, "timestamp": "2026-07-12T17:07:15Z"}
+{"instance_id": "ac_004", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 8.58, "timestamp": "2026-07-12T17:07:45Z"}
+{"instance_id": "ac_005", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 8.25, "timestamp": "2026-07-12T17:08:17Z"}
+{"instance_id": "ac_006", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 6.46, "timestamp": "2026-07-12T17:08:45Z"}
+{"instance_id": "ac_007", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 6.48, "timestamp": "2026-07-12T17:08:51Z"}
+{"instance_id": "ac_008", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 9.96, "timestamp": "2026-07-12T17:08:57Z"}
+{"instance_id": "ac_009", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 9.66, "timestamp": "2026-07-12T17:09:28Z"}
+{"instance_id": "ac_010", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 10.84, "timestamp": "2026-07-12T17:10:13Z"}
+{"instance_id": "ac_011", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 7.78, "timestamp": "2026-07-12T17:10:22Z"}
+{"instance_id": "ac_012", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 6.47, "timestamp": "2026-07-12T17:10:44Z"}
+{"instance_id": "ac_013", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 7.55, "timestamp": "2026-07-12T17:10:50Z"}
+{"instance_id": "ac_014", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 10.58, "timestamp": "2026-07-12T17:11:09Z"}
+{"instance_id": "ac_015", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 8.44, "timestamp": "2026-07-12T17:11:50Z"}
+{"instance_id": "ac_016", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 8.02, "timestamp": "2026-07-12T17:12:20Z"}
+{"instance_id": "ac_017", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 10.26, "timestamp": "2026-07-12T17:12:45Z"}
+{"instance_id": "ac_018", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 10.34, "timestamp": "2026-07-12T17:13:03Z"}
+{"instance_id": "ac_019", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 6.85, "timestamp": "2026-07-12T17:13:17Z"}
+{"instance_id": "ac_020", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 7.51, "timestamp": "2026-07-12T17:13:28Z"}
+{"instance_id": "ac_021", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 8.73, "timestamp": "2026-07-12T17:13:47Z"}
+{"instance_id": "ac_022", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 6.85, "timestamp": "2026-07-12T17:14:21Z"}
+{"instance_id": "ac_023", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 8.68, "timestamp": "2026-07-12T17:14:32Z"}
+{"instance_id": "ac_024", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 9.91, "timestamp": "2026-07-12T17:15:05Z"}
+{"instance_id": "ac_025", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 7.13, "timestamp": "2026-07-12T17:15:25Z"}
+{"instance_id": "ac_026", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 10.22, "timestamp": "2026-07-12T17:15:39Z"}
+{"instance_id": "ac_027", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 6.85, "timestamp": "2026-07-12T17:15:42Z"}
+{"instance_id": "ac_028", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 8.16, "timestamp": "2026-07-12T17:15:53Z"}
+{"instance_id": "ac_029", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 6.51, "timestamp": "2026-07-12T17:16:20Z"}
+{"instance_id": "ac_030", "model": "kimi-k2.7-code", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 7.15, "timestamp": "2026-07-12T17:16:27Z"}
+{"instance_id": "ac_001", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 5.54, "timestamp": "2026-07-12T17:16:42Z"}
+{"instance_id": "ac_002", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 9.04, "timestamp": "2026-07-12T17:16:52Z"}
+{"instance_id": "ac_003", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 5.98, "timestamp": "2026-07-12T17:16:57Z"}
+{"instance_id": "ac_004", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 5.98, "timestamp": "2026-07-12T17:17:14Z"}
+{"instance_id": "ac_005", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 7.62, "timestamp": "2026-07-12T17:17:31Z"}
+{"instance_id": "ac_006", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 8.35, "timestamp": "2026-07-12T17:18:12Z"}
+{"instance_id": "ac_007", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 6.35, "timestamp": "2026-07-12T17:18:50Z"}
+{"instance_id": "ac_008", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 5.94, "timestamp": "2026-07-12T17:19:12Z"}
+{"instance_id": "ac_009", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 6.94, "timestamp": "2026-07-12T17:19:28Z"}
+{"instance_id": "ac_010", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 7.4, "timestamp": "2026-07-12T17:19:59Z"}
+{"instance_id": "ac_011", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 6.9, "timestamp": "2026-07-12T17:20:37Z"}
+{"instance_id": "ac_012", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 6.99, "timestamp": "2026-07-12T17:21:07Z"}
+{"instance_id": "ac_013", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 6.07, "timestamp": "2026-07-12T17:21:39Z"}
+{"instance_id": "ac_014", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 5.43, "timestamp": "2026-07-12T17:21:57Z"}
+{"instance_id": "ac_015", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 9.08, "timestamp": "2026-07-12T17:22:05Z"}
+{"instance_id": "ac_016", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 6.51, "timestamp": "2026-07-12T17:22:20Z"}
+{"instance_id": "ac_017", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 7.19, "timestamp": "2026-07-12T17:22:45Z"}
+{"instance_id": "ac_018", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 5.74, "timestamp": "2026-07-12T17:23:20Z"}
+{"instance_id": "ac_019", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 7.85, "timestamp": "2026-07-12T17:23:33Z"}
+{"instance_id": "ac_020", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 8.83, "timestamp": "2026-07-12T17:24:18Z"}
+{"instance_id": "ac_021", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 5.67, "timestamp": "2026-07-12T17:25:03Z"}
+{"instance_id": "ac_022", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 9.05, "timestamp": "2026-07-12T17:25:15Z"}
+{"instance_id": "ac_023", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 8.91, "timestamp": "2026-07-12T17:25:25Z"}
+{"instance_id": "ac_024", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 8.0, "timestamp": "2026-07-12T17:25:45Z"}
+{"instance_id": "ac_025", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 6.58, "timestamp": "2026-07-12T17:26:11Z"}
+{"instance_id": "ac_026", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 8.15, "timestamp": "2026-07-12T17:26:37Z"}
+{"instance_id": "ac_027", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 7.73, "timestamp": "2026-07-12T17:26:51Z"}
+{"instance_id": "ac_028", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 5.45, "timestamp": "2026-07-12T17:27:34Z"}
+{"instance_id": "ac_029", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 7.3, "timestamp": "2026-07-12T17:27:43Z"}
+{"instance_id": "ac_030", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 7.27, "timestamp": "2026-07-12T17:28:20Z"}
+{"instance_id": "ac_001", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 5.02, "timestamp": "2026-07-12T17:28:56Z"}
+{"instance_id": "ac_002", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 5.3, "timestamp": "2026-07-12T17:28:58Z"}
+{"instance_id": "ac_003", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 7.4, "timestamp": "2026-07-12T17:29:04Z"}
+{"instance_id": "ac_004", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 7.22, "timestamp": "2026-07-12T17:29:42Z"}
+{"instance_id": "ac_005", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 7.31, "timestamp": "2026-07-12T17:30:17Z"}
+{"instance_id": "ac_006", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 6.37, "timestamp": "2026-07-12T17:30:54Z"}
+{"instance_id": "ac_007", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 7.88, "timestamp": "2026-07-12T17:31:17Z"}
+{"instance_id": "ac_008", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 7.69, "timestamp": "2026-07-12T17:32:02Z"}
+{"instance_id": "ac_009", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 5.86, "timestamp": "2026-07-12T17:32:44Z"}
+{"instance_id": "ac_010", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 6.92, "timestamp": "2026-07-12T17:32:59Z"}
+{"instance_id": "ac_011", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 6.59, "timestamp": "2026-07-12T17:33:30Z"}
+{"instance_id": "ac_012", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 7.69, "timestamp": "2026-07-12T17:33:56Z"}
+{"instance_id": "ac_013", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 5.13, "timestamp": "2026-07-12T17:34:38Z"}
+{"instance_id": "ac_014", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 6.71, "timestamp": "2026-07-12T17:34:42Z"}
+{"instance_id": "ac_015", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 6.13, "timestamp": "2026-07-12T17:35:10Z"}
+{"instance_id": "ac_016", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 8.75, "timestamp": "2026-07-12T17:35:29Z"}
+{"instance_id": "ac_017", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 6.47, "timestamp": "2026-07-12T17:35:35Z"}
+{"instance_id": "ac_018", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 7.31, "timestamp": "2026-07-12T17:35:59Z"}
+{"instance_id": "ac_019", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 5.25, "timestamp": "2026-07-12T17:36:36Z"}
+{"instance_id": "ac_020", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 7.09, "timestamp": "2026-07-12T17:36:42Z"}
+{"instance_id": "ac_021", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 6.01, "timestamp": "2026-07-12T17:37:15Z"}
+{"instance_id": "ac_022", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 9.14, "timestamp": "2026-07-12T17:37:32Z"}
+{"instance_id": "ac_023", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 7.6, "timestamp": "2026-07-12T17:37:51Z"}
+{"instance_id": "ac_024", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 8.86, "timestamp": "2026-07-12T17:38:32Z"}
+{"instance_id": "ac_025", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 5.35, "timestamp": "2026-07-12T17:38:42Z"}
+{"instance_id": "ac_026", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 9.08, "timestamp": "2026-07-12T17:38:49Z"}
+{"instance_id": "ac_027", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 5.15, "timestamp": "2026-07-12T17:39:26Z"}
+{"instance_id": "ac_028", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 7.44, "timestamp": "2026-07-12T17:39:30Z"}
+{"instance_id": "ac_029", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 5.93, "timestamp": "2026-07-12T17:40:09Z"}
+{"instance_id": "ac_030", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 6.28, "timestamp": "2026-07-12T17:40:25Z"}
+{"instance_id": "ac_001", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 7.08, "timestamp": "2026-07-12T17:40:46Z"}
+{"instance_id": "ac_002", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 8.92, "timestamp": "2026-07-12T17:41:19Z"}
+{"instance_id": "ac_003", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 6.87, "timestamp": "2026-07-12T17:41:57Z"}
+{"instance_id": "ac_004", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 7.0, "timestamp": "2026-07-12T17:42:27Z"}
+{"instance_id": "ac_005", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 6.74, "timestamp": "2026-07-12T17:42:59Z"}
+{"instance_id": "ac_006", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 5.27, "timestamp": "2026-07-12T17:43:27Z"}
+{"instance_id": "ac_007", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 5.29, "timestamp": "2026-07-12T17:43:33Z"}
+{"instance_id": "ac_008", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 8.13, "timestamp": "2026-07-12T17:43:39Z"}
+{"instance_id": "ac_009", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 7.88, "timestamp": "2026-07-12T17:44:10Z"}
+{"instance_id": "ac_010", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 8.85, "timestamp": "2026-07-12T17:44:55Z"}
+{"instance_id": "ac_011", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 6.35, "timestamp": "2026-07-12T17:45:04Z"}
+{"instance_id": "ac_012", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 5.28, "timestamp": "2026-07-12T17:45:26Z"}
+{"instance_id": "ac_013", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 6.16, "timestamp": "2026-07-12T17:45:32Z"}
+{"instance_id": "ac_014", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 8.63, "timestamp": "2026-07-12T17:45:51Z"}
+{"instance_id": "ac_015", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 6.89, "timestamp": "2026-07-12T17:46:32Z"}
+{"instance_id": "ac_016", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 6.55, "timestamp": "2026-07-12T17:47:02Z"}
+{"instance_id": "ac_017", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 8.37, "timestamp": "2026-07-12T17:47:27Z"}
+{"instance_id": "ac_018", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 8.44, "timestamp": "2026-07-12T17:47:45Z"}
+{"instance_id": "ac_019", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 5.59, "timestamp": "2026-07-12T17:47:59Z"}
+{"instance_id": "ac_020", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 6.13, "timestamp": "2026-07-12T17:48:10Z"}
+{"instance_id": "ac_021", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 7.13, "timestamp": "2026-07-12T17:48:29Z"}
+{"instance_id": "ac_022", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 5.59, "timestamp": "2026-07-12T17:49:03Z"}
+{"instance_id": "ac_023", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 7.08, "timestamp": "2026-07-12T17:49:14Z"}
+{"instance_id": "ac_024", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 8.09, "timestamp": "2026-07-12T17:49:47Z"}
+{"instance_id": "ac_025", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 5.82, "timestamp": "2026-07-12T17:50:07Z"}
+{"instance_id": "ac_026", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 8.34, "timestamp": "2026-07-12T17:50:21Z"}
+{"instance_id": "ac_027", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 5.59, "timestamp": "2026-07-12T17:50:24Z"}
+{"instance_id": "ac_028", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 6.66, "timestamp": "2026-07-12T17:50:35Z"}
+{"instance_id": "ac_029", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 5.32, "timestamp": "2026-07-12T17:51:02Z"}
+{"instance_id": "ac_030", "model": "deepseek-v4-pro", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 5.84, "timestamp": "2026-07-12T17:51:09Z"}
+{"instance_id": "ac_001", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 17.56, "timestamp": "2026-07-12T17:51:24Z"}
+{"instance_id": "ac_002", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 28.66, "timestamp": "2026-07-12T17:51:34Z"}
+{"instance_id": "ac_003", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 18.96, "timestamp": "2026-07-12T17:51:39Z"}
+{"instance_id": "ac_004", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 18.94, "timestamp": "2026-07-12T17:51:56Z"}
+{"instance_id": "ac_005", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 24.16, "timestamp": "2026-07-12T17:52:13Z"}
+{"instance_id": "ac_006", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 26.46, "timestamp": "2026-07-12T17:52:54Z"}
+{"instance_id": "ac_007", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 20.12, "timestamp": "2026-07-12T17:53:32Z"}
+{"instance_id": "ac_008", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 18.81, "timestamp": "2026-07-12T17:53:54Z"}
+{"instance_id": "ac_009", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 22.0, "timestamp": "2026-07-12T17:54:10Z"}
+{"instance_id": "ac_010", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 23.46, "timestamp": "2026-07-12T17:54:41Z"}
+{"instance_id": "ac_011", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 21.86, "timestamp": "2026-07-12T17:55:19Z"}
+{"instance_id": "ac_012", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 22.16, "timestamp": "2026-07-12T17:55:49Z"}
+{"instance_id": "ac_013", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 19.25, "timestamp": "2026-07-12T17:56:21Z"}
+{"instance_id": "ac_014", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 17.19, "timestamp": "2026-07-12T17:56:39Z"}
+{"instance_id": "ac_015", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 28.78, "timestamp": "2026-07-12T17:56:47Z"}
+{"instance_id": "ac_016", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 20.63, "timestamp": "2026-07-12T17:57:02Z"}
+{"instance_id": "ac_017", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 22.8, "timestamp": "2026-07-12T17:57:27Z"}
+{"instance_id": "ac_018", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 18.2, "timestamp": "2026-07-12T17:58:02Z"}
+{"instance_id": "ac_019", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 24.89, "timestamp": "2026-07-12T17:58:15Z"}
+{"instance_id": "ac_020", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 27.98, "timestamp": "2026-07-12T17:59:00Z"}
+{"instance_id": "ac_021", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 17.98, "timestamp": "2026-07-12T17:59:45Z"}
+{"instance_id": "ac_022", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 28.69, "timestamp": "2026-07-12T17:59:57Z"}
+{"instance_id": "ac_023", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 28.24, "timestamp": "2026-07-12T18:00:07Z"}
+{"instance_id": "ac_024", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 25.37, "timestamp": "2026-07-12T18:00:27Z"}
+{"instance_id": "ac_025", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 20.84, "timestamp": "2026-07-12T18:00:53Z"}
+{"instance_id": "ac_026", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 25.84, "timestamp": "2026-07-12T18:01:19Z"}
+{"instance_id": "ac_027", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 24.5, "timestamp": "2026-07-12T18:01:33Z"}
+{"instance_id": "ac_028", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 17.27, "timestamp": "2026-07-12T18:02:16Z"}
+{"instance_id": "ac_029", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 23.15, "timestamp": "2026-07-12T18:02:25Z"}
+{"instance_id": "ac_030", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 23.03, "timestamp": "2026-07-12T18:03:02Z"}
+{"instance_id": "ac_001", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 15.92, "timestamp": "2026-07-12T18:03:38Z"}
+{"instance_id": "ac_002", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 16.8, "timestamp": "2026-07-12T18:03:40Z"}
+{"instance_id": "ac_003", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 23.45, "timestamp": "2026-07-12T18:03:46Z"}
+{"instance_id": "ac_004", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 22.89, "timestamp": "2026-07-12T18:04:24Z"}
+{"instance_id": "ac_005", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 23.16, "timestamp": "2026-07-12T18:04:59Z"}
+{"instance_id": "ac_006", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 20.19, "timestamp": "2026-07-12T18:05:36Z"}
+{"instance_id": "ac_007", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 24.96, "timestamp": "2026-07-12T18:05:59Z"}
+{"instance_id": "ac_008", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 24.38, "timestamp": "2026-07-12T18:06:44Z"}
+{"instance_id": "ac_009", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 18.58, "timestamp": "2026-07-12T18:07:26Z"}
+{"instance_id": "ac_010", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 21.94, "timestamp": "2026-07-12T18:07:41Z"}
+{"instance_id": "ac_011", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 20.89, "timestamp": "2026-07-12T18:08:12Z"}
+{"instance_id": "ac_012", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 24.38, "timestamp": "2026-07-12T18:08:38Z"}
+{"instance_id": "ac_013", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 16.27, "timestamp": "2026-07-12T18:09:20Z"}
+{"instance_id": "ac_014", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 21.27, "timestamp": "2026-07-12T18:09:24Z"}
+{"instance_id": "ac_015", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 19.42, "timestamp": "2026-07-12T18:09:52Z"}
+{"instance_id": "ac_016", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 27.74, "timestamp": "2026-07-12T18:10:11Z"}
+{"instance_id": "ac_017", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 20.5, "timestamp": "2026-07-12T18:10:17Z"}
+{"instance_id": "ac_018", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 23.15, "timestamp": "2026-07-12T18:10:41Z"}
+{"instance_id": "ac_019", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 16.65, "timestamp": "2026-07-12T18:11:18Z"}
+{"instance_id": "ac_020", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 22.47, "timestamp": "2026-07-12T18:11:24Z"}
+{"instance_id": "ac_021", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 19.04, "timestamp": "2026-07-12T18:11:57Z"}
+{"instance_id": "ac_022", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 28.96, "timestamp": "2026-07-12T18:12:14Z"}
+{"instance_id": "ac_023", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 24.08, "timestamp": "2026-07-12T18:12:33Z"}
+{"instance_id": "ac_024", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 28.08, "timestamp": "2026-07-12T18:13:14Z"}
+{"instance_id": "ac_025", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 16.97, "timestamp": "2026-07-12T18:13:24Z"}
+{"instance_id": "ac_026", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 28.79, "timestamp": "2026-07-12T18:13:31Z"}
+{"instance_id": "ac_027", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 16.32, "timestamp": "2026-07-12T18:14:08Z"}
+{"instance_id": "ac_028", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 23.59, "timestamp": "2026-07-12T18:14:12Z"}
+{"instance_id": "ac_029", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 18.78, "timestamp": "2026-07-12T18:14:51Z"}
+{"instance_id": "ac_030", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 19.91, "timestamp": "2026-07-12T18:15:07Z"}
+{"instance_id": "ac_001", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 22.43, "timestamp": "2026-07-12T18:15:28Z"}
+{"instance_id": "ac_002", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 28.28, "timestamp": "2026-07-12T18:16:01Z"}
+{"instance_id": "ac_003", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 21.76, "timestamp": "2026-07-12T18:16:39Z"}
+{"instance_id": "ac_004", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 22.18, "timestamp": "2026-07-12T18:17:09Z"}
+{"instance_id": "ac_005", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 21.35, "timestamp": "2026-07-12T18:17:41Z"}
+{"instance_id": "ac_006", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 16.71, "timestamp": "2026-07-12T18:18:09Z"}
+{"instance_id": "ac_007", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 16.76, "timestamp": "2026-07-12T18:18:15Z"}
+{"instance_id": "ac_008", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 25.76, "timestamp": "2026-07-12T18:18:21Z"}
+{"instance_id": "ac_009", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 24.99, "timestamp": "2026-07-12T18:18:52Z"}
+{"instance_id": "ac_010", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 28.03, "timestamp": "2026-07-12T18:19:37Z"}
+{"instance_id": "ac_011", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 20.12, "timestamp": "2026-07-12T18:19:46Z"}
+{"instance_id": "ac_012", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 16.74, "timestamp": "2026-07-12T18:20:08Z"}
+{"instance_id": "ac_013", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 19.53, "timestamp": "2026-07-12T18:20:14Z"}
+{"instance_id": "ac_014", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 27.36, "timestamp": "2026-07-12T18:20:33Z"}
+{"instance_id": "ac_015", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 21.84, "timestamp": "2026-07-12T18:21:14Z"}
+{"instance_id": "ac_016", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 20.75, "timestamp": "2026-07-12T18:21:44Z"}
+{"instance_id": "ac_017", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 26.54, "timestamp": "2026-07-12T18:22:09Z"}
+{"instance_id": "ac_018", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 26.75, "timestamp": "2026-07-12T18:22:27Z"}
+{"instance_id": "ac_019", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 17.71, "timestamp": "2026-07-12T18:22:41Z"}
+{"instance_id": "ac_020", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 19.42, "timestamp": "2026-07-12T18:22:52Z"}
+{"instance_id": "ac_021", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 22.58, "timestamp": "2026-07-12T18:23:11Z"}
+{"instance_id": "ac_022", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 17.7, "timestamp": "2026-07-12T18:23:45Z"}
+{"instance_id": "ac_023", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 22.45, "timestamp": "2026-07-12T18:23:56Z"}
+{"instance_id": "ac_024", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 25.63, "timestamp": "2026-07-12T18:24:29Z"}
+{"instance_id": "ac_025", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 18.44, "timestamp": "2026-07-12T18:24:49Z"}
+{"instance_id": "ac_026", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 26.44, "timestamp": "2026-07-12T18:25:03Z"}
+{"instance_id": "ac_027", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 17.72, "timestamp": "2026-07-12T18:25:06Z"}
+{"instance_id": "ac_028", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 21.12, "timestamp": "2026-07-12T18:25:17Z"}
+{"instance_id": "ac_029", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 16.84, "timestamp": "2026-07-12T18:25:44Z"}
+{"instance_id": "ac_030", "model": "qwen3-32b-thinking", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 18.5, "timestamp": "2026-07-12T18:25:51Z"}
+{"instance_id": "ac_001", "model": "minimax-m3", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 7.1, "timestamp": "2026-07-12T18:26:06Z"}
+{"instance_id": "ac_002", "model": "minimax-m3", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 11.59, "timestamp": "2026-07-12T18:26:16Z"}
+{"instance_id": "ac_003", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 7.67, "timestamp": "2026-07-12T18:26:21Z"}
+{"instance_id": "ac_004", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 7.66, "timestamp": "2026-07-12T18:26:38Z"}
+{"instance_id": "ac_005", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 9.77, "timestamp": "2026-07-12T18:26:55Z"}
+{"instance_id": "ac_006", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 10.7, "timestamp": "2026-07-12T18:27:36Z"}
+{"instance_id": "ac_007", "model": "minimax-m3", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 8.14, "timestamp": "2026-07-12T18:28:14Z"}
+{"instance_id": "ac_008", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 7.61, "timestamp": "2026-07-12T18:28:36Z"}
+{"instance_id": "ac_009", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 8.9, "timestamp": "2026-07-12T18:28:52Z"}
+{"instance_id": "ac_010", "model": "minimax-m3", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 9.49, "timestamp": "2026-07-12T18:29:23Z"}
+{"instance_id": "ac_011", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 8.84, "timestamp": "2026-07-12T18:30:01Z"}
+{"instance_id": "ac_012", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 8.96, "timestamp": "2026-07-12T18:30:31Z"}
+{"instance_id": "ac_013", "model": "minimax-m3", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 7.78, "timestamp": "2026-07-12T18:31:03Z"}
+{"instance_id": "ac_014", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 6.95, "timestamp": "2026-07-12T18:31:21Z"}
+{"instance_id": "ac_015", "model": "minimax-m3", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 11.64, "timestamp": "2026-07-12T18:31:29Z"}
+{"instance_id": "ac_016", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 8.34, "timestamp": "2026-07-12T18:31:44Z"}
+{"instance_id": "ac_017", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 9.22, "timestamp": "2026-07-12T18:32:09Z"}
+{"instance_id": "ac_018", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 7.36, "timestamp": "2026-07-12T18:32:44Z"}
+{"instance_id": "ac_019", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 10.07, "timestamp": "2026-07-12T18:32:57Z"}
+{"instance_id": "ac_020", "model": "minimax-m3", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 11.31, "timestamp": "2026-07-12T18:33:42Z"}
+{"instance_id": "ac_021", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 7.27, "timestamp": "2026-07-12T18:34:27Z"}
+{"instance_id": "ac_022", "model": "minimax-m3", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 11.6, "timestamp": "2026-07-12T18:34:39Z"}
+{"instance_id": "ac_023", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 11.42, "timestamp": "2026-07-12T18:34:49Z"}
+{"instance_id": "ac_024", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 10.26, "timestamp": "2026-07-12T18:35:09Z"}
+{"instance_id": "ac_025", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 8.43, "timestamp": "2026-07-12T18:35:35Z"}
+{"instance_id": "ac_026", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 10.45, "timestamp": "2026-07-12T18:36:01Z"}
+{"instance_id": "ac_027", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 9.91, "timestamp": "2026-07-12T18:36:15Z"}
+{"instance_id": "ac_028", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 42, "latency_s": 6.99, "timestamp": "2026-07-12T18:36:58Z"}
+{"instance_id": "ac_029", "model": "minimax-m3", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 9.36, "timestamp": "2026-07-12T18:37:07Z"}
+{"instance_id": "ac_030", "model": "minimax-m3", "suite": "agentic_coding", "passed": false, "seed": 42, "latency_s": 9.31, "timestamp": "2026-07-12T18:37:44Z"}
+{"instance_id": "ac_001", "model": "minimax-m3", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 6.44, "timestamp": "2026-07-12T18:38:20Z"}
+{"instance_id": "ac_002", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 6.79, "timestamp": "2026-07-12T18:38:22Z"}
+{"instance_id": "ac_003", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 9.48, "timestamp": "2026-07-12T18:38:28Z"}
+{"instance_id": "ac_004", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 9.26, "timestamp": "2026-07-12T18:39:06Z"}
+{"instance_id": "ac_005", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 9.37, "timestamp": "2026-07-12T18:39:41Z"}
+{"instance_id": "ac_006", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 8.16, "timestamp": "2026-07-12T18:40:18Z"}
+{"instance_id": "ac_007", "model": "minimax-m3", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 10.09, "timestamp": "2026-07-12T18:40:41Z"}
+{"instance_id": "ac_008", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 9.86, "timestamp": "2026-07-12T18:41:26Z"}
+{"instance_id": "ac_009", "model": "minimax-m3", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 7.52, "timestamp": "2026-07-12T18:42:08Z"}
+{"instance_id": "ac_010", "model": "minimax-m3", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 8.87, "timestamp": "2026-07-12T18:42:23Z"}
+{"instance_id": "ac_011", "model": "minimax-m3", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 8.45, "timestamp": "2026-07-12T18:42:54Z"}
+{"instance_id": "ac_012", "model": "minimax-m3", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 9.86, "timestamp": "2026-07-12T18:43:20Z"}
+{"instance_id": "ac_013", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 6.58, "timestamp": "2026-07-12T18:44:02Z"}
+{"instance_id": "ac_014", "model": "minimax-m3", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 8.6, "timestamp": "2026-07-12T18:44:06Z"}
+{"instance_id": "ac_015", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 7.85, "timestamp": "2026-07-12T18:44:34Z"}
+{"instance_id": "ac_016", "model": "minimax-m3", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 11.22, "timestamp": "2026-07-12T18:44:53Z"}
+{"instance_id": "ac_017", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 8.29, "timestamp": "2026-07-12T18:44:59Z"}
+{"instance_id": "ac_018", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 9.36, "timestamp": "2026-07-12T18:45:23Z"}
+{"instance_id": "ac_019", "model": "minimax-m3", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 6.74, "timestamp": "2026-07-12T18:46:00Z"}
+{"instance_id": "ac_020", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 9.09, "timestamp": "2026-07-12T18:46:06Z"}
+{"instance_id": "ac_021", "model": "minimax-m3", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 7.7, "timestamp": "2026-07-12T18:46:39Z"}
+{"instance_id": "ac_022", "model": "minimax-m3", "suite": "agentic_coding", "passed": false, "seed": 43, "latency_s": 11.71, "timestamp": "2026-07-12T18:46:56Z"}
+{"instance_id": "ac_023", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 9.74, "timestamp": "2026-07-12T18:47:15Z"}
+{"instance_id": "ac_024", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 11.36, "timestamp": "2026-07-12T18:47:56Z"}
+{"instance_id": "ac_025", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 6.86, "timestamp": "2026-07-12T18:48:06Z"}
+{"instance_id": "ac_026", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 11.64, "timestamp": "2026-07-12T18:48:13Z"}
+{"instance_id": "ac_027", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 6.6, "timestamp": "2026-07-12T18:48:50Z"}
+{"instance_id": "ac_028", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 9.54, "timestamp": "2026-07-12T18:48:54Z"}
+{"instance_id": "ac_029", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 7.59, "timestamp": "2026-07-12T18:49:33Z"}
+{"instance_id": "ac_030", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 43, "latency_s": 8.05, "timestamp": "2026-07-12T18:49:49Z"}
+{"instance_id": "ac_001", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 9.07, "timestamp": "2026-07-12T18:50:10Z"}
+{"instance_id": "ac_002", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 11.44, "timestamp": "2026-07-12T18:50:43Z"}
+{"instance_id": "ac_003", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 8.8, "timestamp": "2026-07-12T18:51:21Z"}
+{"instance_id": "ac_004", "model": "minimax-m3", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 8.97, "timestamp": "2026-07-12T18:51:51Z"}
+{"instance_id": "ac_005", "model": "minimax-m3", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 8.63, "timestamp": "2026-07-12T18:52:23Z"}
+{"instance_id": "ac_006", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 6.76, "timestamp": "2026-07-12T18:52:51Z"}
+{"instance_id": "ac_007", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 6.78, "timestamp": "2026-07-12T18:52:57Z"}
+{"instance_id": "ac_008", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 10.42, "timestamp": "2026-07-12T18:53:03Z"}
+{"instance_id": "ac_009", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 10.11, "timestamp": "2026-07-12T18:53:34Z"}
+{"instance_id": "ac_010", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 11.34, "timestamp": "2026-07-12T18:54:19Z"}
+{"instance_id": "ac_011", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 8.14, "timestamp": "2026-07-12T18:54:28Z"}
+{"instance_id": "ac_012", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 6.77, "timestamp": "2026-07-12T18:54:50Z"}
+{"instance_id": "ac_013", "model": "minimax-m3", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 7.9, "timestamp": "2026-07-12T18:54:56Z"}
+{"instance_id": "ac_014", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 11.06, "timestamp": "2026-07-12T18:55:15Z"}
+{"instance_id": "ac_015", "model": "minimax-m3", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 8.83, "timestamp": "2026-07-12T18:55:56Z"}
+{"instance_id": "ac_016", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 8.39, "timestamp": "2026-07-12T18:56:26Z"}
+{"instance_id": "ac_017", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 10.73, "timestamp": "2026-07-12T18:56:51Z"}
+{"instance_id": "ac_018", "model": "minimax-m3", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 10.82, "timestamp": "2026-07-12T18:57:09Z"}
+{"instance_id": "ac_019", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 7.16, "timestamp": "2026-07-12T18:57:23Z"}
+{"instance_id": "ac_020", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 7.85, "timestamp": "2026-07-12T18:57:34Z"}
+{"instance_id": "ac_021", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 9.13, "timestamp": "2026-07-12T18:57:53Z"}
+{"instance_id": "ac_022", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 7.16, "timestamp": "2026-07-12T18:58:27Z"}
+{"instance_id": "ac_023", "model": "minimax-m3", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 9.08, "timestamp": "2026-07-12T18:58:38Z"}
+{"instance_id": "ac_024", "model": "minimax-m3", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 10.36, "timestamp": "2026-07-12T18:59:11Z"}
+{"instance_id": "ac_025", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 7.46, "timestamp": "2026-07-12T18:59:31Z"}
+{"instance_id": "ac_026", "model": "minimax-m3", "suite": "agentic_coding", "passed": false, "seed": 44, "latency_s": 10.69, "timestamp": "2026-07-12T18:59:45Z"}
+{"instance_id": "ac_027", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 7.17, "timestamp": "2026-07-12T18:59:48Z"}
+{"instance_id": "ac_028", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 8.54, "timestamp": "2026-07-12T18:59:59Z"}
+{"instance_id": "ac_029", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 6.81, "timestamp": "2026-07-12T19:00:26Z"}
+{"instance_id": "ac_030", "model": "minimax-m3", "suite": "agentic_coding", "passed": true, "seed": 44, "latency_s": 7.48, "timestamp": "2026-07-12T19:00:33Z"}

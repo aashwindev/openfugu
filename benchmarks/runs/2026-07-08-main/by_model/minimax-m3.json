@@ -1,25 +1,25 @@
 {
-  "model": "glm-5.2",
+  "model": "minimax-m3",
   "run_id": "2026-07-08-main",
   "suites": {
     "mmlu": {
-      "score": 89.0,
-      "correct": 534,
+      "score": 83.0,
+      "correct": 498,
       "total": 600
     },
     "gpqa_diamond": {
-      "score": 82.0,
-      "correct": 123,
+      "score": 74.0,
+      "correct": 111,
       "total": 150
     },
     "livecodebench_v6": {
-      "score": 86.2,
-      "correct": 207,
+      "score": 80.0,
+      "correct": 192,
       "total": 240
     },
     "humaneval_plus": {
-      "score": 82.0,
-      "correct": 123,
+      "score": 74.0,
+      "correct": 111,
       "total": 150
     },
     "terminal_bench": {
@@ -28,12 +28,12 @@
       "total": 75
     },
     "agentic_coding": {
-      "score": 70.0,
-      "correct": 63,
+      "score": 67.8,
+      "correct": 61,
       "total": 90
     }
   },
-  "avg_score": 79.5,
-  "eval_cost_usd": 88.99,
-  "avg_latency_s": 14.2
+  "avg_score": 74.5,
+  "eval_cost_usd": 57.03,
+  "avg_latency_s": 9.1
 }

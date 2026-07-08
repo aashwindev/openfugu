@@ -1,0 +1,57 @@
+{
+  "unique_api_spend_usd": 847.32,
+  "models": {
+    "gpt-5.5": {
+      "input_tokens": 34202000,
+      "output_tokens": 5340000,
+      "billed_usd": 331.21
+    },
+    "claude-opus-4.8": {
+      "input_tokens": 19840000,
+      "output_tokens": 3720000,
+      "billed_usd": 192.2
+    },
+    "claude-fable-5": {
+      "input_tokens": 8560000,
+      "output_tokens": 1376000,
+      "billed_usd": 154.4
+    },
+    "gemini-3.1-pro": {
+      "input_tokens": 18640000,
+      "output_tokens": 3380000,
+      "billed_usd": 77.84
+    },
+    "claude-sonnet-5": {
+      "input_tokens": 11240000,
+      "output_tokens": 2180000,
+      "billed_usd": 44.28
+    },
+    "glm-5.2": {
+      "input_tokens": 12480000,
+      "output_tokens": 2560000,
+      "billed_usd": 28.74
+    },
+    "deepseek-v4-pro": {
+      "input_tokens": 10240000,
+      "output_tokens": 1920000,
+      "billed_usd": 9.84
+    },
+    "kimi-k2.7-code": {
+      "input_tokens": 7680000,
+      "output_tokens": 1600000,
+      "billed_usd": 13.7
+    },
+    "qwen3-32b-thinking": {
+      "input_tokens": 6400000,
+      "output_tokens": 1120000,
+      "billed_usd": 3.9
+    },
+    "minimax-m3": {
+      "input_tokens": 8960000,
+      "output_tokens": 1580000,
+      "billed_usd": 2.79
+    }
+  },
+  "credits_usd": -11.58,
+  "check": 847.32
+}

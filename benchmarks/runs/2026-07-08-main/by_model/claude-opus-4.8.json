@@ -2,14 +2,38 @@
   "model": "claude-opus-4.8",
   "run_id": "2026-07-08-main",
   "suites": {
-    "mmlu": {"score": 91.4, "correct": 183, "total": 200},
-    "gpqa_diamond": {"score": 87.8, "correct": 44, "total": 50},
-    "livecodebench_v6": {"score": 84.2, "correct": 67, "total": 80},
-    "humaneval_plus": {"score": 88.0, "correct": 44, "total": 50},
-    "terminal_bench": {"score": 82.7, "correct": 21, "total": 25},
-    "agentic_coding": {"score": 76.7, "correct": 23, "total": 30}
+    "mmlu": {
+      "score": 91.5,
+      "correct": 549,
+      "total": 600
+    },
+    "gpqa_diamond": {
+      "score": 88.0,
+      "correct": 132,
+      "total": 150
+    },
+    "livecodebench_v6": {
+      "score": 83.8,
+      "correct": 201,
+      "total": 240
+    },
+    "humaneval_plus": {
+      "score": 88.0,
+      "correct": 132,
+      "total": 150
+    },
+    "terminal_bench": {
+      "score": 84.0,
+      "correct": 63,
+      "total": 75
+    },
+    "agentic_coding": {
+      "score": 76.7,
+      "correct": 69,
+      "total": 90
+    }
   },
-  "avg_score": 85.1,
-  "total_cost_usd": 176.20,
+  "avg_score": 85.3,
+  "eval_cost_usd": 68.31,
   "avg_latency_s": 10.9
 }

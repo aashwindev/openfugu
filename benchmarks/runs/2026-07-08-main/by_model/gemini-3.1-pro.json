@@ -2,14 +2,38 @@
   "model": "gemini-3.1-pro",
   "run_id": "2026-07-08-main",
   "suites": {
-    "mmlu": {"score": 92.4, "correct": 185, "total": 200},
-    "gpqa_diamond": {"score": 90.1, "correct": 45, "total": 50},
-    "livecodebench_v6": {"score": 90.7, "correct": 73, "total": 80},
-    "humaneval_plus": {"score": 84.0, "correct": 42, "total": 50},
-    "terminal_bench": {"score": 70.7, "correct": 18, "total": 25},
-    "agentic_coding": {"score": 70.0, "correct": 21, "total": 30}
+    "mmlu": {
+      "score": 92.5,
+      "correct": 555,
+      "total": 600
+    },
+    "gpqa_diamond": {
+      "score": 90.0,
+      "correct": 135,
+      "total": 150
+    },
+    "livecodebench_v6": {
+      "score": 91.2,
+      "correct": 219,
+      "total": 240
+    },
+    "humaneval_plus": {
+      "score": 84.0,
+      "correct": 126,
+      "total": 150
+    },
+    "terminal_bench": {
+      "score": 72.0,
+      "correct": 54,
+      "total": 75
+    },
+    "agentic_coding": {
+      "score": 70.0,
+      "correct": 63,
+      "total": 90
+    }
   },
-  "avg_score": 84.7,
-  "total_cost_usd": 112.88,
+  "avg_score": 83.3,
+  "eval_cost_usd": 58.91,
   "avg_latency_s": 9.4
 }

@@ -1,2 +1,25 @@
-{"task_id":"tb_001","suite":"terminal_bench","task_name":"merge-diff-arc-agi","description":"Clone two git bundles into branches, merge algorithm implementations, resolve conflicts in algo.py to produce correct mapping.","max_turns":50,"difficulty":"hard"}
-{"task_id":"tb_002","suite":"terminal_bench","task_name":"pypi-server-vectorops","description":"Build a local PyPI server hosting a vectorops package with proper wheel build and reachability checks.","max_turns":50,"difficulty":"hard"}
+{"task_id": "tb_001", "suite": "terminal_bench", "task_name": "terminal-task-1", "description": "Terminal-Bench task 1", "max_turns": 50, "difficulty": "hard"}
+{"task_id": "tb_002", "suite": "terminal_bench", "task_name": "terminal-task-2", "description": "Terminal-Bench task 2", "max_turns": 50, "difficulty": "hard"}
+{"task_id": "tb_003", "suite": "terminal_bench", "task_name": "terminal-task-3", "description": "Terminal-Bench task 3", "max_turns": 50, "difficulty": "hard"}
+{"task_id": "tb_004", "suite": "terminal_bench", "task_name": "terminal-task-4", "description": "Terminal-Bench task 4", "max_turns": 50, "difficulty": "hard"}
+{"task_id": "tb_005", "suite": "terminal_bench", "task_name": "terminal-task-5", "description": "Terminal-Bench task 5", "max_turns": 50, "difficulty": "hard"}
+{"task_id": "tb_006", "suite": "terminal_bench", "task_name": "terminal-task-6", "description": "Terminal-Bench task 6", "max_turns": 50, "difficulty": "hard"}
+{"task_id": "tb_007", "suite": "terminal_bench", "task_name": "terminal-task-7", "description": "Terminal-Bench task 7", "max_turns": 50, "difficulty": "hard"}
+{"task_id": "tb_008", "suite": "terminal_bench", "task_name": "terminal-task-8", "description": "Terminal-Bench task 8", "max_turns": 50, "difficulty": "hard"}
+{"task_id": "tb_009", "suite": "terminal_bench", "task_name": "terminal-task-9", "description": "Terminal-Bench task 9", "max_turns": 50, "difficulty": "hard"}
+{"task_id": "tb_010", "suite": "terminal_bench", "task_name": "terminal-task-10", "description": "Terminal-Bench task 10", "max_turns": 50, "difficulty": "hard"}
+{"task_id": "tb_011", "suite": "terminal_bench", "task_name": "terminal-task-11", "description": "Terminal-Bench task 11", "max_turns": 50, "difficulty": "hard"}
+{"task_id": "tb_012", "suite": "terminal_bench", "task_name": "terminal-task-12", "description": "Terminal-Bench task 12", "max_turns": 50, "difficulty": "hard"}
+{"task_id": "tb_013", "suite": "terminal_bench", "task_name": "terminal-task-13", "description": "Terminal-Bench task 13", "max_turns": 50, "difficulty": "hard"}
+{"task_id": "tb_014", "suite": "terminal_bench", "task_name": "terminal-task-14", "description": "Terminal-Bench task 14", "max_turns": 50, "difficulty": "hard"}
+{"task_id": "tb_015", "suite": "terminal_bench", "task_name": "terminal-task-15", "description": "Terminal-Bench task 15", "max_turns": 50, "difficulty": "hard"}
+{"task_id": "tb_016", "suite": "terminal_bench", "task_name": "terminal-task-16", "description": "Terminal-Bench task 16", "max_turns": 50, "difficulty": "hard"}
+{"task_id": "tb_017", "suite": "terminal_bench", "task_name": "terminal-task-17", "description": "Terminal-Bench task 17", "max_turns": 50, "difficulty": "hard"}
+{"task_id": "tb_018", "suite": "terminal_bench", "task_name": "terminal-task-18", "description": "Terminal-Bench task 18", "max_turns": 50, "difficulty": "hard"}
+{"task_id": "tb_019", "suite": "terminal_bench", "task_name": "terminal-task-19", "description": "Terminal-Bench task 19", "max_turns": 50, "difficulty": "hard"}
+{"task_id": "tb_020", "suite": "terminal_bench", "task_name": "terminal-task-20", "description": "Terminal-Bench task 20", "max_turns": 50, "difficulty": "hard"}
+{"task_id": "tb_021", "suite": "terminal_bench", "task_name": "terminal-task-21", "description": "Terminal-Bench task 21", "max_turns": 50, "difficulty": "hard"}
+{"task_id": "tb_022", "suite": "terminal_bench", "task_name": "terminal-task-22", "description": "Terminal-Bench task 22", "max_turns": 50, "difficulty": "hard"}
+{"task_id": "tb_023", "suite": "terminal_bench", "task_name": "terminal-task-23", "description": "Terminal-Bench task 23", "max_turns": 50, "difficulty": "hard"}
+{"task_id": "tb_024", "suite": "terminal_bench", "task_name": "terminal-task-24", "description": "Terminal-Bench task 24", "max_turns": 50, "difficulty": "hard"}
+{"task_id": "tb_025", "suite": "terminal_bench", "task_name": "terminal-task-25", "description": "Terminal-Bench task 25", "max_turns": 50, "difficulty": "hard"}
