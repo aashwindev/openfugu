@@ -1,10 +1,8 @@
 # OpenFugu
 
-**We reverse-engineered Sakana AI's Fugu into OpenFugu: the same router-and-conductor stack, rebuilt as an API you can run.**
+**We reverse-engineered Sakana AI's Fugu into OpenFugu.**
 
-Sakana ships Fugu as a closed endpoint. We mapped it by probing the live API through Claude Fable 5, Opus 4.8, and GPT-5.5: hidden-state routing on the fast path, workflow planning on the ultra path, memory isolation between agents. OpenFugu exposes both as `openfugu` and `openfugu-ultra` behind a single OpenAI-compatible server. Pick your workers. Train your checkpoints. See every routing decision.
-
-We benchmarked the rebuilt stack against Fable 5 and eleven other frontier models across six suites. **openfugu-ultra** scores 88.4 composite, ahead of Fable 5 at 88.1. The fast path (`openfugu`) runs at 4.2s average latency at 83.7%.
+Qwen3-0.6B hidden-state router with a ~10K selection head, trained via SFT (KL soft targets) then separable CMA-ES on routing reward. Conductor planner trained with GRPO over `model_id` / `subtasks` / `access_list` workflows. Twelve frontier and open-weight models, six suites (MMLU, GPQA diamond, LiveCodeBench v6, HumanEval+, Terminal-Bench, agentic coding), 435 tasks × 3 seeds (15,660 instance records). **openfugu-ultra**: 88.4 composite. Fable 5 baseline: 88.1. Fast path at 4.2s avg latency, 83.7%.
 
 ## What we did
 

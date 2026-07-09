@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "openfugu"
 version = "0.1.0"
-description = "Open-source LLM orchestration: router + conductor behind an OpenAI-compatible API"
+description = "Reverse-engineered Sakana Fugu: 0.6B router (SFT + sep-CMA-ES), GRPO conductor, 12-model benchmark suite"
 readme = "README.md"
 license = "Apache-2.0"
 requires-python = ">=3.11"
